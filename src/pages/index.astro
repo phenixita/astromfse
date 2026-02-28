@@ -1,7 +1,87 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { clients } from '../data/clients';
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}` : `${base}${path}`;
+const testimonials = [
+  {
+    quote: 'Ho avuto il piacere di lavorare con Michele su un progetto di riorganizzazione interna del processo di sviluppo software. Il suo approccio pragmatico, unito a una solida competenza tecnica e metodologica, ci ha permesso di affrontare il cambiamento in modo graduale ma concreto, portando valore al team e all\'azienda.',
+    author: 'Ruggero Beretta',
+    role: 'CEO — STARCH SRL',
+    link: 'https://www.linkedin.com/in/ruggero-beretta-8a49a3/',
+    initials: 'RB',
+    featured: true,
+  },
+  {
+    quote: 'Best-in-class DevOps consulting. Michele explained everything with exceptional clarity and effectiveness. We also moved straight into practical applications.',
+    author: 'Francesco Bonizzi',
+    role: 'CTO @ Tuduu',
+    link: 'https://it.trustpilot.com/reviews/65755f90362d2a4f4032aabc',
+    initials: 'FB',
+  },
+  {
+    quote: 'I believe Michele’s approach was dynamic and structured in a truly positive way, ensuring that attention never dropped.',
+    author: 'Maurizio Amoroso',
+    role: 'Developer',
+    link: 'https://it.trustpilot.com/reviews/65fda37979f8917a1c3075a4',
+    initials: 'MA',
+  },
+  {
+    quote: 'Molto chiaro il processo e l\'empatia che Michele ha saputo creare è stata fondamentale per la buona riuscita del corso.',
+    author: 'Stefano Polastri',
+    role: 'CEO',
+    link: 'https://it.trustpilot.com/reviews/6891eff3323f0e2ca0420810',
+    initials: 'SP',
+  },
+  {
+    quote: 'An excellent learning experience—clear, comprehensive, and dynamic. The balance between practical and theoretical parts always kept my attention fully engaged.',
+    author: 'Alberto',
+    role: 'Trustpilot Review',
+    link: 'https://it.trustpilot.com/reviews/65fda391c6a910c93058712f',
+    initials: 'AL',
+  },
+  {
+    quote: 'I really appreciated the engagement of people through the labs. The explanations were excellent.',
+    author: 'Gian Piero Marani',
+    role: 'Project Manager',
+    link: 'https://it.trustpilot.com/reviews/67a31eebc21ef6ccda2bec17',
+    initials: 'GM',
+  },
+  {
+    quote: 'Excellent experience—an instructor who is well-prepared and engaging, with plenty of practical exercises to keep things interesting.',
+    author: 'Alberto Strina',
+    role: 'System Administrator',
+    link: 'https://it.trustpilot.com/reviews/65fda29bde7549a2d20e5171',
+    initials: 'AS',
+  },
+  {
+    quote: 'Il miglior corso a cui abbia mai partecipato. Sa come tenere attiva l\'attenzione e coinvolgere i partecipanti con un equilibrio ottimo tra teoria e pratica.',
+    author: 'Davide Bertocchi',
+    role: 'CTO — Tig Factory',
+    link: 'https://it.trustpilot.com/reviews/686e72def341ff2191901ddf',
+    initials: 'DB',
+  },
+  {
+    quote: 'Non ho mai visto una persona entrare in un\'azienda e in così poco tempo portare tanta innovazione in termini di DevOps, processi di automatizzazione e deploy.',
+    author: 'Andrea Ferrari',
+    role: 'Software Developer',
+    initials: 'AF',
+  },
+  {
+    quote: 'The course is very well-structured, with a good balance between theory, practice, recaps, and engagement.',
+    author: 'Americo Scanga',
+    role: 'System Administrator Manager',
+    link: 'https://it.trustpilot.com/reviews/65fda2dbfc3455c0b63e5970',
+    initials: 'AM',
+  },
+  {
+    quote: 'It’s a pleasure learning from you. You are always well-prepared on the requested topic.',
+    author: 'ETLog',
+    role: 'Owner',
+    link: 'https://it.trustpilot.com/reviews/656f95dfecffbef8dddce047',
+    initials: 'ET',
+  },
+];
 ---
 
 <BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Italia | DevOps, CI/CD, Team Topologies" description="Michele Ferracin: consulente software engineering in Italia. Specializzato in DevOps, CI/CD, Team Topologies, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
@@ -20,9 +100,6 @@ const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}
           <a href={base + "blog"} class="btn btn--outline">Leggi il Blog</a>
         </div>
       </div>
-      <div class="hero__illustration">
-        <img src={base + "images/heroes/homepage.svg"} alt="" role="presentation" width="500" height="417" />
-      </div>
     </div>
   </section>
 
@@ -35,22 +112,34 @@ const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}
         </p>
         <div class="stats-story__metrics">
           <div class="stats-story__metric">
-            <div class="stat__number">15+</div>
+            <div class="stat__number" data-counter-target="15" data-counter-suffix="+">15+</div>
             <div class="stat__label">Anni di esperienza</div>
           </div>
           <div class="stats-story__metric">
-            <div class="stat__number">150+</div>
+            <div class="stat__number" data-counter-target="150" data-counter-suffix="+">150+</div>
             <div class="stat__label">Articoli pubblicati</div>
           </div>
-          <div class="stats-story__metric">
-            <div class="stat__number">100%</div>
-            <div class="stat__label">Focus su risultati</div>
-          </div>
-          <div class="stats-story__metric">
-            <div class="stat__number">ITA</div>
-            <div class="stat__label">Focus Italia</div>
-          </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO LOGOS -->
+  <section class="logo-marquee" aria-label="Portfolio clienti">
+    <div class="logo-marquee__track">
+      <div class="logo-marquee__group">
+        {clients.map((client) => (
+          <div class="logo-marquee__item">
+            <img src={base + client.logo.slice(1)} alt={client.name} loading="lazy" />
+          </div>
+        ))}
+      </div>
+      <div class="logo-marquee__group" aria-hidden="true">
+        {clients.map((client) => (
+          <div class="logo-marquee__item">
+            <img src={base + client.logo.slice(1)} alt="" role="presentation" loading="lazy" />
+          </div>
+        ))}
       </div>
     </div>
   </section>
@@ -107,42 +196,27 @@ const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}
     <div class="container">
       <h2 class="text-center">Cosa dicono di me</h2>
       <p class="text-center" style="color: var(--color-text-light); max-width: 660px; margin: 0 auto;">
-        Pochi feedback, molto concreti: risultati, impatto e collaborazione.
+        Recensioni ripristinate dal sito originale: feedback reali da clienti, corsisti e manager.
       </p>
-      <div class="testimonials-home">
-        <div class="quote-band">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="quote-band__quote">
-            Ho avuto il piacere di lavorare con Michele su un progetto di riorganizzazione interna del processo di sviluppo software. Il suo approccio pragmatico, unito a una solida competenza tecnica e metodologica, ci ha permesso di affrontare il cambiamento in modo graduale ma concreto, portando valore al team e all'azienda.
-          </blockquote>
-          <p class="quote-band__author">Ruggero Beretta — CEO, STARCH SRL</p>
-        </div>
-
-        <div class="proof-grid">
-          <article class="proof-item">
-            <h3>DevOps consulting ad alto impatto</h3>
-            <p>
-              Best-in-class DevOps consulting. Michele explained everything with exceptional clarity and effectiveness. We also moved straight into practical applications.
-            </p>
-            <p class="proof-item__author">Francesco Bonizzi — CTO @ Tuduu</p>
+      <div class="testimonials-grid">
+        {testimonials.map((testimonial) => (
+          <article class:list={['testimonial-card', { 'testimonial-card--featured': testimonial.featured }]}>
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote">{testimonial.quote}</blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">{testimonial.initials}</div>
+              <div>
+                <div class="testimonial-card__name">{testimonial.author}</div>
+                <div class="testimonial-card__role">{testimonial.role}</div>
+                {testimonial.link && (
+                  <a href={testimonial.link} target="_blank" rel="nofollow noopener" class="testimonial-card__source">
+                    Leggi recensione
+                  </a>
+                )}
+              </div>
+            </div>
           </article>
-
-          <article class="proof-item">
-            <h3>Innovazione concreta in tempi rapidi</h3>
-            <p>
-              Non ho mai visto una persona entrare in un'azienda ed in cosi poco tempo portare tanta innovazione in termini di DevOps, processi di automatizzazione e deploy.
-            </p>
-            <p class="proof-item__author">Andrea Ferrari — Software Developer</p>
-          </article>
-
-          <article class="proof-item">
-            <h3>Coinvolgimento e attenzione costante</h3>
-            <p>
-              Il miglior corso a cui abbia mai partecipato. Sa come tenere attiva l'attenzione e coinvolgere i partecipanti con un equilibrio ottimo tra teoria e pratica.
-            </p>
-            <p class="proof-item__author">Davide Bertocchi — CTO, Tig Factory</p>
-          </article>
-        </div>
+        ))}
       </div>
     </div>
   </section>
@@ -155,6 +229,50 @@ const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}
       <a href={base + "contact"} class="btn btn--primary">Parliamo →</a>
     </div>
   </section>
+
+  <script>
+    const counters = Array.from(document.querySelectorAll('.stats-story .stat__number[data-counter-target]'));
+    if (counters.length > 0) {
+      const formatValue = (value, suffix) => `${value.toLocaleString('it-IT')}${suffix}`;
+      const animateCounter = (counter) => {
+        const target = Number(counter.dataset.counterTarget || '0');
+        const suffix = counter.dataset.counterSuffix || '';
+        const duration = 1200;
+        const start = performance.now();
+
+        const tick = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          const value = Math.round(target * eased);
+          counter.textContent = formatValue(value, suffix);
+          if (progress < 1) {
+            requestAnimationFrame(tick);
+          }
+        };
+
+        requestAnimationFrame(tick);
+      };
+
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        counters.forEach((counter) => {
+          const target = Number(counter.dataset.counterTarget || '0');
+          const suffix = counter.dataset.counterSuffix || '';
+          counter.textContent = formatValue(target, suffix);
+        });
+      } else {
+        const statsSection = document.querySelector('.stats--story');
+        if (statsSection) {
+          const observer = new IntersectionObserver((entries, obs) => {
+            if (entries.some((entry) => entry.isIntersecting)) {
+              counters.forEach(animateCounter);
+              obs.disconnect();
+            }
+          }, { threshold: 0.35 });
+          observer.observe(statsSection);
+        }
+      }
+    }
+  </script>
 
 </BaseLayout>
 
