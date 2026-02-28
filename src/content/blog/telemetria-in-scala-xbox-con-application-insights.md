@@ -24,4 +24,17 @@ Puoi:
 
 ## Azioni / Finale
 
-Per averne un'idea di uno scenaro REALE e in scala globale puoi guardare questo video dove [April Edwards e Chad Stewart di Microsoft](https://www.youtube.com/watch?v=F_X7ad1NYEU) fanno una panoramica di alcuni scenari di utilizzo di Application Insights da parte del team Xbox!
+Per averne un'idea di uno scenaro REALE e in scala globale puoi guardare questo video dove 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/F_X7ad1NYEU"
+    title="April Edwards e Chad Stewart di Microsoft"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ fanno una panoramica di alcuni scenari di utilizzo di Application Insights da parte del team Xbox!

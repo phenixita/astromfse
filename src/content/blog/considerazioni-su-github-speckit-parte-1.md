@@ -29,7 +29,20 @@ Mi sono detto: perché non provare a usarlo? Magari ci aiuta **nello stendere le
 
 Già qui lo scenario è interessante perché si tratta di un progetto già esistente invece che partire da foglio bianco, scenario comunque previsto dal tool.
 
-[Risparmio tutti i dettagli tecnici dei singoli comandi per usarlo (è ben documentato e il PM fa parecchi video [YouTube](https://www.youtube.com/watch?v=a9eR1xsfvHg&pp=0gcJCckJAYcqIYzv) al riguardo) ma ecco un super riassunto]
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/a9eR1xsfvHg"
+    title="Risparmio tutti i dettagli tecnici dei singoli comandi per usarlo (è ben documentato e il PM fa parecchi video [YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ al riguardo) ma ecco un super riassunto]
 
 - /speckit.constitution: create or update project governing principles and development guidelines
 - /speckit.specify: define what you want to build (requirements and user stories)

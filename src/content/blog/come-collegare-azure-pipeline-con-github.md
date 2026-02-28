@@ -17,4 +17,17 @@ Nel video viene trattato in particolare:
 
 ## Video
 
-https://www.youtube.com/watch?v=cmePbz1iWoQ
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/cmePbz1iWoQ"
+    title="Video YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

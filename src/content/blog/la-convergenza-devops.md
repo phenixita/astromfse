@@ -9,4 +9,17 @@ Scommetto che per un attimo hai pensato alle gomme della tua macchina e se per c
 
 La convergenza DevOps è come viene chiamato quel fenomeno per cui all'interno dei principi e pratiche DevOps sono confluite correnti di pensiero che partono lontanissime dal mondo IT.
 
-In [questo video "storico"](https://www.youtube.com/watch?v=3KpPBnEtRj4) ne abbiamo una magnifica spiegazione e panoramica.
+In 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/3KpPBnEtRj4"
+    title="questo video &quot;storico&quot;"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ ne abbiamo una magnifica spiegazione e panoramica.

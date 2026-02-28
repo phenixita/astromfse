@@ -56,7 +56,20 @@ Il ciclo è completo: **GitHub gestisce il codice**, **Azure DevOps gestisce il 
 
 ## Video
 
-https://www.youtube.com/watch?v=ihS_nQ1zELU
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/ihS_nQ1zELU"
+    title="Video YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 ## Considerazioni finali
 

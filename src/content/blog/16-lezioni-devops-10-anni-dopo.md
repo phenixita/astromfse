@@ -9,7 +9,20 @@ O meglio, più di dieci.
 
 Facendo le mie ricerche on-line ho trovato questo video di una live con John Allspaw e Paul Hammond (coloro che diedero involontariamente il via al movimento DevOps in un loro talk) in cui si ragiona su DevOps a distanza di tanti anni.
 
-[DevOps Ten Years After: Review of a Failure with John Allspaw and Paul Hammond](https://www.youtube.com/watch?v=pV3ArFwsfXA)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/pV3ArFwsfXA"
+    title="DevOps Ten Years After: Review of a Failure with John Allspaw and Paul Hammond"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 Ecco i temi trattati:
 

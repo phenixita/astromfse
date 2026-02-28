@@ -9,7 +9,20 @@ Con molta sorpresa qualche giorno fa mi sono ritrovato attivo una funzionalità 
 
 L'integrazione con i Codig Agent di GitHub copilot!
 
-Video: https://youtu.be/cZ4h6qBJB-4
+Video: 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/cZ4h6qBJB-4"
+    title="Video YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 ## Riassunto
 

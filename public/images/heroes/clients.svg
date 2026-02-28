@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <!-- Glow -->
+  <circle cx="300" cy="150" r="140" fill="url(#clg)" opacity="0.3"/>
+  <!-- Partnership grid - connected dots forming a mesh -->
+  <g stroke="rgba(140,114,203,0.15)" stroke-width="1">
+    <!-- Horizontal connections -->
+    <line x1="120" y1="80" x2="220" y2="80"/>
+    <line x1="220" y1="80" x2="300" y2="80"/>
+    <line x1="300" y1="80" x2="380" y2="80"/>
+    <line x1="380" y1="80" x2="480" y2="80"/>
+    <line x1="120" y1="150" x2="220" y2="150"/>
+    <line x1="220" y1="150" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="380" y2="150"/>
+    <line x1="380" y1="150" x2="480" y2="150"/>
+    <line x1="120" y1="220" x2="220" y2="220"/>
+    <line x1="220" y1="220" x2="300" y2="220"/>
+    <line x1="300" y1="220" x2="380" y2="220"/>
+    <line x1="380" y1="220" x2="480" y2="220"/>
+    <!-- Vertical connections -->
+    <line x1="120" y1="80" x2="120" y2="150"/>
+    <line x1="120" y1="150" x2="120" y2="220"/>
+    <line x1="220" y1="80" x2="220" y2="150"/>
+    <line x1="220" y1="150" x2="220" y2="220"/>
+    <line x1="300" y1="80" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="300" y2="220"/>
+    <line x1="380" y1="80" x2="380" y2="150"/>
+    <line x1="380" y1="150" x2="380" y2="220"/>
+    <line x1="480" y1="80" x2="480" y2="150"/>
+    <line x1="480" y1="150" x2="480" y2="220"/>
+  </g>
+  <!-- Diagonal connections (selective) -->
+  <g stroke="rgba(230,42,118,0.12)" stroke-width="1">
+    <line x1="120" y1="80" x2="220" y2="150"/>
+    <line x1="300" y1="80" x2="380" y2="150"/>
+    <line x1="220" y1="150" x2="300" y2="220"/>
+    <line x1="380" y1="150" x2="480" y2="220"/>
+  </g>
+  <!-- Grid nodes -->
+  <g>
+    <circle cx="120" cy="80" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="220" cy="80" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="300" cy="80" r="10" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <circle cx="380" cy="80" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="480" cy="80" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="120" cy="150" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="220" cy="150" r="10" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <circle cx="300" cy="150" r="14" fill="rgba(230,42,118,0.1)" stroke="rgba(230,42,118,0.45)" stroke-width="2"/>
+    <circle cx="380" cy="150" r="10" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <circle cx="480" cy="150" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="120" cy="220" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="220" cy="220" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="300" cy="220" r="10" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <circle cx="380" cy="220" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+    <circle cx="480" cy="220" r="8" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  </g>
+  <defs>
+    <radialGradient id="clg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.1)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

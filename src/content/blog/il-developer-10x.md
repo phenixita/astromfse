@@ -13,7 +13,20 @@ Non è neanche chi usa l’AI come copilota instancabile per scrivere codice a r
 Per me il vero 10x è chi unisce solide competenze tecniche a capacità relazionali fuori dal comune.
 In un mondo in cui la documentazione è a un click e l’AI accelera l’apprendimento di tutti, ciò che ti distingue non è “quanto scrivi”, ma come sai comunicare, collaborare, creare fiducia.
 
-A proposito, lo sai che [la fiducia vale più delle competenze anche per i Navy Seals](https://www.youtube.com/watch?v=PTo9e3ILmms)?
+A proposito, lo sai che 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/PTo9e3ILmms"
+    title="la fiducia vale più delle competenze anche per i Navy Seals"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+?
 
 Ecco alcune pratiche che valgono più di mille righe di codice:
 

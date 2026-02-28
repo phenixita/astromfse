@@ -13,4 +13,17 @@ Ce lo illustra direttamente un engineer Google in questo video storico dove SRE 
 
 ## Azioni
 
-Approfondisci con [questo video](https://www.youtube.com/watch?v=iIuTnhdTzK0&t=788s).
+Approfondisci con 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/iIuTnhdTzK0?start=788"
+    title="questo video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <!-- Glow -->
+  <ellipse cx="300" cy="150" rx="250" ry="120" fill="url(#svg)" opacity="0.3"/>
+  <!-- Four service nodes connected -->
+  <g stroke="rgba(140,114,203,0.2)" stroke-width="1.5">
+    <line x1="150" y1="110" x2="300" y2="80"/>
+    <line x1="300" y1="80" x2="450" y2="110"/>
+    <line x1="150" y1="110" x2="150" y2="210"/>
+    <line x1="450" y1="110" x2="450" y2="210"/>
+    <line x1="150" y1="210" x2="300" y2="240"/>
+    <line x1="300" y1="240" x2="450" y2="210"/>
+    <line x1="300" y1="80" x2="300" y2="240"/>
+    <line x1="150" y1="110" x2="450" y2="210"/>
+    <line x1="450" y1="110" x2="150" y2="210"/>
+  </g>
+  <!-- Service nodes -->
+  <circle cx="300" cy="80" r="28" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.4)" stroke-width="1.5"/>
+  <text x="300" y="84" text-anchor="middle" fill="rgba(230,42,118,0.5)" font-family="monospace" font-size="8" font-weight="600">DevOps</text>
+  <circle cx="150" cy="110" r="24" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.45)" stroke-width="1.5"/>
+  <text x="150" y="114" text-anchor="middle" fill="rgba(140,114,203,0.55)" font-family="monospace" font-size="8" font-weight="600">K8s</text>
+  <circle cx="450" cy="110" r="24" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.45)" stroke-width="1.5"/>
+  <text x="450" y="114" text-anchor="middle" fill="rgba(140,114,203,0.55)" font-family="monospace" font-size="8" font-weight="600">Kanban</text>
+  <circle cx="300" cy="240" r="24" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.45)" stroke-width="1.5"/>
+  <text x="300" y="244" text-anchor="middle" fill="rgba(140,114,203,0.55)" font-family="monospace" font-size="8" font-weight="600">.NET</text>
+  <circle cx="150" cy="210" r="20" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+  <text x="150" y="214" text-anchor="middle" fill="rgba(140,114,203,0.4)" font-family="monospace" font-size="7">CI/CD</text>
+  <circle cx="450" cy="210" r="20" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+  <text x="450" y="214" text-anchor="middle" fill="rgba(140,114,203,0.4)" font-family="monospace" font-size="7">Cloud</text>
+  <!-- Decorative -->
+  <circle cx="80" cy="60" r="2" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="520" cy="60" r="2" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="300" cy="160" r="4" fill="rgba(140,114,203,0.15)"/>
+  <defs>
+    <radialGradient id="svg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.12)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

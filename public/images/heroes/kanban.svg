@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <!-- Background glow -->
+  <circle cx="300" cy="250" r="220" fill="url(#kg)" opacity="0.3"/>
+  <!-- Board columns -->
+  <g>
+    <!-- Column 1: To Do -->
+    <rect x="60" y="80" width="150" height="360" rx="12" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.25)" stroke-width="1.5"/>
+    <text x="135" y="110" text-anchor="middle" fill="rgba(140,114,203,0.5)" font-family="monospace" font-size="11" font-weight="600">TO DO</text>
+    <line x1="80" y1="120" x2="190" y2="120" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+    <!-- Cards -->
+    <rect x="80" y="135" width="110" height="50" rx="8" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.35)" stroke-width="1"/>
+    <rect x="80" y="195" width="110" height="50" rx="8" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <rect x="80" y="255" width="110" height="50" rx="8" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.25)" stroke-width="1"/>
+    <rect x="80" y="315" width="110" height="50" rx="8" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+    <!-- Column 2: In Progress -->
+    <rect x="225" y="80" width="150" height="360" rx="12" fill="rgba(230,42,118,0.03)" stroke="rgba(230,42,118,0.25)" stroke-width="1.5"/>
+    <text x="300" y="110" text-anchor="middle" fill="rgba(230,42,118,0.5)" font-family="monospace" font-size="11" font-weight="600">WIP: 2</text>
+    <line x1="245" y1="120" x2="355" y2="120" stroke="rgba(230,42,118,0.2)" stroke-width="1"/>
+    <!-- Cards -->
+    <rect x="245" y="135" width="110" height="50" rx="8" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <rect x="245" y="195" width="110" height="50" rx="8" fill="rgba(230,42,118,0.06)" stroke="rgba(230,42,118,0.3)" stroke-width="1"/>
+    <!-- Column 3: Done -->
+    <rect x="390" y="80" width="150" height="360" rx="12" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.25)" stroke-width="1.5"/>
+    <text x="465" y="110" text-anchor="middle" fill="rgba(140,114,203,0.5)" font-family="monospace" font-size="11" font-weight="600">DONE</text>
+    <line x1="410" y1="120" x2="520" y2="120" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+    <!-- Cards -->
+    <rect x="410" y="135" width="110" height="50" rx="8" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.35)" stroke-width="1"/>
+    <rect x="410" y="195" width="110" height="50" rx="8" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <rect x="410" y="255" width="110" height="50" rx="8" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.25)" stroke-width="1"/>
+  </g>
+  <!-- Flow arrows -->
+  <g>
+    <path d="M195 160 L240 160" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <path d="M234 154 L244 160 L234 166" fill="rgba(140,114,203,0.35)"/>
+    <path d="M360 160 L405 160" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <path d="M399 154 L409 160 L399 166" fill="rgba(140,114,203,0.35)"/>
+  </g>
+  <!-- Card content lines (subtle) -->
+  <g stroke="rgba(140,114,203,0.15)" stroke-width="1">
+    <line x1="90" y1="150" x2="160" y2="150"/>
+    <line x1="90" y1="162" x2="140" y2="162"/>
+    <line x1="90" y1="210" x2="155" y2="210"/>
+    <line x1="90" y1="222" x2="130" y2="222"/>
+    <line x1="255" y1="150" x2="325" y2="150"/>
+    <line x1="255" y1="162" x2="310" y2="162"/>
+    <line x1="420" y1="150" x2="490" y2="150"/>
+    <line x1="420" y1="162" x2="470" y2="162"/>
+  </g>
+  <!-- Decorative elements -->
+  <circle cx="300" cy="460" r="3" fill="rgba(230,42,118,0.3)"/>
+  <circle cx="50" cy="60" r="2" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="550" cy="60" r="2" fill="rgba(140,114,203,0.2)"/>
+  <defs>
+    <radialGradient id="kg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.1)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

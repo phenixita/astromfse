@@ -1,26 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-
-const allPosts = (await getCollection('blog'))
-  .filter(p => !p.data.draft)
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
-
-const latestPosts = allPosts.slice(0, 6);
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}` : `${base}${path}`;
-
-function formatDate(dateStr: string): string {
-  const d = new Date(dateStr);
-  return d.toLocaleDateString('it-IT', { year: 'numeric', month: 'short', day: 'numeric' });
-}
-
-function getExcerpt(body: string, maxLen = 120): string {
-  const cleaned = body.replace(/^---[\s\S]*?---/, '').replace(/<[^>]+>/g, '').replace(/[#*_\[\]()]/g, '').trim();
-  const lines = cleaned.split('\n').filter(l => l.trim().length > 10);
-  const text = lines[0] || '';
-  return text.length > maxLen ? text.slice(0, maxLen) + '…' : text;
-}
 ---
 
 <BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Italia | DevOps, CI/CD, Team Topologies" description="Michele Ferracin: consulente software engineering in Italia. Specializzato in DevOps, CI/CD, Team Topologies, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
@@ -39,28 +20,36 @@ function getExcerpt(body: string, maxLen = 120): string {
           <a href={base + "blog"} class="btn btn--outline">Leggi il Blog</a>
         </div>
       </div>
+      <div class="hero__illustration">
+        <img src={base + "images/heroes/homepage.svg"} alt="" role="presentation" width="500" height="417" />
+      </div>
     </div>
   </section>
 
   <!-- STATS -->
-  <section class="stats">
+  <section class="stats stats--story">
     <div class="container">
-      <div class="stats__grid">
-        <div>
-          <div class="stat__number">150+</div>
-          <div class="stat__label">Articoli pubblicati</div>
-        </div>
-        <div>
-          <div class="stat__number">15+</div>
-          <div class="stat__label">Anni di esperienza</div>
-        </div>
-        <div>
-          <div class="stat__number">100%</div>
-          <div class="stat__label">Focus su risultati</div>
-        </div>
-        <div>
-          <div class="stat__number">ITA</div>
-          <div class="stat__label">Focus Italia</div>
+      <div class="stats-story">
+        <p class="stats-story__lead">
+          Porto ordine nelle software factory con un approccio pratico: meno attrito nei rilasci, piu visibilita sui colli di bottiglia e decisioni guidate dai dati.
+        </p>
+        <div class="stats-story__metrics">
+          <div class="stats-story__metric">
+            <div class="stat__number">15+</div>
+            <div class="stat__label">Anni di esperienza</div>
+          </div>
+          <div class="stats-story__metric">
+            <div class="stat__number">150+</div>
+            <div class="stat__label">Articoli pubblicati</div>
+          </div>
+          <div class="stats-story__metric">
+            <div class="stat__number">100%</div>
+            <div class="stat__label">Focus su risultati</div>
+          </div>
+          <div class="stats-story__metric">
+            <div class="stat__number">ITA</div>
+            <div class="stat__label">Focus Italia</div>
+          </div>
         </div>
       </div>
     </div>
@@ -70,67 +59,45 @@ function getExcerpt(body: string, maxLen = 120): string {
   <section class="section">
     <div class="container">
       <h2 class="text-center">Come posso aiutarti</h2>
-      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
-        Competenze specialistiche per portare la tua software factory al livello successivo.
+      <p class="text-center" style="color: var(--color-text-light); max-width: 680px; margin: 0 auto;">
+        Un percorso concreto per trasformare la tua software factory: organizzazione, delivery e piattaforma lavorano insieme.
       </p>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-card__icon">//</div>
-          <h3>DevOps & CI/CD</h3>
-          <p>Pipeline automatizzate, continuous delivery, trunk-based development e rilasci senza dolore. Dal codice alla produzione in modo sicuro e veloce.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">TT</div>
-          <h3>Team Topologies</h3>
-          <p>Organizzazione dei team di sviluppo, Stream-aligned teams, Platform teams. Strutture che accelerano il flusso del valore.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">K8s</div>
-          <h3>Cloud & Kubernetes</h3>
-          <p>Architetture cloud-native, microservizi, Azure Kubernetes Service. Infrastrutture moderne per applicazioni moderne.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">WIP</div>
-          <h3>Kanban & Metriche</h3>
-          <p>DORA metrics, lead time, throughput, WIP limits. Misura ciò che conta e migliora continuamente il tuo processo.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">AI</div>
-          <h3>AI per lo Sviluppo</h3>
-          <p>AI coding assistants, agentic coding, vibe coding. Come integrare l'intelligenza artificiale nel tuo workflow di sviluppo.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">sec</div>
-          <h3>DevSecOps</h3>
-          <p>Sicurezza integrata nel ciclo di sviluppo, supply chain security, compliance automatizzata. La sicurezza è responsabilità di tutti.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="services-editorial">
+        <article class="service-row">
+          <p class="service-row__kicker">Delivery senza colli di bottiglia</p>
+          <h3>DevOps, CI/CD e DevSecOps come sistema unico</h3>
+          <p>
+            Imposto pipeline, quality gates e sicurezza by design per accelerare i rilasci senza compromettere affidabilita e compliance.
+          </p>
+          <ul class="service-row__list">
+            <li>Pipeline automatizzate e trunk-based development</li>
+            <li>Controlli di sicurezza integrati nel flusso di delivery</li>
+          </ul>
+        </article>
 
-  <!-- LATEST BLOG POSTS -->
-  <section class="section section--light">
-    <div class="container">
-      <h2 class="text-center">Ultimi Articoli</h2>
-      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
-        Riflessioni, guide e best practice dal mondo del software engineering.
-      </p>
-      <div class="blog-grid">
-        {latestPosts.map(post => (
-          <article class="blog-card">
-            <div class="blog-card__body">
-              <span class="blog-card__date">{formatDate(post.data.date)}</span>
-              <h3 class="blog-card__title">
-                <a href={toBase(`/blog/${post.id}`)}>{post.data.title}</a>
-              </h3>
-              <p class="blog-card__excerpt">{getExcerpt(post.body ?? '')}</p>
-              <a href={toBase(`/blog/${post.id}`)} class="blog-card__read-more">Leggi →</a>
-            </div>
-          </article>
-        ))}
-      </div>
-      <div class="text-center" style="margin-top: var(--space-xl);">
-        <a href={base + "blog"} class="btn btn--primary">Tutti gli Articoli →</a>
+        <article class="service-row">
+          <p class="service-row__kicker">Organizzazione e flusso del valore</p>
+          <h3>Team Topologies e Kanban orientati all'outcome</h3>
+          <p>
+            Disegno strutture di team e metriche operative per ridurre il WIP, migliorare la prevedibilita e aumentare la velocita decisionale.
+          </p>
+          <ul class="service-row__list">
+            <li>Allineamento tra Stream-aligned e Platform teams</li>
+            <li>DORA metrics, lead time e throughput per il miglioramento continuo</li>
+          </ul>
+        </article>
+
+        <article class="service-row">
+          <p class="service-row__kicker">Piattaforma moderna e AI applicata</p>
+          <h3>Cloud, Kubernetes e AI nel workflow quotidiano</h3>
+          <p>
+            Porto una base cloud-native robusta e introduco pratiche AI utili al team, con processi ripetibili e misurabili.
+          </p>
+          <ul class="service-row__list">
+            <li>Architetture Kubernetes scalabili e osservabili</li>
+            <li>AI coding assistants integrati nelle pratiche di engineering</li>
+          </ul>
+        </article>
       </div>
     </div>
   </section>
@@ -139,166 +106,43 @@ function getExcerpt(body: string, maxLen = 120): string {
   <section class="section">
     <div class="container">
       <h2 class="text-center">Cosa dicono di me</h2>
-      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
-        Testimonianze reali da clienti, partecipanti ai corsi e collaboratori.
+      <p class="text-center" style="color: var(--color-text-light); max-width: 660px; margin: 0 auto;">
+        Pochi feedback, molto concreti: risultati, impatto e collaborazione.
       </p>
-      <div class="testimonials-grid">
-
-        <div class="testimonial-card testimonial-card--featured">
+      <div class="testimonials-home">
+        <div class="quote-band">
           <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
+          <blockquote class="quote-band__quote">
             Ho avuto il piacere di lavorare con Michele su un progetto di riorganizzazione interna del processo di sviluppo software. Il suo approccio pragmatico, unito a una solida competenza tecnica e metodologica, ci ha permesso di affrontare il cambiamento in modo graduale ma concreto, portando valore al team e all'azienda.
           </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">RB</div>
-            <div>
-              <div class="testimonial-card__name">Ruggero Beretta</div>
-              <div class="testimonial-card__role">CEO – STARCH SRL</div>
-            </div>
-          </div>
+          <p class="quote-band__author">Ruggero Beretta — CEO, STARCH SRL</p>
         </div>
 
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Best-in-class DevOps consulting. Michele explained everything with exceptional clarity and effectiveness. We also moved straight into practical applications. At the end of each session, he sent a summary email I still keep as a personal reference.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">FB</div>
-            <div>
-              <div class="testimonial-card__name">Francesco Bonizzi</div>
-              <div class="testimonial-card__role">CTO @ Tuduu</div>
-            </div>
-          </div>
+        <div class="proof-grid">
+          <article class="proof-item">
+            <h3>DevOps consulting ad alto impatto</h3>
+            <p>
+              Best-in-class DevOps consulting. Michele explained everything with exceptional clarity and effectiveness. We also moved straight into practical applications.
+            </p>
+            <p class="proof-item__author">Francesco Bonizzi — CTO @ Tuduu</p>
+          </article>
+
+          <article class="proof-item">
+            <h3>Innovazione concreta in tempi rapidi</h3>
+            <p>
+              Non ho mai visto una persona entrare in un'azienda ed in cosi poco tempo portare tanta innovazione in termini di DevOps, processi di automatizzazione e deploy.
+            </p>
+            <p class="proof-item__author">Andrea Ferrari — Software Developer</p>
+          </article>
+
+          <article class="proof-item">
+            <h3>Coinvolgimento e attenzione costante</h3>
+            <p>
+              Il miglior corso a cui abbia mai partecipato. Sa come tenere attiva l'attenzione e coinvolgere i partecipanti con un equilibrio ottimo tra teoria e pratica.
+            </p>
+            <p class="proof-item__author">Davide Bertocchi — CTO, Tig Factory</p>
+          </article>
         </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Non ho mai visto una persona entrare in un'azienda ed in così poco tempo portare tanta innovazione in termini di devops, processi di automatizzazione e deploy, metodologie Agile e costruzione di teams.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">AF</div>
-            <div>
-              <div class="testimonial-card__name">Andrea Ferrari</div>
-              <div class="testimonial-card__role">Software Developer</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Il miglior corso a cui abbia mai partecipato. Chi ha tenuto il corso è molto preparato e appassionato. Sa come tenere attiva l'attenzione e coinvolgere i partecipanti.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">DB</div>
-            <div>
-              <div class="testimonial-card__name">Davide Bertocchi</div>
-              <div class="testimonial-card__role">CTO – Tig Factory Srl</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Molto chiaro il processo e l'empatia che Michele ha saputo creare è stata fondamentale per la buona riuscita del corso.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">SP</div>
-            <div>
-              <div class="testimonial-card__name">Stefano Polastri</div>
-              <div class="testimonial-card__role">CEO</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            An excellent learning experience—clear, comprehensive, and dynamic. The balance between practical and theoretical parts always kept my attention fully engaged! Top-notch professionalism and passion!
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">A</div>
-            <div>
-              <div class="testimonial-card__name">Alberto</div>
-              <div class="testimonial-card__role">Partecipante</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            I really appreciated the engagement of people through the "labs." The explanations were excellent.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">GM</div>
-            <div>
-              <div class="testimonial-card__name">Gian Piero Marani</div>
-              <div class="testimonial-card__role">Project Manager</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Excellent experience—an instructor who is well-prepared and engaging, with plenty of practical exercises to keep things interesting and avoid boredom or distraction.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">AS</div>
-            <div>
-              <div class="testimonial-card__name">Alberto Strina</div>
-              <div class="testimonial-card__role">System Administrator</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            L'approccio di Michele è stato sicuramente dinamico e strutturato in modo davvero positivo, garantendo che l'attenzione non calasse mai.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">MA</div>
-            <div>
-              <div class="testimonial-card__name">Maurizio Amoroso</div>
-              <div class="testimonial-card__role">Developer</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            Il corso è stato estremamente interessante. Michele ha reso la lezione dinamica, mai noiosa e soprattutto molto pratica. Pur partendo da zero su Docker, ho appreso il massimo possibile in una giornata.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">P</div>
-            <div>
-              <div class="testimonial-card__name">Partecipante</div>
-              <div class="testimonial-card__role">Corso Docker</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <blockquote class="testimonial-card__quote">
-            The course is very well-structured, with a good balance between theory, practice, recaps, and engagement.
-          </blockquote>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">AS</div>
-            <div>
-              <div class="testimonial-card__name">Americo Scanga</div>
-              <div class="testimonial-card__role">System Administrator Manager</div>
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
   </section>

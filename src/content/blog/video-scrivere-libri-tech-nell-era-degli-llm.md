@@ -19,4 +19,17 @@ L'iniziativa è nata dopo aver visto un suo blog post su LinkedIn riguardo un li
 
 Unisciti a noi! Accoglieremo domande dal pubblico!
 
-[Guarda il video](https://www.youtube.com/watch?v=JyekiE-LymA)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/JyekiE-LymA"
+    title="Guarda il video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

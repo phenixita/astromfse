@@ -13,4 +13,17 @@ Me la ricordo ancora la call, molto diretta e pochi fronzoli... come Kanban.
 
 ## Azioni 
 
-Perché non dare un'occhiata? [Ecco link!](https://www.youtube.com/watch?v=CD0y-aU1sXo)
+Perché non dare un'occhiata? 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/CD0y-aU1sXo"
+    title="Ecco link!"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

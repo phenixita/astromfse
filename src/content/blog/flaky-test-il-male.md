@@ -11,7 +11,20 @@ Per quanto mi riguarda vanno trattati con la stessa cura, se non maggiore, del c
 
 Soprattutto nell'era dove è facile generare codice con AI/LLM che possono suggerire codice di bassa qualità ed è necessario validarlo rapidamente.
 
-(A questo proposito ti consiglio il mio video su [AI + Test Driven Development](https://www.youtube.com/watch?v=xRNIBUVdPrs&t=717s))
+(A questo proposito ti consiglio il mio video su 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/xRNIBUVdPrs?start=717"
+    title="AI + Test Driven Development"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+)
 
 Una delle piaghe che possono colpire la tua suite di test sono i test _flaky_.
 

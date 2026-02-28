@@ -5,7 +5,20 @@ slug: "ebook-gratuito---domare-il-caos-in-una-software-factory-con-kanban"
 categories: [37, 38]
 ---
 
-Lunedì 28 aprile 2025 [ho tenuto un webinar](https://youtu.be/A63mCZUIgMk) per un gruppo di software engineer.
+Lunedì 28 aprile 2025 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/A63mCZUIgMk"
+    title="ho tenuto un webinar"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ per un gruppo di software engineer.
 Fino a ieri, **50 persone** hanno partecipato in diretta o guardato la registrazione.  
 Per un webinar, è un ottimo risultato, quindi **YAY!**
 

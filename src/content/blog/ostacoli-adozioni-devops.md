@@ -23,7 +23,20 @@ Alla base della cultura DevOps c'è una forte volontà di migliorare l'interazio
 
 Questi cambiamenti, quando sono effettuati senza un piano strategico, potrebbero destabilizzare le persone abituate a lavorare in un certo modo da tanto tempo o ad avere ruoli e responsabilità che cambiano. Ad esempio, i team Operation devono cambiare il modo in cui operano sull'infrastruttura adottando strumenti che abilitano l'approccio *Infrastructure as Code* e realizzando tool che permettano a chiunque di operare in modalità self-service.
 
-[Microsoft Engineering Stories - Our DevOps Journey (1 of 4)](https://www.youtube.com/watch?v=3FUhl3y0Qd4&t=91s)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/3FUhl3y0Qd4?start=91"
+    title="Microsoft Engineering Stories - Our DevOps Journey (1 of 4)"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 ## Il cambiamento non è supportato dal management
 
@@ -35,7 +48,20 @@ Quando la leadership è ignara del valore del cambiamento, allora non vengono al
 
 Questo può avvenire in realtà di tutte le dimensioni: dalle più grandi alle più piccole.
 
-[Microsoft Engineering Stories - Our DevOps Journey (2 of 4)](https://www.youtube.com/watch?v=EphPwecvAeM)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/EphPwecvAeM"
+    title="Microsoft Engineering Stories - Our DevOps Journey (2 of 4)"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 Da un punto di vista più tecnico, invece, i colli di bottiglia nelle adozioni DevOps seguono tipicamente questo percorso
 
@@ -56,7 +82,20 @@ Una volta che abbiamo risolto la creazione e configurazione degli ambienti, il p
 
 Solo automatizzando il deployment abilitiamo un flusso rapido da developer a operation e, in definitiva, verso i nostri utenti finali.
 
-[Microsoft Engineering Stories - Our DevOps Journey (3 of 4)](https://www.youtube.com/watch?v=KzQRd6jBE1Q)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/KzQRd6jBE1Q"
+    title="Microsoft Engineering Stories - Our DevOps Journey (3 of 4)"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 ### Test setup ed esecuzione
 
@@ -73,7 +112,20 @@ In entrambi gli scenari ci sono da gestire tematiche riguardanti i dati di test 
 
 L'argomento dei test apre spesso uno scheletro pieno di armadi. Codice legacy progettato con metodologie non guidate dai test (TDD / BDD) rende difficile l'esecuzione e la scrittura di test automatici a tutti i livelli, in particolare di unit test. Con una codebase / architettura accoppiata, spesso si ricade nell'uso di test manuali oppure si automatizzano test di integrazione o end-to-end. Tuttavia, questo porta a un portafoglio di test a forma di "cono gelato" e non di piramide, con alla base una forte componente di unit test. I test di integrazione ed end-to-end sono più lenti da eseguire e più costosi da scrivere rispetto agli unit test, per questo motivo la loro esistenza è giustificata in proporzione minore rispetto agli unit test ([shift-left](https://learn.microsoft.com/en-us/devops/develop/shift-left-make-testing-fast-reliable#case-study-shift-left-with-unit-tests)).
 
-[Microsoft Engineering Stories - Our DevOps Journey (4 of 4)](https://www.youtube.com/watch?v=0MsjACD-Als)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/0MsjACD-Als"
+    title="Microsoft Engineering Stories - Our DevOps Journey (4 of 4)"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 ## Conclusione
 

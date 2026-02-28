@@ -78,7 +78,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     margin-bottom: var(--space-sm);
     font-size: 0.9rem;
     line-height: 1.5;
-    color: rgba(242, 242, 242, 0.9);
+    color: rgba(var(--color-light-rgb), 0.92);
   }
 
   .cookie-banner__text a {
@@ -106,7 +106,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   .btn--link {
     background: none;
     border: none;
-    color: rgba(242, 242, 242, 0.7);
+    color: rgba(var(--color-light-rgb), 0.74);
     padding: 0.55rem 1rem;
     cursor: pointer;
     font-size: 0.85rem;
@@ -121,7 +121,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   .cookie-banner__details {
     margin-top: var(--space-lg);
     padding-top: var(--space-md);
-    border-top: 1px solid rgba(242, 242, 242, 0.15);
+    border-top: 1px solid rgba(var(--color-light-rgb), 0.2);
   }
 
   .cookie-toggle {
@@ -151,7 +151,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   .cookie-toggle span {
     display: block;
     font-size: 0.8rem;
-    color: rgba(242, 242, 242, 0.65);
+    color: rgba(var(--color-light-rgb), 0.7);
     margin-top: 2px;
   }
 

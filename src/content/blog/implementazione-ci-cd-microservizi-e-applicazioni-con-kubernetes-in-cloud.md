@@ -7,7 +7,20 @@ categories: [37, 38, 28]
 
 Kubernetes è lo standard di riferimento per i workload a microservizi e l'orchestratore più diffuso sul mercato.
 
-In [questo episodio](https://www.youtube.com/watch?v=tKVViV7zttM) viene spiegata una architettura sempreverde per continuous integration e deployment su cluster kubernetes.
+In 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/tKVViV7zttM"
+    title="questo episodio"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ viene spiegata una architettura sempreverde per continuous integration e deployment su cluster kubernetes.
 
 In particolare vedrai automatizzati:
 

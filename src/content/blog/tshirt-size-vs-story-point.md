@@ -41,4 +41,17 @@ Questi intervalli sono indicativi e possono variare in base al team e al contest
 
 ## Video
 
-https://www.youtube.com/shorts/ktlPzfr8WSg
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/ktlPzfr8WSg"
+    title="Video YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

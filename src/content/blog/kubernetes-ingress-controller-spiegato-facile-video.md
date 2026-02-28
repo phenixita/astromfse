@@ -13,7 +13,20 @@ Cosa sono? Ecco la descrizione del video e... buona visione!
 
 ## Kubernetes Ingress Controller spiegato facile: funzionamento ed esempio pratico
 
-[VIDEO Kubernetes Ingress Controller spiegato facile: funzionamento ed esempio pratico](https://youtu.be/Jd6ajuP7vXs)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Jd6ajuP7vXs"
+    title="VIDEO Kubernetes Ingress Controller spiegato facile: funzionamento ed esempio pratico"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 
 Vuoi capire davvero come funziona un Ingress Controller in Kubernetes?
 In questo video ti porto passo passo dalla teoria alla pratica, partendo dalla documentazione ufficiale per non lasciare nulla al caso.

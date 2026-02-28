@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <!-- Background glow -->
+  <circle cx="300" cy="250" r="200" fill="url(#k8g)" opacity="0.35"/>
+  <!-- Hexagonal cluster pattern -->
+  <g>
+    <!-- Center hex -->
+    <polygon points="300,180 345,207 345,263 300,290 255,263 255,207" fill="rgba(230,42,118,0.06)" stroke="rgba(230,42,118,0.4)" stroke-width="1.5"/>
+    <circle cx="300" cy="235" r="18" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+    <text x="300" y="239" text-anchor="middle" fill="rgba(230,42,118,0.5)" font-family="monospace" font-size="9" font-weight="600">POD</text>
+    <!-- Top-left hex -->
+    <polygon points="210,130 255,157 255,213 210,240 165,213 165,157" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <circle cx="210" cy="185" r="15" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <text x="210" y="189" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="8">POD</text>
+    <!-- Top-right hex -->
+    <polygon points="390,130 435,157 435,213 390,240 345,213 345,157" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <circle cx="390" cy="185" r="15" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <text x="390" y="189" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="8">POD</text>
+    <!-- Bottom-left hex -->
+    <polygon points="210,260 255,287 255,343 210,370 165,343 165,287" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <circle cx="210" cy="315" r="15" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <text x="210" y="319" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="8">POD</text>
+    <!-- Bottom-right hex -->
+    <polygon points="390,260 435,287 435,343 390,370 345,343 345,287" fill="rgba(140,114,203,0.05)" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+    <circle cx="390" cy="315" r="15" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+    <text x="390" y="319" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="8">POD</text>
+    <!-- Far left hex -->
+    <polygon points="120,195 165,222 165,278 120,305 75,278 75,222" fill="rgba(140,114,203,0.03)" stroke="rgba(140,114,203,0.25)" stroke-width="1"/>
+    <circle cx="120" cy="250" r="12" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+    <!-- Far right hex -->
+    <polygon points="480,195 525,222 525,278 480,305 435,278 435,222" fill="rgba(140,114,203,0.03)" stroke="rgba(140,114,203,0.25)" stroke-width="1"/>
+    <circle cx="480" cy="250" r="12" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+  </g>
+  <!-- Connection lines between hexes -->
+  <g stroke="rgba(140,114,203,0.2)" stroke-width="1">
+    <line x1="255" y1="207" x2="255" y2="213"/>
+    <line x1="345" y1="207" x2="345" y2="213"/>
+    <line x1="255" y1="263" x2="255" y2="287"/>
+    <line x1="345" y1="263" x2="345" y2="287"/>
+    <line x1="165" y1="222" x2="165" y2="213"/>
+    <line x1="435" y1="222" x2="435" y2="213"/>
+    <line x1="165" y1="278" x2="165" y2="287"/>
+    <line x1="435" y1="278" x2="435" y2="287"/>
+  </g>
+  <!-- Outer decorative ring -->
+  <circle cx="300" cy="250" r="190" stroke="rgba(140,114,203,0.12)" stroke-width="1" stroke-dasharray="4 6" fill="none"/>
+  <!-- Labels -->
+  <text x="300" y="430" text-anchor="middle" fill="rgba(140,114,203,0.3)" font-family="monospace" font-size="10" letter-spacing="4">CLUSTER</text>
+  <!-- Corner decorations -->
+  <circle cx="80" cy="80" r="3" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="520" cy="80" r="3" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="80" cy="420" r="3" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="520" cy="420" r="3" fill="rgba(140,114,203,0.2)"/>
+  <defs>
+    <radialGradient id="k8g">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.12)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

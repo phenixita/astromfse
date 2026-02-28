@@ -52,4 +52,17 @@ Per esempio io non sopporto indossare le cuffie per lunghi periodi di tempo e mi
 
 Ecco un video che ho fatto con il passaggio da Logitech Streamcam a Nikon.
 
-https://youtu.be/qYHHnm4sydI
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/qYHHnm4sydI"
+    title="Video YouTube"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

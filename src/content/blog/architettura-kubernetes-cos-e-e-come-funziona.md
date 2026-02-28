@@ -20,4 +20,17 @@ Significa che è in grado di:
 
 ## Azioni
 
-Vuoi saperne di più? Ecco un bel [video di introduzione all'architettura di Kubernetes](https://www.youtube.com/watch?v=WdEBQt3bqBM)!
+Vuoi saperne di più? Ecco un bel 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/WdEBQt3bqBM"
+    title="video di introduzione all'architettura di Kubernetes"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+!

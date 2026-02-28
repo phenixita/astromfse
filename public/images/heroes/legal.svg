@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <!-- Glow -->
+  <circle cx="300" cy="150" r="120" fill="url(#lg)" opacity="0.3"/>
+  <!-- Shield shape -->
+  <path d="M300 60 L380 95 L380 180 Q380 240 300 270 Q220 240 220 180 L220 95 Z" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.35)" stroke-width="1.5"/>
+  <!-- Inner shield -->
+  <path d="M300 85 L355 110 L355 175 Q355 220 300 242 Q245 220 245 175 L245 110 Z" fill="rgba(140,114,203,0.04)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+  <!-- Lock icon in center -->
+  <rect x="280" y="145" width="40" height="35" rx="4" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <path d="M290 145 L290 130 Q290 115 300 115 Q310 115 310 130 L310 145" fill="none" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <circle cx="300" cy="160" r="4" fill="rgba(230,42,118,0.3)"/>
+  <!-- Decorative circuit lines -->
+  <g stroke="rgba(140,114,203,0.15)" stroke-width="1">
+    <line x1="140" y1="100" x2="220" y2="100"/>
+    <line x1="380" y1="100" x2="460" y2="100"/>
+    <line x1="140" y1="200" x2="220" y2="200"/>
+    <line x1="380" y1="200" x2="460" y2="200"/>
+    <circle cx="140" cy="100" r="3" fill="rgba(140,114,203,0.2)"/>
+    <circle cx="460" cy="100" r="3" fill="rgba(140,114,203,0.2)"/>
+    <circle cx="140" cy="200" r="3" fill="rgba(140,114,203,0.2)"/>
+    <circle cx="460" cy="200" r="3" fill="rgba(140,114,203,0.2)"/>
+  </g>
+  <defs>
+    <radialGradient id="lg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.1)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

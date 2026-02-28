@@ -7,7 +7,20 @@ categories: [37, 38]
 
 In questo episodio parliamo della sicurezza in ottica DevOps.
 
-Come si affronta la la sicurezza nell'ambito della velocità e delle tecniche e pratiche di DevOps? Abel Wang ce ne da una prima interpretazione in questo [video](https://www.youtube.com/watch?v=pPs6O4bpe3A).
+Come si affronta la la sicurezza nell'ambito della velocità e delle tecniche e pratiche di DevOps? Abel Wang ce ne da una prima interpretazione in questo 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/pPs6O4bpe3A"
+    title="video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.
 
 I team più mauturi integrano, nei loro processi CI/CD, pratiche di information security. Gli engineer infosec sono coinvolti in ogni fase di produzione del valore dando il loro feedback e contributo - dal design alle demo all'inserimento nelle suite di test di test automatizzati in ottica security. Questo, tuttavia, deve essere fatto in modo da non rallentare il processo di sviluppo, integrando le pratiche di sicurezza nella quotidianità.
 

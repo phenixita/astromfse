@@ -91,4 +91,17 @@ Consiglio la lettura di questa [ricerca di Smartbear](https://smartbear.com/lear
 
 ## Mindset
 
-Come ben sappiamo, DevOps richiede un cambio culturale/mentale. Concludiamo con [questo video](https://www.youtube.com/watch?t=1590&v=9frodP5xLxk&feature=youtu.be) che racconta il cambiamento che il team di Azure DevOps (ex TFS, Visual Studio Online) ha dovuto affrontare quando è passato da prodotto "in scatola" a servizio in cloud.
+Come ben sappiamo, DevOps richiede un cambio culturale/mentale. Concludiamo con 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/9frodP5xLxk?start=1590"
+    title="questo video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ che racconta il cambiamento che il team di Azure DevOps (ex TFS, Visual Studio Online) ha dovuto affrontare quando è passato da prodotto "in scatola" a servizio in cloud.

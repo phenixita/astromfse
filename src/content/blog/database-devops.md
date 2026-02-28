@@ -11,4 +11,17 @@ Anche i database, soprattutto i relazionali, devono essere trattati con metodolo
 
 Nascono quindi tematiche su come gestire l'evoluzione dello schema di un database in accoppiata con l'evoluzione di una applicazione.
 
-Con Alessandro Alpi, MVP Data Platform, ne abbiamo parlato qualche mese fa in questa diretta su YouTube: ["Database Pre e Post Deployment Script"](https://www.youtube.com/watch?v=gGFuNr91FVI).
+Con Alessandro Alpi, MVP Data Platform, ne abbiamo parlato qualche mese fa in questa diretta su YouTube: 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/gGFuNr91FVI"
+    title="&quot;Database Pre e Post Deployment Script&quot;"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.

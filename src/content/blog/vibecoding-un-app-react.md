@@ -11,4 +11,17 @@ Cos'ho fatto? Con l'assistenza di Copilot ho creato un'app in React come compani
 
 Ecco il video YouTube in cui spiego tutto!
 
-[Vibe coding una companion app per Marvel Zombies in React con Copilot](https://youtu.be/2P9w6xqu6e8)
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/2P9w6xqu6e8"
+    title="Vibe coding una companion app per Marvel Zombies in React con Copilot"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+

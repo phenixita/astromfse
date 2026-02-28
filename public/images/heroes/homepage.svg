@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <!-- Soft glow -->
+  <circle cx="300" cy="250" r="220" fill="url(#hg)" opacity="0.4"/>
+  <!-- Connection lines -->
+  <g stroke="rgba(140,114,203,0.3)" stroke-width="1.5">
+    <line x1="100" y1="180" x2="240" y2="110"/>
+    <line x1="100" y1="180" x2="180" y2="310"/>
+    <line x1="240" y1="110" x2="380" y2="90"/>
+    <line x1="240" y1="110" x2="320" y2="240"/>
+    <line x1="180" y1="310" x2="320" y2="240"/>
+    <line x1="320" y1="240" x2="460" y2="180"/>
+    <line x1="320" y1="240" x2="380" y2="370"/>
+    <line x1="380" y1="90" x2="460" y2="180"/>
+    <line x1="460" y1="180" x2="500" y2="320"/>
+    <line x1="380" y1="370" x2="500" y2="320"/>
+    <line x1="180" y1="310" x2="280" y2="400"/>
+    <line x1="280" y1="400" x2="380" y2="370"/>
+  </g>
+  <!-- Primary nodes -->
+  <circle cx="100" cy="180" r="26" fill="rgba(140,114,203,0.15)" stroke="rgba(140,114,203,0.6)" stroke-width="2"/>
+  <circle cx="240" cy="110" r="22" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.5)" stroke-width="2"/>
+  <circle cx="180" cy="310" r="20" fill="rgba(140,114,203,0.12)" stroke="rgba(140,114,203,0.5)" stroke-width="2"/>
+  <circle cx="320" cy="240" r="30" fill="rgba(230,42,118,0.1)" stroke="rgba(230,42,118,0.45)" stroke-width="2"/>
+  <circle cx="380" cy="90" r="16" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <circle cx="460" cy="180" r="24" fill="rgba(140,114,203,0.15)" stroke="rgba(140,114,203,0.6)" stroke-width="2"/>
+  <circle cx="380" cy="370" r="18" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.35)" stroke-width="1.5"/>
+  <circle cx="500" cy="320" r="14" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <circle cx="280" cy="400" r="16" fill="rgba(140,114,203,0.1)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <!-- Small decorative dots -->
+  <circle cx="170" cy="140" r="3" fill="rgba(140,114,203,0.35)"/>
+  <circle cx="300" cy="150" r="3" fill="rgba(140,114,203,0.35)"/>
+  <circle cx="430" cy="260" r="3" fill="rgba(230,42,118,0.35)"/>
+  <circle cx="140" cy="260" r="3" fill="rgba(140,114,203,0.25)"/>
+  <circle cx="360" cy="300" r="3" fill="rgba(140,114,203,0.25)"/>
+  <circle cx="520" cy="240" r="2" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="60" cy="220" r="2" fill="rgba(140,114,203,0.2)"/>
+  <!-- Inner glow dots on key nodes -->
+  <circle cx="320" cy="240" r="8" fill="rgba(230,42,118,0.2)"/>
+  <circle cx="100" cy="180" r="6" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="460" cy="180" r="6" fill="rgba(140,114,203,0.2)"/>
+  <defs>
+    <radialGradient id="hg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.15)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

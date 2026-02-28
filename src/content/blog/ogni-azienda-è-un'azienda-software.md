@@ -24,7 +24,20 @@ L'articolo di McKinsey analizza come tutte le aziende, indipendentemente dal set
 5. Adottare strategie di vendita dedicate al software: creare team di vendita specializzati per massimizzare i ricavi derivanti dal software.
 6. Attrarre e trattenere talenti: offrire ambienti di lavoro stimolanti e investire nella crescita professionale degli sviluppatori.
 
-E, di nuovo, nel 2025 il trend è confermato come viene trattato in questo talk [Ogni azienda è un'azienda di software | WSO2Con Barcellona 2025](https://www.youtube.com/watch?v=4caCefyES7A).
+E, di nuovo, nel 2025 il trend è confermato come viene trattato in questo talk 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/4caCefyES7A"
+    title="Ogni azienda è un'azienda di software | WSO2Con Barcellona 2025"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.
 
 ## Azioni
 

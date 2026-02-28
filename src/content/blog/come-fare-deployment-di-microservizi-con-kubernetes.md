@@ -9,7 +9,20 @@ Impara a distribuire i tuoi microservizi in un cluster kubernetes in pochi passi
 
 La distribuzione (deployment) di microservizi (o di qualunque applicazione in formato container) in un cluster Kuberentes può essere fatta in vari modi a seconda delle finalità.
 
-In [questo video](https://www.youtube.com/watch?v=5B77Rm9kudI) vediamo:
+In 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/5B77Rm9kudI"
+    title="questo video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ vediamo:
 
 Gli approcci dichiarativi con i comandi run e port-forward per accedere all'applicazione utile per scenari di test/sviluppo/studio.
 Di nuovo in modalità applicativa vediamo il  deployment create per prendere confidenza con l'entità Deployment

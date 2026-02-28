@@ -5,7 +5,20 @@ slug: "a-chi-serve-la-telemetria"
 categories: [37, 38]
 ---
 
-Seguendo le pratiche della [seconda Via di DevOps](https://www.youtube.com/watch?v=Go0TuBLtp_k) sappiamo che dovremmo implementare telemetria nei nostri processi e nei nostri servizi.
+Seguendo le pratiche della 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Go0TuBLtp_k"
+    title="seconda Via di DevOps"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ sappiamo che dovremmo implementare telemetria nei nostri processi e nei nostri servizi.
 
 A chi serve questa telemetria?
 

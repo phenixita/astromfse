@@ -22,4 +22,17 @@ Prossimo step rifinire quanto proposto dal modello (c'erano appunto alcune cosuc
 
 ## Copilot Plan mode
 
-Ti [rimando alla live con Gian Maria Ricci su Copilot](https://www.youtube.com/watch?v=w2z5kqAcAiY&t=1s) in cui parliamo di tante cose tra cui il plan mode!
+Ti 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/w2z5kqAcAiY?start=1"
+    title="rimando alla live con Gian Maria Ricci su Copilot"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ in cui parliamo di tante cose tra cui il plan mode!

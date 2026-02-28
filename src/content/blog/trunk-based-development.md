@@ -21,4 +21,17 @@ Vuoi saperne di più? Ecco uno dei [siti di riferimento sull'argomento](https://
 
 Consiglio anche la lettura del [Release Flow di Microsoft](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops#manage-releases).
 
-[Guarda la mia diretta YouTube con Valentina Servile](https://www.youtube.com/watch?v=zjPyqhAuo_w&t=17s) dove parliamo anche di trunk-based development relativamente alle pratiche di Continuous Delivery.
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/zjPyqhAuo_w?start=17"
+    title="Guarda la mia diretta YouTube con Valentina Servile"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ dove parliamo anche di trunk-based development relativamente alle pratiche di Continuous Delivery.

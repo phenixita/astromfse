@@ -9,8 +9,13 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
   <div class="page-header">
     <div class="container">
-      <h1>Servizi</h1>
-      <p>Consulenza specializzata per portare la tua software factory al livello successivo.</p>
+      <div class="page-header__text">
+        <h1>Servizi</h1>
+        <p>Consulenza specializzata per portare la tua software factory al livello successivo.</p>
+      </div>
+      <div class="page-header__illustration">
+        <img src={base + "images/heroes/services.svg"} alt="" role="presentation" width="400" height="200" />
+      </div>
     </div>
   </div>
 

@@ -5,7 +5,20 @@ slug: "shift-right-testing"
 categories: [37, 38, 23]
 ---
 
-Si sente parlare spesso di shift-left di metodi e pratiche, in particolare sui test e anche nella [security](https://www.youtube.com/watch?v=l_W8SVSvu0g).
+Si sente parlare spesso di shift-left di metodi e pratiche, in particolare sui test e anche nella 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/l_W8SVSvu0g"
+    title="security"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.
 
 Shift-right è meno diffuso: a mio avviso perché si tratta di una tematica per team più "evoluti".
 

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <!-- Glow -->
+  <ellipse cx="300" cy="150" rx="200" ry="120" fill="url(#cg)" opacity="0.3"/>
+  <!-- Communication network -->
+  <g stroke="rgba(140,114,203,0.25)" stroke-width="1.5">
+    <line x1="180" y1="100" x2="300" y2="150"/>
+    <line x1="420" y1="100" x2="300" y2="150"/>
+    <line x1="180" y1="220" x2="300" y2="150"/>
+    <line x1="420" y1="220" x2="300" y2="150"/>
+    <line x1="180" y1="100" x2="120" y2="150"/>
+    <line x1="420" y1="100" x2="480" y2="150"/>
+    <line x1="180" y1="220" x2="120" y2="150"/>
+    <line x1="420" y1="220" x2="480" y2="150"/>
+  </g>
+  <!-- Center hub -->
+  <circle cx="300" cy="150" r="30" fill="rgba(230,42,118,0.08)" stroke="rgba(230,42,118,0.4)" stroke-width="2"/>
+  <text x="300" y="147" text-anchor="middle" fill="rgba(230,42,118,0.45)" font-family="monospace" font-size="16">@</text>
+  <text x="300" y="162" text-anchor="middle" fill="rgba(230,42,118,0.35)" font-family="monospace" font-size="7">CONNECT</text>
+  <!-- Outer nodes -->
+  <circle cx="180" cy="100" r="18" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <text x="180" y="104" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="14">in</text>
+  <circle cx="420" cy="100" r="18" fill="rgba(140,114,203,0.08)" stroke="rgba(140,114,203,0.4)" stroke-width="1.5"/>
+  <text x="420" y="104" text-anchor="middle" fill="rgba(140,114,203,0.45)" font-family="monospace" font-size="10">NL</text>
+  <circle cx="180" cy="220" r="16" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+  <circle cx="420" cy="220" r="16" fill="rgba(140,114,203,0.06)" stroke="rgba(140,114,203,0.3)" stroke-width="1"/>
+  <circle cx="120" cy="150" r="12" fill="rgba(140,114,203,0.04)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+  <circle cx="480" cy="150" r="12" fill="rgba(140,114,203,0.04)" stroke="rgba(140,114,203,0.2)" stroke-width="1"/>
+  <!-- Signal waves from center -->
+  <circle cx="300" cy="150" r="50" stroke="rgba(140,114,203,0.12)" stroke-width="1" fill="none"/>
+  <circle cx="300" cy="150" r="75" stroke="rgba(140,114,203,0.08)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <circle cx="300" cy="150" r="100" stroke="rgba(140,114,203,0.05)" stroke-width="1" fill="none" stroke-dasharray="2 6"/>
+  <!-- Decorative -->
+  <circle cx="60" cy="50" r="2" fill="rgba(140,114,203,0.2)"/>
+  <circle cx="540" cy="50" r="2" fill="rgba(140,114,203,0.2)"/>
+  <defs>
+    <radialGradient id="cg">
+      <stop offset="0%" stop-color="rgba(140,114,203,0.1)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

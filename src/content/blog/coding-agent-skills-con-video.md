@@ -17,7 +17,20 @@ Gli LLM non sono deterministici e a volte avremmo bisogno che lo fossero.
 
 Inoltre, i coding agent non hanno contesto di team o aziendale. Con le skill possiamo creare dei pacchetti che includono anche una knowledge base portabile.
 
-Per capire bene ho cominciato creandone uno e spulciando la collezione di skill che la community sta costruendo in [questo video](https://youtu.be/kxVjCQfe6wA).
+Per capire bene ho cominciato creandone uno e spulciando la collezione di skill che la community sta costruendo in 
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/kxVjCQfe6wA"
+    title="questo video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+.
 
 Ecco alcuni esempi che mi sono venuti in mente di skill:
 - standardizzazione pull-request / code review

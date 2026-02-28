@@ -21,6 +21,9 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
           <a href={base + "blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban"} class="btn btn--outline">Scarica l'eBook gratuito</a>
         </div>
       </div>
+      <div class="hero__illustration">
+        <img src={base + "images/heroes/kanban.svg"} alt="" role="presentation" width="500" height="417" />
+      </div>
     </div>
   </section>
 
@@ -213,7 +216,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
   .metric-item:hover {
     transform: translateX(4px);
-    box-shadow: 0 4px 20px rgba(1, 4, 64, 0.08);
+    box-shadow: 0 4px 20px rgba(var(--color-primary-rgb), 0.14);
   }
 
   .metric-item__icon {
@@ -221,7 +224,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     font-family: var(--font-mono);
     font-weight: 700;
     color: var(--color-accent);
-    background: rgba(133, 134, 166, 0.1);
+    background: rgba(var(--color-accent-rgb), 0.12);
     width: 44px;
     height: 44px;
     display: flex;

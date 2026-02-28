@@ -23,7 +23,20 @@ La retrospettiva conclude lo Sprint.
 
 ## Azioni
 
-[Guarda questo video](https://www.youtube.com/watch?v=CqTVIOzBRno) della serie The DevOps Labs del canale DevOps on Azure per scoprire le perle nascoste delle retrospettive!
+
+
+<div class="youtube-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/CqTVIOzBRno"
+    title="Guarda questo video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+ della serie The DevOps Labs del canale DevOps on Azure per scoprire le perle nascoste delle retrospettive!
 
 ## Reference
 

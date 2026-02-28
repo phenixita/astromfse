@@ -6,8 +6,13 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 <BaseLayout title="Chi Sono — Michele Ferracin">
   <div class="page-header">
     <div class="container">
-      <h1>Chi Sono</h1>
-      <p>Software Engineering Consultant — Il meglio per la tua software factory.</p>
+      <div class="page-header__text">
+        <h1>Chi Sono</h1>
+        <p>Software Engineering Consultant — Il meglio per la tua software factory.</p>
+      </div>
+      <div class="page-header__illustration">
+        <img src={base + "images/heroes/about.svg"} alt="" role="presentation" width="400" height="200" />
+      </div>
     </div>
   </div>
 
