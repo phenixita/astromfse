@@ -15,7 +15,7 @@ Le approfondiremo un messaggio alla volta.
 
 ## Approccio team centrico
 
-Secondo gli autori di Team Topologies un’organizzazione non dovrebbe mai assegnare lavoro ai singoli ma sempre ai team e inoltre le fasi di progettazione, consegna ed esercizio del software dovrebbero partire con un approccio team-centrico.
+Secondo gli autori del modello delle topologie dei team un’organizzazione non dovrebbe mai assegnare lavoro ai singoli ma sempre ai team e inoltre le fasi di progettazione, consegna ed esercizio del software dovrebbero partire con un approccio team-centrico.
 
 Anche secondo me questa caratteristica è fondamentale. Fare affidamento sempre e solo su un singolo per le attività è contro la resilienza del team (cosa succede quando questa persona non è disponibile?) e quindi della software factory.
 

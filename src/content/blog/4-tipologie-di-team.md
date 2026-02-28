@@ -13,7 +13,7 @@ I team sono l'unità di delivery di base e la loro numerosità e collocazione ge
 
 Ma che forme possiamo fare assumere a queste unità di base?
 
-Gli autori di [Team Topologies](https://www.amazon.it/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) hanno creato una classificazione che trovo pragmatica e semplice da spiegare.
+Gli autori di un noto modello sulle topologie dei team hanno creato una classificazione che trovo pragmatica e semplice da spiegare.
 
 Per questo ho deciso di riportarla qui.
 

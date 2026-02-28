@@ -30,7 +30,7 @@ Ecco perché lasciare crescere un team oltre il range da 5 a 9 mette a rischio l
 
 Con queste caratteristiche il team diventa l’unità atomica di produzione su cui fare affidamento piuttosto che le singole persone.
 
-Secondo gli autori di Team Topologies un’organizzazione non dovrebbe mai assegnare lavoro ai singoli ma sempre ai team e inoltre le fasi di progettazione, consegna ed esercizio del software dovrebbero partire con un approccio team-centrico.
+Secondo gli autori del modello delle topologie dei team un’organizzazione non dovrebbe mai assegnare lavoro ai singoli ma sempre ai team e inoltre le fasi di progettazione, consegna ed esercizio del software dovrebbero partire con un approccio team-centrico.
 
 Ora che abbiamo visto le caratteristiche di un team ben congegnato e che funziona come unità atomica di capacità produttiva… come farlo operare al meglio nel più grande contesto aziendale o insieme ad altri team?
 

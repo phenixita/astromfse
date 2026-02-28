@@ -9,7 +9,7 @@ export async function GET(context) {
 
   return rss({
     title: 'Michele Ferracin — Software Engineering Blog',
-    description: 'Articoli su DevOps, CI/CD, Team Topologies, Kubernetes, Kanban, AI per lo sviluppo software e pratiche moderne di ingegneria del software.',
+    description: 'Articoli su DevOps, CI/CD, organizzazione dei team, Kubernetes, Kanban, AI per lo sviluppo software e pratiche moderne di ingegneria del software.',
     site: context.site,
     items: posts.map(post => {
       const body = (post.body ?? '').replace(/^---[\s\S]*?---/, '').replace(/<[^>]+>/g, '').replace(/[#*_\[\]()]/g, '').trim();
@@ -28,7 +28,7 @@ export async function GET(context) {
 <category>Software Engineering</category>
 <category>DevOps</category>
 <category>CI/CD</category>
-<category>Team Topologies</category>
+<category>Organizzazione dei team</category>
 <category>Kubernetes</category>`,
   });
 }
