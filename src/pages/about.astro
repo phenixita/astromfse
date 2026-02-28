@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Chi Sono — Michele Ferracin">
@@ -18,12 +19,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <h3>Michele Ferracin</h3>
           <p style="color: var(--color-text-light); font-size: 0.9rem;">Software Engineering Consultant</p>
           <div style="margin-top: var(--space-lg);">
-            <a href="/contact" class="btn btn--primary" style="width: 100%; justify-content: center;">Contattami</a>
+            <a href={base + "contact"} class="btn btn--primary" style="width: 100%; justify-content: center;">Contattami</a>
           </div>
         </aside>
         <div>
           <h2>Trasformo le software factory</h2>
-          <p>Con oltre 15 anni di esperienza nel mondo dello sviluppo software, aiuto le aziende europee a migliorare radicalmente il modo in cui costruiscono e rilasciano software.</p>
+          <p>Con oltre 15 anni di esperienza nel mondo dello sviluppo software, aiuto le aziende italiane a migliorare radicalmente il modo in cui costruiscono e rilasciano software.</p>
           <p>La mia missione è semplice: <strong>meno caos, più valore</strong>. Attraverso DevOps, Team Topologies, Platform Engineering e pratiche moderne di ingegneria del software, porto ordine dove c'è confusione e velocità dove ci sono colli di bottiglia.</p>
           
           <h3 style="margin-top: var(--space-xl);">Le mie aree di expertise</h3>
@@ -38,7 +39,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
           <h3>La mia filosofia</h3>
           <p>Credo fermamente che il software eccellente nasca da <strong>team eccellenti</strong>. Non basta la tecnologia giusta — servono le persone giuste, organizzate nel modo giusto, con i processi giusti. Per questo il mio approccio è sempre olistico: guardo alla tecnologia, alle persone e ai processi insieme.</p>
-          <p>Scrivo regolarmente sul mio <a href="/blog">blog</a> e nella mia <a href="https://go.micheleferracin.it/newsletter" target="_blank" rel="noopener">newsletter</a> per condividere ciò che imparo e aiutare altri professionisti a crescere.</p>
+          <p>Scrivo regolarmente sul mio <a href={base + "blog"}>blog</a> e nella mia <a href="https://go.micheleferracin.it/newsletter" target="_blank" rel="noopener">newsletter</a> per condividere ciò che imparo e aiutare altri professionisti a crescere.</p>
         </div>
       </div>
     </div>
@@ -48,7 +49,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="container">
       <h2>Pronto a collaborare?</h2>
       <p>Parliamo di come posso aiutare la tua azienda a costruire software migliore.</p>
-      <a href="/contact" class="btn btn--primary">Contattami →</a>
+      <a href={base + "contact"} class="btn btn--primary">Contattami →</a>
     </div>
   </section>
 </BaseLayout>
+
+

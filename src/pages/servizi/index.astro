@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Servizi — Michele Ferracin" description="Consulenza specializzata: Azure DevOps, Kanban, Kubernetes e .NET C# Modernization. Trasforma la tua software factory con un approccio pratico e orientato ai risultati.">
@@ -21,28 +22,28 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
           <div class="feature-card__icon">//</div>
           <h3>Azure DevOps</h3>
           <p>Pipeline CI/CD, Azure Boards, trunk-based development, metriche DORA e automazione completa del ciclo di delivery.</p>
-          <a href="/servizi/azure-devops" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+          <a href={base + "servizi/azure-devops"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
         </div>
 
         <div class="feature-card">
           <div class="feature-card__icon">WIP</div>
           <h3>Kanban</h3>
           <p>WIP limits, lead time, throughput, continuous improvement. Doma il caos e rendi prevedibile il tuo flusso di lavoro.</p>
-          <a href="/servizi/kanban" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+          <a href={base + "servizi/kanban"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
         </div>
 
         <div class="feature-card">
           <div class="feature-card__icon">K8s</div>
           <h3>Kubernetes</h3>
           <p>Architetture cloud-native, AKS, microservizi, sicurezza cluster, CI/CD con Docker e observability.</p>
-          <a href="/servizi/kubernetes" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+          <a href={base + "servizi/kubernetes"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
         </div>
 
         <div class="feature-card">
           <div class="feature-card__icon">C#</div>
           <h3>.NET C# Modernization</h3>
           <p>Refactoring, test strategy, debito tecnico, monolite modulare, AI-assisted development per codice .NET legacy.</p>
-          <a href="/servizi/dotnet-modernization" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+          <a href={base + "servizi/dotnet-modernization"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
         </div>
 
       </div>
@@ -58,3 +59,5 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
   </section>
 
 </BaseLayout>
+
+

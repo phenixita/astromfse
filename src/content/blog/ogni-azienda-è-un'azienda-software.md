@@ -9,7 +9,7 @@ Ogni azienda è un'azienda tecnologica, a prescindere dal business in cui operan
 
 Una banca è un'azienda IT con una licenza bancaria.
 
-Ad esempio, nel 2013, la banca europea HSBC aveva più developer di Google.
+Ad esempio, nel 2013, la banca internazionale HSBC aveva più developer di Google.
 
 Ma non solo.
 

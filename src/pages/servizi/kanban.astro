@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Consulenza Kanban per Software Factory — Michele Ferracin" description="Consulenza Kanban per team di sviluppo: WIP limits, lead time, throughput, continuous improvement. Doma il caos nella tua software factory. Prenota un incontro gratuito.">
@@ -17,7 +18,7 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
         </p>
         <div class="hero__actions">
           <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
-          <a href="/blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban" class="btn btn--outline">Scarica l'eBook gratuito</a>
+          <a href={base + "blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban"} class="btn btn--outline">Scarica l'eBook gratuito</a>
         </div>
       </div>
     </div>
@@ -163,7 +164,7 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
           <div class="feature-card__icon">PDF</div>
           <h3>eBook gratuito</h3>
           <p>"Domare il caos in una software factory con Kanban" — la guida pratica per iniziare subito.</p>
-          <a href="/blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban" class="btn btn--outline" style="margin-top: var(--space-md);">Scarica gratis</a>
+          <a href={base + "blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban"} class="btn btn--outline" style="margin-top: var(--space-md);">Scarica gratis</a>
         </div>
         <div class="feature-card" style="text-align: center;">
           <div class="feature-card__icon">YT</div>
@@ -175,7 +176,7 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
           <div class="feature-card__icon">150+</div>
           <h3>Articoli sul blog</h3>
           <p>Guide pratiche su WIP limits, lead time, throughput e miglioramento continuo.</p>
-          <a href="/blog" class="btn btn--outline" style="margin-top: var(--space-md);">Leggi il blog</a>
+          <a href={base + "blog"} class="btn btn--outline" style="margin-top: var(--space-md);">Leggi il blog</a>
         </div>
       </div>
     </div>
@@ -241,3 +242,5 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
     }
   }
 </style>
+
+

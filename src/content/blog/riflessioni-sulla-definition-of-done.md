@@ -5,7 +5,7 @@ slug: "riflessioni-sulla-definition-of-done"
 categories: [43, 42, 38]
 ---
 
-Stavo lavorando con un direttore IT di un'azienda Fortune 500 a un'iniziativa di adozione di Azure DevOps Services per i team che riportano a lui. Sono 5 team sparsi per l'Europa che dovranno adottare linee guida comuni.
+Stavo lavorando con un direttore IT di un'azienda Fortune 500 a un'iniziativa di adozione di Azure DevOps Services per i team che riportano a lui. Sono 5 team distribuiti in Italia che dovranno adottare linee guida comuni.
 
 Durante il design del processo e delle relative board ho portato all'attenzione il concetto di definition of done.
 

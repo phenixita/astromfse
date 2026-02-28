@@ -7,6 +7,8 @@ const allPosts = (await getCollection('blog'))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 const latestPosts = allPosts.slice(0, 6);
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}` : `${base}${path}`;
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -21,20 +23,20 @@ function getExcerpt(body: string, maxLen = 120): string {
 }
 ---
 
-<BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Europe | DevOps, CI/CD, Team Topologies" description="Michele Ferracin: consulente software engineering in Europa. Specializzato in DevOps, CI/CD, Team Topologies, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
+<BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Italia | DevOps, CI/CD, Team Topologies" description="Michele Ferracin: consulente software engineering in Italia. Specializzato in DevOps, CI/CD, Team Topologies, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
 
   <!-- HERO -->
   <section class="hero">
     <div class="container">
       <div class="hero__content">
-        <span class="hero__badge">#1 Software Engineering Consultant in Europe</span>
+        <span class="hero__badge">#1 Software Engineering Consultant in Italia</span>
         <h1>Trasformo il caos in <span class="highlight">software che funziona</span></h1>
         <p class="hero__subtitle">
-          Aiuto le aziende europee a costruire software migliore attraverso DevOps, Team Topologies, Platform Engineering e pratiche moderne di ingegneria del software. Meno dolore nei rilasci, più valore per il business.
+          Aiuto le aziende italiane a costruire software migliore attraverso DevOps, Team Topologies, Platform Engineering e pratiche moderne di ingegneria del software. Meno dolore nei rilasci, più valore per il business.
         </p>
         <div class="hero__actions">
-          <a href="/contact" class="btn btn--primary">Parliamo del tuo progetto →</a>
-          <a href="/blog" class="btn btn--outline">Leggi il Blog</a>
+          <a href={base + "contact"} class="btn btn--primary">Parliamo del tuo progetto →</a>
+          <a href={base + "blog"} class="btn btn--outline">Leggi il Blog</a>
         </div>
       </div>
     </div>
@@ -57,8 +59,8 @@ function getExcerpt(body: string, maxLen = 120): string {
           <div class="stat__label">Focus su risultati</div>
         </div>
         <div>
-          <div class="stat__number">EU</div>
-          <div class="stat__label">Copertura europea</div>
+          <div class="stat__number">ITA</div>
+          <div class="stat__label">Focus Italia</div>
         </div>
       </div>
     </div>
@@ -119,16 +121,16 @@ function getExcerpt(body: string, maxLen = 120): string {
             <div class="blog-card__body">
               <span class="blog-card__date">{formatDate(post.data.date)}</span>
               <h3 class="blog-card__title">
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+                <a href={toBase(`/blog/${post.id}`)}>{post.data.title}</a>
               </h3>
               <p class="blog-card__excerpt">{getExcerpt(post.body ?? '')}</p>
-              <a href={`/blog/${post.id}`} class="blog-card__read-more">Leggi →</a>
+              <a href={toBase(`/blog/${post.id}`)} class="blog-card__read-more">Leggi →</a>
             </div>
           </article>
         ))}
       </div>
       <div class="text-center" style="margin-top: var(--space-xl);">
-        <a href="/blog" class="btn btn--primary">Tutti gli Articoli →</a>
+        <a href={base + "blog"} class="btn btn--primary">Tutti gli Articoli →</a>
       </div>
     </div>
   </section>
@@ -306,8 +308,10 @@ function getExcerpt(body: string, maxLen = 120): string {
     <div class="container">
       <h2>Pronto a trasformare la tua software factory?</h2>
       <p>Contattami per una consulenza gratuita. Insieme troveremo il modo migliore per migliorare il tuo processo di sviluppo.</p>
-      <a href="/contact" class="btn btn--primary">Parliamo →</a>
+      <a href={base + "contact"} class="btn btn--primary">Parliamo →</a>
     </div>
   </section>
 
 </BaseLayout>
+
+

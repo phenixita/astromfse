@@ -16,7 +16,7 @@ interface Props {
 
 const {
   title,
-  description = "Michele Ferracin — Software Engineering Consultant. DevOps, Team Topologies, Platform Engineering, CI/CD, Kubernetes e pratiche moderne di ingegneria del software. Il miglior consulente software in Europa.",
+  description = "Michele Ferracin — Software Engineering Consultant. DevOps, Team Topologies, Platform Engineering, CI/CD, Kubernetes e pratiche moderne di ingegneria del software. Il miglior consulente software in Italia.",
   ogType = 'website',
   ogImage,
   canonicalUrl,
@@ -29,6 +29,11 @@ const {
 const siteUrl = 'https://micheleferracin.it';
 const canonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const currentPath = Astro.url.pathname;
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+const currentPathNoBase = basePath && currentPath.startsWith(basePath)
+  ? currentPath.slice(basePath.length) || '/'
+  : currentPath;
 
 // JSON-LD: WebSite + Person (sitewide)
 const websiteJsonLd = {
@@ -98,10 +103,10 @@ const websiteJsonLd = {
   {ogImage && <meta name="twitter:image" content={ogImage} />}
 
   <!-- RSS & Feeds -->
-  <link rel="alternate" type="application/rss+xml" title="Michele Ferracin Blog RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Michele Ferracin Blog RSS" href={base + "rss.xml"} />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href={base + "favicon.svg"} />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -117,20 +122,20 @@ const websiteJsonLd = {
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a href="/" class="nav__logo">Michele<span>Ferracin</span></a>
+      <a href={base + ""} class="nav__logo">Michele<span>Ferracin</span></a>
       <button class="nav__toggle" aria-label="Menu" id="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <ul class="nav__links" id="nav-links">
-        <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Home</a></li>
-        <li><a href="/blog" class:list={[{ active: currentPath.startsWith('/blog') }]}>Blog</a></li>
-        <li><a href="/servizi" class:list={[{ active: currentPath.startsWith('/servizi') }]}>Servizi</a></li>
-        <li><a href="/about" class:list={[{ active: currentPath === '/about/' || currentPath === '/about' }]}>Chi Sono</a></li>
-        <li><a href="/speaking" class:list={[{ active: currentPath === '/speaking/' || currentPath === '/speaking' }]}>Speaking</a></li>
-        <li><a href="/client-list" class:list={[{ active: currentPath === '/client-list/' || currentPath === '/client-list' }]}>Portfolio</a></li>
-        <li><a href="/contact" class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.85rem;">Contattami</a></li>
+        <li><a href={base + ""} class:list={[{ active: currentPathNoBase === '/' }]}>Home</a></li>
+        <li><a href={base + "blog"} class:list={[{ active: currentPathNoBase.startsWith('/blog') }]}>Blog</a></li>
+        <li><a href={base + "servizi"} class:list={[{ active: currentPathNoBase.startsWith('/servizi') }]}>Servizi</a></li>
+        <li><a href={base + "about"} class:list={[{ active: currentPathNoBase === '/about/' || currentPathNoBase === '/about' }]}>Chi Sono</a></li>
+        <li><a href={base + "speaking"} class:list={[{ active: currentPathNoBase === '/speaking/' || currentPathNoBase === '/speaking' }]}>Speaking</a></li>
+        <li><a href={base + "client-list"} class:list={[{ active: currentPathNoBase === '/client-list/' || currentPathNoBase === '/client-list' }]}>Portfolio</a></li>
+        <li><a href={base + "contact"} class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.85rem;">Contattami</a></li>
       </ul>
     </nav>
   </header>
@@ -149,13 +154,13 @@ const websiteJsonLd = {
         <div>
           <h4 class="footer__heading">Navigazione</h4>
           <ul class="footer__links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/servizi">Servizi</a></li>
-            <li><a href="/about">Chi Sono</a></li>
-            <li><a href="/client-list">Portfolio</a></li>
-            <li><a href="/speaking">Speaking</a></li>
-            <li><a href="/contact">Contattami</a></li>
+            <li><a href={base + ""}>Home</a></li>
+            <li><a href={base + "blog"}>Blog</a></li>
+            <li><a href={base + "servizi"}>Servizi</a></li>
+            <li><a href={base + "about"}>Chi Sono</a></li>
+            <li><a href={base + "client-list"}>Portfolio</a></li>
+            <li><a href={base + "speaking"}>Speaking</a></li>
+            <li><a href={base + "contact"}>Contattami</a></li>
           </ul>
         </div>
         <div>
@@ -166,8 +171,8 @@ const websiteJsonLd = {
           </ul>
           <h4 class="footer__heading" style="margin-top: var(--space-lg);">Legale</h4>
           <ul class="footer__links">
-            <li><a href="/privacy">Privacy Policy</a></li>
-            <li><a href="/cookie-policy">Cookie Policy</a></li>
+            <li><a href={base + "privacy"}>Privacy Policy</a></li>
+            <li><a href={base + "cookie-policy"}>Cookie Policy</a></li>
           </ul>
         </div>
       </div>
@@ -186,3 +191,5 @@ const websiteJsonLd = {
   </script>
 </body>
 </html>
+
+

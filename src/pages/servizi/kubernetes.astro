@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Consulenza Kubernetes & Cloud-Native — Michele Ferracin" description="Consulenza Kubernetes e architetture cloud-native: AKS, microservizi, CI/CD con Docker, sicurezza cluster, monitoraggio e observability. Prenota un incontro gratuito.">
@@ -17,7 +18,7 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
         </p>
         <div class="hero__actions">
           <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
-          <a href="/blog" class="btn btn--outline">Leggi gli articoli</a>
+          <a href={base + "blog"} class="btn btn--outline">Leggi gli articoli</a>
         </div>
       </div>
     </div>
@@ -228,3 +229,5 @@ const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@l
     }
   }
 </style>
+
+

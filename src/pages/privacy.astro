@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Privacy Policy — Michele Ferracin" description="Informativa sulla privacy del sito micheleferracin.it ai sensi del GDPR (Regolamento UE 2016/679).">
@@ -15,13 +16,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <article class="post-content" style="padding: 0; max-width: 100%;">
 
         <h2>1. Titolare del trattamento</h2>
-        <p>Il titolare del trattamento dei dati è <strong>Michele Ferracin</strong>, raggiungibile tramite la pagina <a href="/contact">Contatti</a> del sito.</p>
+        <p>Il titolare del trattamento dei dati è <strong>Michele Ferracin</strong>, raggiungibile tramite la pagina <a href={base + "contact"}>Contatti</a> del sito.</p>
 
         <h2>2. Tipologie di dati raccolti</h2>
         <p>Il sito <strong>micheleferracin.it</strong> potrebbe raccogliere le seguenti tipologie di dati:</p>
         <ul>
           <li><strong>Dati di navigazione:</strong> indirizzo IP, tipo di browser, sistema operativo, pagine visitate, orario di accesso. Questi dati sono raccolti in forma anonima e aggregata esclusivamente per finalità statistiche.</li>
-          <li><strong>Cookie:</strong> il sito utilizza cookie tecnici (necessari) e, previo consenso, cookie analitici. Per maggiori dettagli consulta la <a href="/cookie-policy">Cookie Policy</a>.</li>
+          <li><strong>Cookie:</strong> il sito utilizza cookie tecnici (necessari) e, previo consenso, cookie analitici. Per maggiori dettagli consulta la <a href={base + "cookie-policy"}>Cookie Policy</a>.</li>
           <li><strong>Dati forniti volontariamente:</strong> nome, email o altri dati personali forniti tramite form di contatto o iscrizione alla newsletter.</li>
         </ul>
 
@@ -47,7 +48,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <ul>
           <li>Dati di navigazione: massimo 26 mesi</li>
           <li>Dati della newsletter: fino a revoca del consenso</li>
-          <li>Cookie: vedi durata nella <a href="/cookie-policy">Cookie Policy</a></li>
+          <li>Cookie: vedi durata nella <a href={base + "cookie-policy"}>Cookie Policy</a></li>
         </ul>
 
         <h2>6. Diritti dell'interessato</h2>
@@ -61,7 +62,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <li><strong>Opposizione:</strong> opporti al trattamento dei tuoi dati</li>
           <li><strong>Revoca del consenso:</strong> revocare il consenso in qualsiasi momento</li>
         </ul>
-        <p>Per esercitare questi diritti, contattami tramite la pagina <a href="/contact">Contatti</a>.</p>
+        <p>Per esercitare questi diritti, contattami tramite la pagina <a href={base + "contact"}>Contatti</a>.</p>
 
         <h2>7. Trasferimento dati extra-UE</h2>
         <p>Alcuni servizi terzi utilizzati dal sito (es. Google Fonts, piattaforme newsletter) potrebbero comportare il trasferimento di dati verso paesi extra-UE. In tal caso, i trasferimenti avvengono sulla base di garanzie adeguate (clausole contrattuali standard, decisioni di adeguatezza).</p>
@@ -76,3 +77,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 </BaseLayout>
+
+

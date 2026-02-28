@@ -6,6 +6,7 @@
  * - Dispatches a custom "cookie-consent" event on the window so analytics/tracking
  *   scripts can listen and activate only after acceptance
  */
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Consenso cookie" aria-hidden="true">
@@ -16,7 +17,7 @@
       </p>
       <p>
         Utilizziamo cookie tecnici (necessari) e, con il tuo consenso, cookie analitici per migliorare la tua esperienza.
-        Puoi leggere la nostra <a href="/privacy">Privacy Policy</a> e la <a href="/cookie-policy">Cookie Policy</a> per maggiori dettagli.
+        Puoi leggere la nostra <a href={base + "privacy"}>Privacy Policy</a> e la <a href={base + "cookie-policy"}>Cookie Policy</a> per maggiori dettagli.
       </p>
     </div>
     <div class="cookie-banner__actions">
@@ -251,3 +252,5 @@
     hideBanner();
   });
 </script>
+
+
