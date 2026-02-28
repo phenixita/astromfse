@@ -49,6 +49,14 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
           <a href={base + "servizi/dotnet-modernization"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
         </div>
 
+        <div class="feature-card" style="position: relative;">
+          <span class="service-badge beta">beta</span>
+          <div class="feature-card__icon">✨</div>
+          <h3>AI ALM Adoption</h3>
+          <p>Integrazione strategica di AI nell'intero ciclo di sviluppo: planning, coding, testing, deployment. Con governance, quality gate e team upskilling.</p>
+          <a href={base + "servizi/ai-alm-adoption"} class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -60,6 +68,27 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
       <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
     </div>
   </section>
+
+  <style>
+    .service-badge {
+      position: absolute;
+      top: var(--space-sm);
+      right: var(--space-sm);
+      background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+      color: var(--color-white);
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .service-badge.beta {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+    }
+  </style>
 
 </BaseLayout>
 

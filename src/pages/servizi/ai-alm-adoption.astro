@@ -1,0 +1,241 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+---
+
+<BaseLayout title="Consulenza AI ALM Adoption — Michele Ferracin" description="Consulenza per l'adozione strategica di AI nell'intero ciclo di vita applicativo: integrazione negli strumenti ALM, automazione intelligente, change management e upskilling del team. Prenota un incontro gratuito.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src={base + "images/hero-azure-devops.jpg"} alt="" class="hero__bg" loading="eager" />
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge beta">beta</span>
+        <h1>Il tuo team merita <span class="highlight">AI integration nel flusso di sviluppo</span></h1>
+        <p class="hero__subtitle">
+          Basta scegliere tra productività e controllo. Ti aiuto a integrare AI strategicamente nell'intero ALM (Application Lifecycle Management): dall'ideazione al deployment, senza perdere ownership e qualità. Con change management e upskilling per rendere il tuo team protagonista, non spettatore.
+        </p>
+        <div class="hero__actions">
+          <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+          <a href={base + "blog"} class="btn btn--outline">Leggi gli articoli</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Ti riconosci in questi dilemmi?</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        La AI è ovunque. Ma come integrarla veramente nel tuo processo di sviluppo?
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">?</div>
+          <h3>Tool explosion</h3>
+          <p>AI Copilot, GitHub Copilot, ChatGPT, Perplexity... Quale usi quando? Come mantieni il controllo del codice?</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⚠️</div>
+          <h3>Hallucination & qualità</h3>
+          <p>Il codice generato funziona, ma quanto è manutenibile? Come verifichi sicurezza, performance e architettura?</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📋</div>
+          <h3>ALM frammentato</h3>
+          <p>Le decisioni prese con AI non sono tracciate in Azure Boards. Storie di utenti vague. Commit senza contesto. Chaos gestionale.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">👥</div>
+          <h3>Team disallineato</h3>
+          <p>Alcuni usano AI, altri no. Chi gestisce code review dei contributi generati? Come allinei il team su best practice?</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔒</div>
+          <h3>Compliance & sicurezza</h3>
+          <p>Dati sensibili in cloud tools pubblici? Librerie compromesse nel codice generato? Non puoi permettertelo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📊</div>
+          <h3>Nessun ROI misurabile</h3>
+          <p>La productività è aumentata? Dove, di quanto? Come sai se il tool vale davvero il costo e il rischio?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-image-break section-image-break--overlay">
+    <img src={base + "images/hero-azure-devops.jpg"} alt="AI integration nell'ALM" loading="lazy" />
+  </div>
+
+  <!-- SOLUTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Cosa costruiremo insieme</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Una strategia AI integrata nell'intero ALM: dalla planning al deployment, con governance, quality gates e team empowerment.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">🎯</div>
+          <h3>AI in Planning & Design</h3>
+          <p>Ai-assisted user story writing, architecture analysis, spike estimation. Azure Boards + AI, ma sempre tu a decidere.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">💻</div>
+          <h3>AI-Assisted Development</h3>
+          <p>Coding agent best practice, code review potenziato, test generation, refactoring con AI. Con guardrails chiari.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🛡️</div>
+          <h3>Quality Gates & Security</h3>
+          <p>Analisi statica AI-powered, SAST integration, dependency check automatico, compliance enforcement in CI/CD.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🤝</div>
+          <h3>Change Management & Training</h3>
+          <p>Roadmap chiaro, comunicazione del team, hands-on workshop, best practice guide, pair programming sessions con AI.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📈</div>
+          <h3>Metrics & ROI Tracking</h3>
+          <p>DORA metrics + AI-specific KPI: code quality improvement, lead time reduction, developer satisfaction, velocity trend.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔧</div>
+          <h3>Tool Integration & Governance</h3>
+          <p>Quale AI tool usi dove? Come orchestri GitHub Copilot, Azure AI, ChatGPT? Policy chiare, audit trail, cost optimization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section section--light">
+    <div class="container container--narrow">
+      <h2 class="text-center">Il mio approccio: AI Adoption Lifecycle</h2>
+      <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--space-xl);">Non introduco AI. Credo che il tuo team resti protagonista della trasformazione.</p>
+      <div class="approach-steps">
+        <div class="approach-step">
+          <div class="approach-step__number">1</div>
+          <div>
+            <h3>Assessment & Roadmap</h3>
+            <p>Analizzare il tuo attuale ALM, identificare quick wins e aree di rischio, definire una roadmap realistica a 6-12 mesi con owner chiari.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">2</div>
+          <div>
+            <h3>Pilot & Experimentation</h3>
+            <p>Partire con un team pilota, scegliere il tool giusto per il contesto, stabilire quality gate e success metric, imparare dai fallimenti.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">3</div>
+          <div>
+            <h3>Governance & Integration</h3>
+            <p>Integrare AI nei tuoi processi ALM: Azure Boards, CI/CD, code review, testing. Con policy, audit e controllo.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">4</div>
+          <div>
+            <h3>Team Upskilling & Scale</h3>
+            <p>Workshop, coaching, documentation. Trasformare i tuoi developer in "AI-aware engineers" che usano AI con consapevolezza e controllo.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">5</div>
+          <div>
+            <h3>Metrics & Continuous Improvement</h3>
+            <p>Misurare ROI effettivo, raccogliere feedback del team, ottimizzare la roadmap in base ai dati reali.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BETA NOTE -->
+  <section class="section">
+    <div class="container container--narrow" style="text-align: center;">
+      <div style="padding: var(--space-lg); background: var(--color-light-bg); border: 1px solid var(--color-border); border-radius: 8px;">
+        <h3>🧪 Questo è un servizio beta</h3>
+        <p>L'AI adoption è un'area in rapida evoluzione. Stiamo testando il nostro approccio con i primi clienti per perfezionare metodo, tool stack e ROI metrics. Se sei interessato a essere uno dei primi a sperimentare questa consulenza, prenota una call per discuterne.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto a integrare AI nel tuo ALM?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Parleremo della tua situazione, dei rischi, delle opportunità e dei prossimi step concreti.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .hero__badge.beta {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: var(--space-md);
+  }
+
+  .approach-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .approach-step {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    padding: var(--space-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all var(--transition);
+  }
+
+  .approach-step:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(var(--color-primary-rgb), 0.14);
+  }
+
+  .approach-step__number {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .approach-step h3 {
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (max-width: 600px) {
+    .approach-step {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+  }
+</style>
+
