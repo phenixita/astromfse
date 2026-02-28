@@ -12,7 +12,7 @@ I developer sono qui per restare… e lavorare assieme all’AI.
 ChatGPT 3.5 è stato lanciato al grande pubblico il 30 novembre 2022. Da quel momento si è spalancato il vaso di Pandora degli LLM e, passo dopo passo, siamo arrivati (mentre scrivo, a fine 2025) ad avere agenti integrati nei nostri IDE che scrivono software a partire da istruzioni in linguaggio naturale che ha persino dato vita a un nuovo modo di lavorare, chiamato vibe coding, entrato nel gergo comune all’inizio del 2025.
 Tra chi è convinto che l’AI non riuscirà mai a scrivere codice davvero utile e chi, all’opposto, prevede la scomparsa dei developer, il dibattito è stato continuo. Discussioni, esperimenti e ricerche si susseguono senza sosta perché la tecnologia degli LLM, e tutto quello che ci gira intorno, continua a evolversi a velocità impressionante.
 
-Inoltre, siamo ben lontani dal momento in cui potremmo delegare totalmente tutto agli LLM, come anche sostiene Mark Russinovich quando dice [“data l’architettura di questi modelli, delle context-window \[…\] l’AI non ci sostituirà completamente.”](
+Inoltre, siamo ben lontani dal momento in cui potremmo delegare totalmente tutto agli LLM, come sostiene anche Mark Russinovich.
 
 <div class="youtube-embed">
   <iframe
@@ -25,7 +25,7 @@ Inoltre, siamo ben lontani dal momento in cui potremmo delegare totalmente tutto
   ></iframe>
 </div>
 
-). Infatti, per me, l’AI oggi assomiglia a uno junior developer pieno di entusiasmo e idee, ma con poca esperienza: spesso prende cantonate e il suo lavoro va attentamente revisionato e controllato.
+Infatti, per me, l’AI oggi assomiglia a uno junior developer pieno di entusiasmo e idee, ma con poca esperienza: spesso prende cantonate e il suo lavoro va attentamente revisionato e controllato.
 
 In questo messaggio offro una panoramica sullo stato dell’arte dell’AI al servizio dei developer e dei team di sviluppo, con la consapevolezza che le scoperte in questo ambito continueranno a susseguirsi rapidamente e che una parte di ciò che leggerete potrebbe diventare obsoleta in pochi anni… o forse in pochi mesi!
 

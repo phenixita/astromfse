@@ -20,7 +20,7 @@ Significa che è in grado di:
 
 ## Azioni
 
-Vuoi saperne di più? Ecco un bel 
+Vuoi saperne di più? Ecco un bel video di introduzione all'architettura di Kubernetes:
 
 <div class="youtube-embed">
   <iframe
@@ -32,5 +32,3 @@ Vuoi saperne di più? Ecco un bel
     allowfullscreen
   ></iframe>
 </div>
-
-!
