@@ -1,0 +1,14 @@
+# Michele Ferracin - Software Engineering Consultant
+
+Sito personale di Michele Ferracin, consulente esperto in DevOps, CI/CD, Platform Engineering e organizzazione dei team di sviluppo.
+
+## Core Competencies
+- DevOps Strategy & Culture
+- CI/CD Pipelines & Automation
+- Kubernetes & Cloud Native Architecture
+- Team Topologies & Cognitive Load Management
+- Platform Engineering & Internal Developer Platforms (IDP)
+- DORA Metrics & Engineering Efficiency
+
+## Services
+Michele aiuta le aziende a migliorare il processo di rilascio del software, ridurre il time-to-market e aumentare la qualità del codice attraverso pratiche ingegneristiche moderne.
