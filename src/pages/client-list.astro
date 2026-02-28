@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const clients = [
+  { name: "ROBOMAGISTER", logo: "/images/clients/robomagister.jpg" },
+  { name: "Oliver James", logo: "/images/clients/oliver-james.gif" },
+  { name: "Fotolito Graphicolor", logo: "/images/clients/fotolito-graphicolor.png" },
+  { name: "Imagine Software", logo: "/images/clients/imagine-software.png" },
+  { name: "iCubed", logo: "/images/clients/icubed.png" },
+  { name: "MadLab", logo: "/images/clients/madlab.jpg" },
+  { name: "Logol", logo: "/images/clients/logol.png" },
+  { name: "Gruppo Lucchi Associati", logo: "/images/clients/gla.png" },
+  { name: "The Innovation Group", logo: "/images/clients/tig.png" },
+  { name: "STARCH", logo: "/images/clients/starch.png" },
+  { name: "e-Project", logo: "/images/clients/eproject.png" },
+  { name: "UPS Healthcare", logo: "/images/clients/ups-healthcare.png" },
+];
+---
+
+<BaseLayout title="Portfolio Clienti — Michele Ferracin" description="Aziende e organizzazioni che hanno scelto Michele Ferracin per consulenza DevOps, software engineering e trasformazione digitale.">
+
+  <section class="page-header">
+    <div class="container">
+      <span class="hero__badge">🤝 Clienti & Partner</span>
+      <h1>Portfolio Clienti</h1>
+      <p>Aziende e organizzazioni che hanno scelto di trasformare il loro modo di sviluppare software insieme a me.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="clients-grid">
+        {clients.map(client => (
+          <div class="client-card">
+            <div class="client-card__logo">
+              <img src={client.logo} alt={client.name} loading="lazy" />
+            </div>
+            <h4 class="client-card__name">{client.name}</h4>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Vuoi far parte di questa lista?</h2>
+      <p>Contattami per scoprire come posso aiutare il tuo team a raggiungere risultati concreti e misurabili.</p>
+      <a href="/contact" class="btn btn--primary">Parliamo →</a>
+    </div>
+  </section>
+
+</BaseLayout>
