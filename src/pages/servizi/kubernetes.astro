@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+---
+
+<BaseLayout title="Consulenza Kubernetes & Cloud-Native — Michele Ferracin" description="Consulenza Kubernetes e architetture cloud-native: AKS, microservizi, CI/CD con Docker, sicurezza cluster, monitoraggio e observability. Prenota un incontro gratuito.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">Kubernetes & Cloud-Native</span>
+        <h1>Le tue applicazioni meritano un'infrastruttura <span class="highlight">moderna e resiliente</span></h1>
+        <p class="hero__subtitle">
+          Vuoi adottare Kubernetes ma non sai da dove partire? Hai un cluster ma è instabile, insicuro o ingestibile? Ti guido dalla complessità alla padronanza, con un approccio pratico e orientato alla produzione.
+        </p>
+        <div class="hero__actions">
+          <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+          <a href="/blog" class="btn btn--outline">Leggi gli articoli</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Ti riconosci in queste situazioni?</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Kubernetes è potente, ma mal configurato può diventare il tuo peggior nemico.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">?!</div>
+          <h3>Complessità paralizzante</h3>
+          <p>Pod, Service, Ingress, ConfigMap, Secret, PV, PVC... Kubernetes ha una curva di apprendimento ripida e il team è bloccato.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">sec</div>
+          <h3>Sicurezza trascurata</h3>
+          <p>AKS è potente ma esposto. Privilegi eccessivi, credenziali in chiaro, RBAC configurato "a caso". Un disastro in attesa.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">···</div>
+          <h3>Riavvia e spera</h3>
+          <p>Quando qualcosa si rompe, mancano i dati. L'unica strategia è riavviare e sperare. Nessuna observability, nessun alerting.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&gt;_</div>
+          <h3>Deploy manuali</h3>
+          <p>Manifest copiati e incollati, kubectl apply a mano. Nessuna pipeline, nessuna ripetibilità, nessuna tracciabilità.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">vs</div>
+          <h3>Dev vs Ops</h3>
+          <p>Il team di sviluppo lancia container, il team ops non li capisce. Quando si rompe, inizia lo scaricabarile.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">ms</div>
+          <h3>Performance ignote</h3>
+          <p>Nessun test di carico, nessun baseline. Scopri i problemi di performance solo quando i clienti chiamano arrabbiati.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Cosa costruiremo insieme</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 650px; margin: 0 auto var(--space-xl);">
+        Un'infrastruttura Kubernetes production-ready: sicura, osservabile, automatizzata e gestibile dal tuo team.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">K8s</div>
+          <h3>Architettura Kubernetes</h3>
+          <p>Cluster design, namespace strategy, resource management. Un'architettura solida che scala con il tuo business.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">sec</div>
+          <h3>Sicurezza by design</h3>
+          <p>Azure AD integration, RBAC granulare, network policies, secret management. Sicurezza integrata, non aggiunta dopo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">CI</div>
+          <h3>CI/CD per Kubernetes</h3>
+          <p>Pipeline automatizzate con GitHub Actions o Azure Pipelines. Build, test, push e deploy automatici ad ogni commit.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">net</div>
+          <h3>Networking & Ingress</h3>
+          <p>Ingress Controller, TLS termination, traffic routing. Il traffico arriva dove deve arrivare, in modo sicuro e affidabile.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">obs</div>
+          <h3>Observability</h3>
+          <p>Le 4 metriche d'oro di Google: latenza, traffico, errori, saturazione. Sai sempre cosa succede nel tuo cluster.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">load</div>
+          <h3>Test di carico</h3>
+          <p>Valida le performance prima che i tuoi utenti le scoprano per te. Stress test, baseline e capacity planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FROM REACTIVE TO PROACTIVE -->
+  <section class="section section--light">
+    <div class="container container--narrow">
+      <h2 class="text-center">Da reattivo a proattivo</h2>
+      <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--space-xl);">Il mio approccio ti porta dalla cultura del "riavvia e spera" a operazioni Kubernetes proattive e osservabili.</p>
+      <div class="approach-steps">
+        <div class="approach-step">
+          <div class="approach-step__number">1</div>
+          <div>
+            <h3>Assessment</h3>
+            <p>Analizzo il tuo cluster attuale (o le esigenze se parti da zero): architettura, sicurezza, pipeline, monitoring. Identifico i gap critici e le quick win.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">2</div>
+          <div>
+            <h3>Fondamenta sicure</h3>
+            <p>Configuro RBAC, network policies, secret management e identity. La sicurezza è il fondamento, non un pensiero successivo.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">3</div>
+          <div>
+            <h3>Automazione CI/CD</h3>
+            <p>Pipeline che costruiscono, testano e deployano automaticamente. Manifest versionati, rollback sicuri, zero intervento manuale.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">4</div>
+          <div>
+            <h3>Observability completa</h3>
+            <p>Metriche, log, tracing distribuito, alerting intelligente. Quando qualcosa va storto, lo sai prima dei tuoi utenti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Esperienza comprovata</h2>
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: var(--space-xl);">
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">YT</div>
+          <h3>Video su YouTube</h3>
+          <p>Serie completa su architettura Kubernetes, Ingress Controller, sicurezza AKS, microservizi e CI/CD con Docker.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">U</div>
+          <h3>Corsi Udemy</h3>
+          <p>+1.100 studenti formati su DevOps, Kubernetes e cloud-native. 4.5/5 media recensioni.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">live</div>
+          <h3>Conference Speaker</h3>
+          <p>DevOps Heroes, DevOps At Work. Talk su resiliency patterns, canary release strategy e controlling chaos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto per un Kubernetes production-ready?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Analizzeremo insieme la tua infrastruttura e definiremo la roadmap per portarla al livello successivo.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .approach-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .approach-step {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    padding: var(--space-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all var(--transition);
+  }
+
+  .approach-step:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(1, 4, 64, 0.08);
+  }
+
+  .approach-step__number {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .approach-step h3 {
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (max-width: 600px) {
+    .approach-step {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+  }
+</style>

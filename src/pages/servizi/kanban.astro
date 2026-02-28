@@ -1,0 +1,243 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+---
+
+<BaseLayout title="Consulenza Kanban per Software Factory — Michele Ferracin" description="Consulenza Kanban per team di sviluppo: WIP limits, lead time, throughput, continuous improvement. Doma il caos nella tua software factory. Prenota un incontro gratuito.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">Kanban per Software Factory</span>
+        <h1>Doma il caos nella tua <span class="highlight">software factory</span></h1>
+        <p class="hero__subtitle">
+          Il tuo team è sempre in emergenza, nessuno sa quando sarà pronto il prossimo rilascio e le scadenze sono un miraggio? Con Kanban trasformiamo il caos in un flusso prevedibile e sostenibile.
+        </p>
+        <div class="hero__actions">
+          <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+          <a href="/blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban" class="btn btn--outline">Scarica l'eBook gratuito</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Questi problemi ti suonano familiari?</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Sono i sintomi di una software factory fuori controllo. La buona notizia: si possono risolvere.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">!!</div>
+          <h3>Sempre in emergenza</h3>
+          <p>Il team sembra sempre occupatissimo ma non chiude mai nulla. Tutti iniziano, nessuno finisce. La "falsa produttività" regna sovrana.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">SLA</div>
+          <h3>Scadenze mancate</h3>
+          <p>Prometti una data, la salti. Ogni volta. Il business non si fida più delle stime del team di sviluppo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">WIP</div>
+          <h3>Lavoro bloccato ovunque</h3>
+          <p>Item fermi in attesa di review, test, approvazioni. Il work-in-progress cresce, il lead time esplode.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">???</div>
+          <h3>Imprevedibilità totale</h3>
+          <p>Non sai quanto ci metti a rilasciare una feature. Nessuna metrica, nessun dato. Decisioni a sensazione.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">bug</div>
+          <h3>Qualità in picchiata</h3>
+          <p>Bug in produzione, rework continuo. Nel 2022, solo negli USA si sono spesi $2.41 trilioni per correggere difetti software.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">×</div>
+          <h3>Team esausto</h3>
+          <p>Nessuno ha tempo per migliorare, studiare, respirare. Il team è in modalità "pompiere" permanente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION: 6 PRACTICES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">La ricetta Kanban in 6 passi</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 650px; margin: 0 auto var(--space-xl);">
+        Basata sulle pratiche di David J. Anderson, adattata alle software factory moderne. Ecco cosa implementeremo insieme.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">Q</div>
+          <h3>1. Focus sulla qualità</h3>
+          <p>Investire nella qualità iniziale è il primo passo. Costa meno prevenire un bug che correggerlo. Costruiamo la qualità nel processo, non la testiamo dopo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">WIP</div>
+          <h3>2. Riduci il WIP</h3>
+          <p>La legge di Little è matematica: meno lavoro in corso = lead time più breve. Smettiamo di iniziare, iniziamo a finire.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">rel</div>
+          <h3>3. Rilascia spesso</h3>
+          <p>Rilasci piccoli e frequenti costruiscono fiducia. Il business vede valore costante, il team riduce il rischio ad ogni deploy.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">D/C</div>
+          <h3>4. Bilancia domanda e capacità</h3>
+          <p>Non puoi fare tutto. Impariamo a dire di no, a gestire la coda delle richieste e a proteggere la capacità del team.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">P</div>
+          <h3>5. Gestisci le priorità</h3>
+          <p>Le priorità funzionano solo quando il processo è affidabile. Prima stabilizzo il flusso, poi ottimizziamo cosa entra nella pipeline.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">σ</div>
+          <h3>6. Attacca la variabilità</h3>
+          <p>Richieste non pianificate, dipendenze esterne, requisiti vaghi. Identifichiamo e riduciamo le fonti di imprevedibilità.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METRICS -->
+  <section class="section section--light">
+    <div class="container container--narrow">
+      <h2 class="text-center">Le metriche che contano</h2>
+      <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--space-xl);">
+        Ciò che non si misura non si migliora. Ecco cosa tracceremo.
+      </p>
+      <div class="metrics-grid">
+        <div class="metric-item">
+          <div class="metric-item__icon">LT</div>
+          <div>
+            <h3>Lead Time</h3>
+            <p>Quanto tempo passa dalla richiesta alla consegna. L'indicatore più importante per il business.</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-item__icon">TP</div>
+          <div>
+            <h3>Throughput</h3>
+            <p>Quanti item completi per periodo. Misura la reale capacità del team di consegnare valore.</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-item__icon">n</div>
+          <div>
+            <h3>Work-In-Progress</h3>
+            <p>Quanti item sono in lavorazione contemporaneamente. Il nemico numero uno della produttività.</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-item__icon">%</div>
+          <div>
+            <h3>Rispetto delle scadenze</h3>
+            <p>Percentuale di item consegnati entro la data promessa. L'indicatore di fiducia verso il business.</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-item__icon">×</div>
+          <div>
+            <h3>Lavoro bloccato</h3>
+            <p>Quanti item sono fermi e perché. Ogni blocco è un'opportunità di miglioramento del processo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EBOOK & RESOURCES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Risorse gratuite</h2>
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: var(--space-xl);">
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">PDF</div>
+          <h3>eBook gratuito</h3>
+          <p>"Domare il caos in una software factory con Kanban" — la guida pratica per iniziare subito.</p>
+          <a href="/blog/ebook-gratuito-domare-il-caos-in-una-software-factory-con-kanban" class="btn btn--outline" style="margin-top: var(--space-md);">Scarica gratis</a>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">YT</div>
+          <h3>Video YouTube</h3>
+          <p>Serie completa sulle pratiche Kanban per team di sviluppo. +3.900 iscritti al canale.</p>
+          <a href="https://www.youtube.com/@MicheleFerracin/" target="_blank" rel="noopener" class="btn btn--outline" style="margin-top: var(--space-md);">Guarda i video</a>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">150+</div>
+          <h3>Articoli sul blog</h3>
+          <p>Guide pratiche su WIP limits, lead time, throughput e miglioramento continuo.</p>
+          <a href="/blog" class="btn btn--outline" style="margin-top: var(--space-md);">Leggi il blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto a domare il caos?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Analizzeremo insieme il flusso del tuo team e troveremo i primi quick win.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .metrics-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .metric-item {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all var(--transition);
+  }
+
+  .metric-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(1, 4, 64, 0.08);
+  }
+
+  .metric-item__icon {
+    font-size: 1.1rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--color-accent);
+    background: rgba(133, 134, 166, 0.1);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  .metric-item h3 {
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (max-width: 600px) {
+    .metric-item {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+  }
+</style>

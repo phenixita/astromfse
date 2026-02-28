@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+---
+
+<BaseLayout title="Consulenza .NET C# Modernization — Michele Ferracin" description="Consulenza per la modernizzazione di applicazioni .NET C#: refactoring, test strategy, debito tecnico, architettura modulare, AI-assisted development. Prenota un incontro gratuito.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">.NET C# Modernization</span>
+        <h1>Il tuo codice legacy non deve essere una <span class="highlight">condanna a vita</span></h1>
+        <p class="hero__subtitle">
+          Applicazioni .NET monolitiche, debito tecnico accumulato, test inesistenti e paura di toccare il codice? Ti aiuto a modernizzare il tuo software con un approccio graduale, sicuro e supportato dall'AI.
+        </p>
+        <div class="hero__actions">
+          <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+          <a href="/blog" class="btn btn--outline">Leggi gli articoli</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Il tuo codice .NET soffre di questi sintomi?</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Sono i segnali classici del debito tecnico accumulato. Più aspetti, più costa risolverli.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">old</div>
+          <h3>Monolite ingestibile</h3>
+          <p>Un'applicazione enorme dove ogni modifica rischia di rompere qualcos'altro. Nessuno osa fare refactoring.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">?=</div>
+          <h3>Test inesistentio inaffidabili</h3>
+          <p>Flaky test che falliscono a caso, test che dipendono dall'ordine di esecuzione, mock ovunque. O peggio: zero test.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">$$$</div>
+          <h3>Debito tecnico crescente</h3>
+          <p>Migrazioni incomplete, design inconsistente, logging assente, codice duplicato. Ogni feature nuova costa di più.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">!!</div>
+          <h3>Paura del cambiamento</h3>
+          <p>"Non toccarlo, funziona." Il team ha paura di modificare il codice perché non c'è rete di sicurezza.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">>>></div>
+          <h3>Velocity in calo</h3>
+          <p>Ogni sprint si consegna meno. Le feature semplici richiedono settimane. Il business si lamenta, il team è frustrato.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">PR</div>
+          <h3>Code review dolorose</h3>
+          <p>Pull request enormi, review che durano giorni, commenti passivo-aggressivi. Le code review sono una tortura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Come modernizziamo il tuo .NET</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 650px; margin: 0 auto var(--space-xl);">
+        Non riscriviamo tutto da zero. Modernizziamo gradualmente con un approccio sicuro, misurabile e supportato dall'AI.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">ref</div>
+          <h3>Refactoring by Example</h3>
+          <p>Un approccio sistematico: creiamo un "exemplar" di come il codice dovrebbe essere, poi l'AI ci aiuta a replicare il pattern su tutto il codebase.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">TDD</div>
+          <h3>Test Strategy moderna</h3>
+          <p>Test veloci (&lt;60ms), senza mock abusati, senza dipendenze dall'ordine. TDD + AI per massima produttività e sicurezza nel refactoring.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">mod</div>
+          <h3>Monolite modulare</h3>
+          <p>Non servono per forza i microservizi. Un monolite modulare in ASP.NET Core può darti i vantaggi della modularità senza la complessità distribuita.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">AI</div>
+          <h3>AI-Assisted Development</h3>
+          <p>GitHub Copilot, AI coding agents, TDD assistito. L'AI amplifica la capacità del team di modernizzare codice in modo sicuro e veloce.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">Q</div>
+          <h3>Qualità costruita nel processo</h3>
+          <p>La qualità non si testa a fine ciclo — si costruisce. CI, code review efficaci, pair programming, continuous integration.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">evt</div>
+          <h3>Architetture event-driven</h3>
+          <p>Saga Pattern, event sourcing, CQRS. Quando serve, guido il team verso architetture che scalano e sono resilienti.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section section--light">
+    <div class="container container--narrow">
+      <h2 class="text-center">Il percorso di modernizzazione</h2>
+      <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--space-xl);">Non una riscrittura big-bang. Un percorso graduale dove ogni passo porta valore immediato.</p>
+      <div class="approach-steps">
+        <div class="approach-step">
+          <div class="approach-step__number">1</div>
+          <div>
+            <h3>Assessment del debito tecnico</h3>
+            <p>Analizzo il codebase, identifico le aree critiche, mappo il debito tecnico. Prioritizzo in base all'impatto sul business, non sulla "pulizia" del codice.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">2</div>
+          <div>
+            <h3>Rete di sicurezza</h3>
+            <p>Prima di toccare qualsiasi cosa, costruiamo la rete di sicurezza: test automatici sulle aree critiche. Senza test, il refactoring è roulette russa.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">3</div>
+          <div>
+            <h3>Refactoring incrementale</h3>
+            <p>Modernizziamo un pezzo alla volta, con il supporto dell'AI. Ogni iterazione è piccola, testata e rilasciabile. Zero big-bang.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">4</div>
+          <div>
+            <h3>Autonomia del team</h3>
+            <p>Trasferisco conoscenze e pratiche al team. L'obiettivo è che il team continui a modernizzare autonomamente dopo il mio intervento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPEAKING -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Ne parlo anche dal vivo</h2>
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: var(--space-xl);">
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">live</div>
+          <h3>SharpCoding Roma 2026</h3>
+          <p>"I microservizi sono un'esagerazione? Scopri il monolite modulare in ASP.NET Core" — il mio prossimo talk live.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">YT</div>
+          <h3>Video YouTube</h3>
+          <p>AI + TDD, Saga Pattern con Copilot, refactoring by example. +3.900 iscritti, +80.000 views/anno.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">U</div>
+          <h3>Corsi Udemy</h3>
+          <p>+1.100 studenti, 4.5/5 media. Formazione pratica su .NET, DevOps e pratiche moderne di sviluppo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto a liberarti dal debito tecnico?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Analizzeremo insieme il tuo codebase e definiremo i primi passi per modernizzarlo in sicurezza.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .approach-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .approach-step {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    padding: var(--space-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all var(--transition);
+  }
+
+  .approach-step:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(1, 4, 64, 0.08);
+  }
+
+  .approach-step__number {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .approach-step h3 {
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (max-width: 600px) {
+    .approach-step {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+  }
+</style>

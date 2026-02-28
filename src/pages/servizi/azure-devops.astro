@@ -1,0 +1,223 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+---
+
+<BaseLayout title="Consulenza Azure DevOps — Michele Ferracin" description="Consulenza specializzata Azure DevOps: pipeline CI/CD, Azure Boards, trunk-based development, DORA metrics e automazione completa del ciclo di delivery. Prenota un incontro gratuito.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">Azure DevOps Expert</span>
+        <h1>Il tuo team merita <span class="highlight">rilasci senza dolore</span></h1>
+        <p class="hero__subtitle">
+          Pipeline bloccate, deploy manuali, rilasci del venerdì che rovinano il weekend? Ti aiuto a costruire un ciclo di delivery automatizzato, misurabile e affidabile con Azure DevOps.
+        </p>
+        <div class="hero__actions">
+          <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+          <a href="/blog" class="btn btn--outline">Leggi gli articoli</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Ti riconosci in questi problemi?</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Sono i sintomi più comuni di una software factory che ha bisogno di DevOps.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">!</div>
+          <h3>Rilasci dolorosi</h3>
+          <p>Ogni deployment è un evento stressante. Il team trattiene il respiro e spera che non si rompa nulla.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&gt;&gt;&gt;</div>
+          <h3>Processi manuali</h3>
+          <p>Build manuali, deploy a mano, test "a occhio". Tempo buttato e rischio di errore umano ad ogni rilascio.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">git</div>
+          <h3>Branch chaos</h3>
+          <p>Feature branch infiniti, merge conflict quotidiani, nessuno sa cosa c'è in produzione. Suona familiare?</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">---</div>
+          <h3>Zero visibilità</h3>
+          <p>Non sai quanto tempo ci metti dal commit al deploy. Non misuri nulla. Le decisioni sono basate su sensazioni.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">||</div>
+          <h3>Silos tra team</h3>
+          <p>Dev e Ops vivono in mondi separati. Quando qualcosa si rompe, inizia il gioco dello scaricabarile.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">DB</div>
+          <h3>Database fuori controllo</h3>
+          <p>Le modifiche al database sono ancora manuali? Script lanciati a mano in produzione? È un disastro annunciato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Cosa costruiremo insieme</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto var(--space-xl);">
+        Un ciclo di delivery moderno, automatizzato e misurabile. Basato sulle tre vie di DevOps e le metriche DORA.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">CI</div>
+          <h3>Pipeline CI/CD</h3>
+          <p>Build automatiche, test integrati, deploy in un click. Con il principio "build once, deploy many" per garantire consistenza tra gli ambienti.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">trunk</div>
+          <h3>Trunk-Based Development</h3>
+          <p>Addio ai feature branch infiniti. Commit piccoli e frequenti sul trunk, con feature flag per il rilascio controllato.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">DORA</div>
+          <h3>Metriche DORA</h3>
+          <p>Change Lead Time, Deployment Frequency, Change Failure Rate, Time to Restore. Misura ciò che conta per prendere decisioni basate sui dati.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">ADO</div>
+          <h3>Azure Boards</h3>
+          <p>Tracciamento del lavoro strutturato, integrato con GitHub e con gli strumenti AI più moderni come il Coding Agent.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">DB</div>
+          <h3>Database DevOps</h3>
+          <p>Versionamento degli schemi, script pre/post deployment, pipeline automatizzate anche per il database.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">+</div>
+          <h3>Integrazione Azure + GitHub</h3>
+          <p>Il meglio dei due mondi: Azure Boards per il work management, GitHub per il codice, tutto collegato e sincronizzato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section section--light">
+    <div class="container container--narrow">
+      <h2 class="text-center">Il mio approccio: le tre vie di DevOps</h2>
+      <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--space-xl);">Non installo tool. Trasformo il modo in cui il tuo team lavora.</p>
+      <div class="approach-steps">
+        <div class="approach-step">
+          <div class="approach-step__number">1</div>
+          <div>
+            <h3>Prima via: Flow</h3>
+            <p>Ottimizzare il flusso del lavoro da sinistra a destra, dal commit alla produzione. Eliminare i colli di bottiglia, automatizzare tutto ciò che è ripetitivo, standardizzare il ciclo di deployment.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">2</div>
+          <div>
+            <h3>Seconda via: Feedback</h3>
+            <p>Costruire cicli di feedback rapidi da destra a sinistra. Telemetria, monitoraggio, alerting — sapere subito quando qualcosa non va e avere i dati per agire.</p>
+          </div>
+        </div>
+        <div class="approach-step">
+          <div class="approach-step__number">3</div>
+          <div>
+            <h3>Terza via: Apprendimento continuo</h3>
+            <p>Creare una cultura generativa dove sperimentare è sicuro, i fallimenti sono occasioni di apprendimento e il miglioramento continuo è parte del DNA del team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Non devi fidarti delle mie parole</h2>
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: var(--space-xl);">
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">YT</div>
+          <h3>YouTube</h3>
+          <p>+3.900 iscritti, +80.000 views/anno. Video pratici su Azure DevOps, pipeline, trunk-based development e DORA metrics.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">U</div>
+          <h3>Udemy</h3>
+          <p>+1.100 studenti, 4.5/5 media recensioni. Corsi pratici su DevOps, CI/CD e automazione.</p>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">150+</div>
+          <h3>150+ Articoli</h3>
+          <p>Un blog ricco di guide pratiche, best practice e riflessioni su Azure DevOps e software engineering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto a trasformare i tuoi rilasci?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Analizzeremo insieme la tua situazione e definiremo i primi passi concreti.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .approach-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .approach-step {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    padding: var(--space-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all var(--transition);
+  }
+
+  .approach-step:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(1, 4, 64, 0.08);
+  }
+
+  .approach-step__number {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .approach-step h3 {
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (max-width: 600px) {
+    .approach-step {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+  }
+</style>

@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://outlook.office365.com/owa/calendar/MicheleFerracin@limeware.it/bookings/s/yBmhIL2mkESWdD961_3pRw2';
+---
+
+<BaseLayout title="Servizi — Michele Ferracin" description="Consulenza specializzata: Azure DevOps, Kanban, Kubernetes e .NET C# Modernization. Trasforma la tua software factory con un approccio pratico e orientato ai risultati.">
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Servizi</h1>
+      <p>Consulenza specializzata per portare la tua software factory al livello successivo.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+
+        <div class="feature-card">
+          <div class="feature-card__icon">//</div>
+          <h3>Azure DevOps</h3>
+          <p>Pipeline CI/CD, Azure Boards, trunk-based development, metriche DORA e automazione completa del ciclo di delivery.</p>
+          <a href="/servizi/azure-devops" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">WIP</div>
+          <h3>Kanban</h3>
+          <p>WIP limits, lead time, throughput, continuous improvement. Doma il caos e rendi prevedibile il tuo flusso di lavoro.</p>
+          <a href="/servizi/kanban" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">K8s</div>
+          <h3>Kubernetes</h3>
+          <p>Architetture cloud-native, AKS, microservizi, sicurezza cluster, CI/CD con Docker e observability.</p>
+          <a href="/servizi/kubernetes" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">C#</div>
+          <h3>.NET C# Modernization</h3>
+          <p>Refactoring, test strategy, debito tecnico, monolite modulare, AI-assisted development per codice .NET legacy.</p>
+          <a href="/servizi/dotnet-modernization" class="btn btn--outline" style="margin-top: var(--space-md);">Scopri di più →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Non sai da dove partire?</h2>
+      <p>Prenota un incontro gratuito e senza impegno. Insieme capiremo qual è il percorso giusto per la tua situazione.</p>
+      <a href={bookingUrl} target="_blank" rel="nofollow noopener" class="btn btn--primary">Prenota un incontro gratuito →</a>
+    </div>
+  </section>
+
+</BaseLayout>
