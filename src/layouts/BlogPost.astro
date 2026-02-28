@@ -1,0 +1,111 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  date: string;
+  slug: string;
+}
+
+const { title, date, slug } = Astro.props;
+
+const siteUrl = 'https://micheleferracin.it';
+const postUrl = `${siteUrl}/blog/${slug}/`;
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function toISO(dateStr: string): string {
+  return new Date(dateStr).toISOString();
+}
+
+// JSON-LD: BlogPosting schema
+const blogPostingJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "url": postUrl,
+  "datePublished": toISO(date),
+  "dateModified": toISO(date),
+  "inLanguage": "it-IT",
+  "author": {
+    "@type": "Person",
+    "name": "Michele Ferracin",
+    "url": siteUrl,
+    "jobTitle": "Software Engineering Consultant"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Michele Ferracin",
+    "url": siteUrl
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": postUrl
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "Michele Ferracin Blog",
+    "url": `${siteUrl}/blog/`
+  }
+};
+
+// BreadcrumbList
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog/` },
+    { "@type": "ListItem", "position": 3, "name": title, "item": postUrl }
+  ]
+};
+---
+
+<BaseLayout
+  title={`${title} — Michele Ferracin`}
+  description={`${title}. Articolo di Michele Ferracin su DevOps, software engineering e sviluppo software.`}
+  ogType="article"
+  canonicalUrl={postUrl}
+  publishedDate={toISO(date)}
+  modifiedDate={toISO(date)}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  </Fragment>
+
+  <div class="post-header">
+    <div class="container">
+      <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-md);">
+        <ol style="display: flex; list-style: none; gap: 0.5rem; font-size: 0.85rem; color: rgba(242,242,242,0.6);">
+          <li><a href="/" style="color: rgba(242,242,242,0.7);">Home</a> ›</li>
+          <li><a href="/blog" style="color: rgba(242,242,242,0.7);">Blog</a> ›</li>
+          <li style="color: var(--color-accent);">{title}</li>
+        </ol>
+      </nav>
+      <p class="post-header__date">
+        <time datetime={toISO(date)}>{formatDate(date)}</time>
+      </p>
+      <h1>{title}</h1>
+    </div>
+  </div>
+  <article class="post-content" itemscope itemtype="https://schema.org/BlogPosting">
+    <meta itemprop="headline" content={title} />
+    <meta itemprop="datePublished" content={toISO(date)} />
+    <meta itemprop="author" content="Michele Ferracin" />
+    <div itemprop="articleBody">
+      <slot />
+    </div>
+  </article>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Ti è piaciuto questo articolo?</h2>
+      <p>Iscriviti alla newsletter per ricevere contenuti su DevOps, software engineering e team di sviluppo direttamente nella tua casella di posta.</p>
+      <a href="https://go.micheleferracin.it/newsletter" class="btn btn--primary" target="_blank" rel="noopener">Iscriviti alla Newsletter →</a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,10 @@
+---
+title: "Deploylandia sfuggito qualcosa"
+date: "2025-03-26"
+slug: "deploylandia-sfuggito-qualcosa"
+categories: [37, 38]
+---
+
+Nel frattempo a Deploylandia...
+
+![deploylandia](https://mfitcontent.blob.core.windows.net/static/0002-Sfuggito-qualcosa-small.png)

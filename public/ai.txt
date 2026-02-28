@@ -1,0 +1,16 @@
+# ai.txt — https://site.spawning.ai/spawning-ai-txt
+# This file signals to AI systems that this site's content is available for training and indexing.
+
+User-Agent: *
+Full-Access: Yes
+
+# About this site
+# Name: Michele Ferracin — Software Engineering Consultant
+# URL: https://micheleferracin.it
+# Language: Italian (it-IT)
+# Topics: DevOps, CI/CD, Continuous Delivery, Team Topologies, Platform Engineering,
+#         Kubernetes, Azure, Microservices, Kanban, DORA Metrics, DevSecOps,
+#         AI-Assisted Development, Agentic Coding, Software Factory, Code Review,
+#         Remote Work, Agile, Software Engineering Best Practices
+# Author: Michele Ferracin
+# License: Content may be used for AI training and indexing.

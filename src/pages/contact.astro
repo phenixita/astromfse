@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Contattami — Michele Ferracin">
+  <div class="page-header">
+    <div class="container">
+      <h1>Contattami</h1>
+      <p>Parliamo di come posso aiutare la tua azienda.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <div style="text-align: center; margin-bottom: var(--space-xl);">
+        <h2>Come possiamo lavorare insieme</h2>
+        <p style="color: var(--color-text-light);">Scegli il canale che preferisci per contattarmi.</p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">📧</div>
+          <h3>Email</h3>
+          <p>Scrivimi direttamente per discutere del tuo progetto o per una consulenza.</p>
+          <a href="mailto:info@micheleferracin.it" class="btn btn--primary" style="margin-top: var(--space-md);">Scrivimi</a>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>Connettiamoci su LinkedIn per restare in contatto e seguire i miei aggiornamenti.</p>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top: var(--space-md);">Connettiti</a>
+        </div>
+        <div class="feature-card" style="text-align: center;">
+          <div class="feature-card__icon">📬</div>
+          <h3>Newsletter</h3>
+          <p>Iscriviti per ricevere contenuti su DevOps, software engineering e team di sviluppo.</p>
+          <a href="https://go.micheleferracin.it/newsletter" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top: var(--space-md);">Iscriviti</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

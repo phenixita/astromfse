@@ -1,0 +1,24 @@
+---
+title: "7 tattiche"
+date: "2025-04-27"
+slug: "7-tattiche"
+categories: [37, 38, 41]
+---
+
+Nell'ultimo messaggio ci siamo lasciati con una lista di domande per iniziare a indagare quanto il contesto culturale il cui ti trovi faciliti la produttività delle persone.
+
+Quali sono, invece, delle attività pratiche da poter implementare per creare un clima generativo?
+
+Ecco 7 idee che ho raccolto per te:
+
+- **Forma** team cross funzionali di persone che lavorano sullo stesso prodotto fianco a fianco evitando i reparti sviluppo, test, analisti, sistemisti…
+- **Incentiva** la comunicazione aperta. Incoraggia le persone a portare alla luce i problemi senza timore di ripercussioni.
+- **Condividi** i rischi e le responsabilità. Il team che sviluppa una feature ne è responsabile fino in produzione (e rispondi tu alle assistenze in caso di problemi).
+- **Trasforma** il fallimento in occasione di apprendimento. La reazione agli errori definisce la cultura. Perciò, istituzionalizzare un approccio di continuous learning. Ogni incidente o errore di produzione dovrebbe portare a domande (“perché è accaduto? cosa possiamo migliorare?”) invece che a colpe.
+- **Favorisci** l’innovazione e la novità. Una cultura stagnante è nemica del miglioramento. Crea spazi e momenti dedicati all’sperimentazione. Riserva, ad esempio, un giorno al mese (o il 10-20% del tempo) a progetti innovativi o di formazione.
+- **Riconosci** e premia i comportamenti positivi. Per rinforzare la cultura che vuoi, i comportamenti che la incarnano vanno visibilmente valorizzati.
+- **Guida** con l’esempio e allinea l’intera organizzazione. Tutte queste strategie funzionano solo se c’è coerenza e supporto dall’alto. La sponsorizzazione attiva da parte del top management, in termini di comunicazione, risorse e tempo dedicato, è essenziale per radicare i cambiamenti culturali
+
+## Azioni / Finale
+
+Quali di queste idee ti piace di più o si adatta più facilmente al tuo contesto?

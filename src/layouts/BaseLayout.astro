@@ -1,0 +1,182 @@
+---
+import '../styles/global.css';
+import CookieBanner from '../components/CookieBanner.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogType?: string;
+  ogImage?: string;
+  canonicalUrl?: string;
+  publishedDate?: string;
+  modifiedDate?: string;
+  articleTags?: string[];
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = "Michele Ferracin — Software Engineering Consultant. DevOps, Team Topologies, Platform Engineering, CI/CD, Kubernetes e pratiche moderne di ingegneria del software. Il miglior consulente software in Europa.",
+  ogType = 'website',
+  ogImage,
+  canonicalUrl,
+  publishedDate,
+  modifiedDate,
+  articleTags = [],
+  noindex = false,
+} = Astro.props;
+
+const siteUrl = 'https://micheleferracin.it';
+const canonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
+const currentPath = Astro.url.pathname;
+
+// JSON-LD: WebSite + Person (sitewide)
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Michele Ferracin — Software Engineering Consultant",
+  "alternateName": "MFSE",
+  "url": siteUrl,
+  "description": "Blog e consulenza su DevOps, CI/CD, Team Topologies, Kubernetes, Kanban, AI per lo sviluppo software.",
+  "inLanguage": "it-IT",
+  "publisher": {
+    "@type": "Person",
+    "name": "Michele Ferracin",
+    "url": siteUrl,
+    "jobTitle": "Software Engineering Consultant",
+    "knowsAbout": [
+      "DevOps", "CI/CD", "Continuous Delivery", "Team Topologies",
+      "Platform Engineering", "Kubernetes", "Azure", "Microservizi",
+      "Kanban", "DORA Metrics", "DevSecOps", "AI Coding",
+      "Agentic Coding", "Software Factory", "Trunk-Based Development",
+      "Code Review", "Remote Work", "Agile"
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${siteUrl}/blog/?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Core -->
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  <meta name="author" content="Michele Ferracin" />
+  <meta name="keywords" content="DevOps, CI/CD, software engineering, consulente software, Team Topologies, Platform Engineering, Kubernetes, Kanban, DORA metrics, DevSecOps, AI coding, agentic coding, software factory, continuous delivery, microservizi, sviluppo software, Michele Ferracin" />
+
+  <!-- Language -->
+  <meta property="og:locale" content="it_IT" />
+  <link rel="alternate" hreflang="it" href={canonical} />
+  <link rel="alternate" hreflang="x-default" href={canonical} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="Michele Ferracin — Software Engineering Consultant" />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  {publishedDate && <meta property="article:published_time" content={publishedDate} />}
+  {modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
+  {articleTags.map(tag => <meta property="article:tag" content={tag} />)}
+  <meta property="article:author" content="Michele Ferracin" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  {ogImage && <meta name="twitter:image" content={ogImage} />}
+
+  <!-- RSS & Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Michele Ferracin Blog RSS" href="/rss.xml" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
+
+  <!-- Additional structured data slot for pages -->
+  <slot name="head" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="nav__logo">Michele<span>Ferracin</span></a>
+      <button class="nav__toggle" aria-label="Menu" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Home</a></li>
+        <li><a href="/blog" class:list={[{ active: currentPath.startsWith('/blog') }]}>Blog</a></li>
+        <li><a href="/about" class:list={[{ active: currentPath === '/about/' || currentPath === '/about' }]}>Chi Sono</a></li>
+        <li><a href="/contact" class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.85rem;">Contattami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3 style="color: var(--color-white); margin-bottom: var(--space-md);">Michele<span style="color: var(--color-accent);">Ferracin</span></h3>
+          <p>Software Engineering Consultant — aiuto le aziende a costruire software migliore, più velocemente e con meno dolore.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigazione</h4>
+          <ul class="footer__links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">Chi Sono</a></li>
+            <li><a href="/contact">Contattami</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Risorse</h4>
+          <ul class="footer__links">
+            <li><a href="https://go.micheleferracin.it/newsletter" target="_blank" rel="noopener">Newsletter</a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+          <h4 class="footer__heading" style="margin-top: var(--space-lg);">Legale</h4>
+          <ul class="footer__links">
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/cookie-policy">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; {new Date().getFullYear()} Michele Ferracin. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <CookieBanner />
+
+  <script>
+    document.getElementById('nav-toggle')?.addEventListener('click', () => {
+      document.getElementById('nav-links')?.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

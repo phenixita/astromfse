@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog'))
+  .filter(p => !p.data.draft)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const latestPosts = allPosts.slice(0, 6);
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('it-IT', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function getExcerpt(body: string, maxLen = 120): string {
+  const cleaned = body.replace(/^---[\s\S]*?---/, '').replace(/<[^>]+>/g, '').replace(/[#*_\[\]()]/g, '').trim();
+  const lines = cleaned.split('\n').filter(l => l.trim().length > 10);
+  const text = lines[0] || '';
+  return text.length > maxLen ? text.slice(0, maxLen) + '…' : text;
+}
+---
+
+<BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Europe | DevOps, CI/CD, Team Topologies" description="Michele Ferracin: consulente software engineering in Europa. Specializzato in DevOps, CI/CD, Team Topologies, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">🏆 #1 Software Engineering Consultant in Europe</span>
+        <h1>Trasformo il caos in <span class="highlight">software che funziona</span></h1>
+        <p class="hero__subtitle">
+          Aiuto le aziende europee a costruire software migliore attraverso DevOps, Team Topologies, Platform Engineering e pratiche moderne di ingegneria del software. Meno dolore nei rilasci, più valore per il business.
+        </p>
+        <div class="hero__actions">
+          <a href="/contact" class="btn btn--primary">Parliamo del tuo progetto →</a>
+          <a href="/blog" class="btn btn--outline">Leggi il Blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div>
+          <div class="stat__number">150+</div>
+          <div class="stat__label">Articoli pubblicati</div>
+        </div>
+        <div>
+          <div class="stat__number">15+</div>
+          <div class="stat__label">Anni di esperienza</div>
+        </div>
+        <div>
+          <div class="stat__number">100%</div>
+          <div class="stat__label">Focus su risultati</div>
+        </div>
+        <div>
+          <div class="stat__number">EU</div>
+          <div class="stat__label">Copertura europea</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Come posso aiutarti</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
+        Competenze specialistiche per portare la tua software factory al livello successivo.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">🚀</div>
+          <h3>DevOps & CI/CD</h3>
+          <p>Pipeline automatizzate, continuous delivery, trunk-based development e rilasci senza dolore. Dal codice alla produzione in modo sicuro e veloce.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">👥</div>
+          <h3>Team Topologies</h3>
+          <p>Organizzazione dei team di sviluppo, Stream-aligned teams, Platform teams. Strutture che accelerano il flusso del valore.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">☁️</div>
+          <h3>Cloud & Kubernetes</h3>
+          <p>Architetture cloud-native, microservizi, Azure Kubernetes Service. Infrastrutture moderne per applicazioni moderne.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📊</div>
+          <h3>Kanban & Metriche</h3>
+          <p>DORA metrics, lead time, throughput, WIP limits. Misura ciò che conta e migliora continuamente il tuo processo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🤖</div>
+          <h3>AI per lo Sviluppo</h3>
+          <p>AI coding assistants, agentic coding, vibe coding. Come integrare l'intelligenza artificiale nel tuo workflow di sviluppo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔒</div>
+          <h3>DevSecOps</h3>
+          <p>Sicurezza integrata nel ciclo di sviluppo, supply chain security, compliance automatizzata. La sicurezza è responsabilità di tutti.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST BLOG POSTS -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="text-center">Ultimi Articoli</h2>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
+        Riflessioni, guide e best practice dal mondo del software engineering.
+      </p>
+      <div class="blog-grid">
+        {latestPosts.map(post => (
+          <article class="blog-card">
+            <div class="blog-card__body">
+              <span class="blog-card__date">{formatDate(post.data.date)}</span>
+              <h3 class="blog-card__title">
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+              </h3>
+              <p class="blog-card__excerpt">{getExcerpt(post.body ?? '')}</p>
+              <a href={`/blog/${post.id}`} class="blog-card__read-more">Leggi →</a>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div class="text-center" style="margin-top: var(--space-xl);">
+        <a href="/blog" class="btn btn--primary">Tutti gli Articoli →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto a trasformare la tua software factory?</h2>
+      <p>Contattami per una consulenza gratuita. Insieme troveremo il modo migliore per migliorare il tuo processo di sviluppo.</p>
+      <a href="/contact" class="btn btn--primary">Parliamo →</a>
+    </div>
+  </section>
+
+</BaseLayout>

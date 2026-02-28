@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Cookie Policy — Michele Ferracin" description="Informativa sull'uso dei cookie del sito micheleferracin.it ai sensi del GDPR e della Direttiva ePrivacy.">
+  <div class="page-header">
+    <div class="container">
+      <h1>Cookie Policy</h1>
+      <p>Informativa sull'utilizzo dei cookie ai sensi del GDPR e della Direttiva ePrivacy</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <article class="post-content" style="padding: 0; max-width: 100%;">
+
+        <h2>Cosa sono i cookie</h2>
+        <p>I cookie sono piccoli file di testo che i siti web salvano sul tuo dispositivo (computer, tablet, smartphone) durante la navigazione. Servono a memorizzare preferenze, migliorare l'esperienza di navigazione e raccogliere informazioni statistiche anonime.</p>
+
+        <h2>Tipologie di cookie utilizzati</h2>
+
+        <h3>🟢 Cookie tecnici (necessari)</h3>
+        <p>Questi cookie sono <strong>essenziali</strong> per il funzionamento del sito e non richiedono il tuo consenso.</p>
+        <table style="width: 100%; border-collapse: collapse; margin: var(--space-md) 0;">
+          <thead>
+            <tr style="border-bottom: 2px solid var(--color-border); text-align: left;">
+              <th style="padding: var(--space-sm);">Cookie</th>
+              <th style="padding: var(--space-sm);">Finalità</th>
+              <th style="padding: var(--space-sm);">Durata</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--color-border);">
+              <td style="padding: var(--space-sm);"><code>cookie_consent</code></td>
+              <td style="padding: var(--space-sm);">Memorizza le tue preferenze sui cookie</td>
+              <td style="padding: var(--space-sm);">1 anno</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>🟡 Cookie analitici (previo consenso)</h3>
+        <p>Questi cookie ci aiutano a capire come i visitatori interagiscono con il sito, raccogliendo informazioni in forma <strong>anonima e aggregata</strong>. Vengono attivati <strong>solo dopo il tuo consenso esplicito</strong>.</p>
+        <p>Al momento il sito non utilizza cookie analitici di terze parti. Se in futuro verranno introdotti (es. Google Analytics, Plausible, ecc.), questa policy verrà aggiornata e il banner di consenso li includerà.</p>
+
+        <h3>🔴 Cookie di profilazione</h3>
+        <p>Questo sito <strong>non utilizza cookie di profilazione</strong>.</p>
+
+        <h2>Cookie di terze parti</h2>
+        <p>Il sito potrebbe caricare risorse da servizi terzi che impostano propri cookie:</p>
+        <ul>
+          <li><strong>Google Fonts:</strong> per il caricamento dei font. Google potrebbe raccogliere dati di navigazione. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy di Google</a></li>
+        </ul>
+
+        <h2>Come gestire i cookie</h2>
+        <p>Puoi gestire le tue preferenze in qualsiasi momento:</p>
+        <ul>
+          <li><strong>Banner di consenso:</strong> clicca il pulsante qui sotto per modificare le tue scelte</li>
+          <li><strong>Impostazioni del browser:</strong> puoi disabilitare o eliminare i cookie dalle impostazioni del tuo browser</li>
+        </ul>
+        <div style="margin: var(--space-lg) 0;">
+          <button id="reopen-cookie-banner" class="btn btn--primary">Modifica preferenze cookie</button>
+        </div>
+
+        <h3>Come disabilitare i cookie nel browser</h3>
+        <ul>
+          <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+          <li><a href="https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+          <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Apple Safari</a></li>
+          <li><a href="https://support.microsoft.com/it-it/microsoft-edge/eliminare-i-cookie-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener">Microsoft Edge</a></li>
+        </ul>
+
+        <h2>Base giuridica</h2>
+        <ul>
+          <li><strong>Cookie tecnici:</strong> Art. 6(1)(f) GDPR — legittimo interesse</li>
+          <li><strong>Cookie analitici:</strong> Art. 6(1)(a) GDPR — consenso dell'utente</li>
+        </ul>
+
+        <h2>Aggiornamenti</h2>
+        <p>Questa cookie policy può essere aggiornata periodicamente. L'ultima modifica risale al <strong>28 febbraio 2026</strong>.</p>
+        <p>Per qualsiasi domanda, contattami tramite la pagina <a href="/contact">Contatti</a>.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('reopen-cookie-banner')?.addEventListener('click', () => {
+      // Clear existing consent to re-show banner
+      document.cookie = 'cookie_consent=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;SameSite=Lax';
+      const banner = document.getElementById('cookie-banner');
+      if (banner) {
+        banner.classList.add('visible');
+        banner.setAttribute('aria-hidden', 'false');
+      }
+    });
+  </script>
+</BaseLayout>

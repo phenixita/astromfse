@@ -1,0 +1,40 @@
+{
+  "name": "Michele Ferracin — Software Engineering Consultant",
+  "url": "https://micheleferracin.it",
+  "description": "Blog e consulenza su DevOps, CI/CD, Team Topologies, Kubernetes, Kanban, AI per lo sviluppo software e pratiche moderne di ingegneria del software.",
+  "author": "Michele Ferracin",
+  "language": "it-IT",
+  "feeds": [
+    {
+      "type": "application/rss+xml",
+      "url": "https://micheleferracin.it/rss.xml"
+    }
+  ],
+  "sitemap": "https://micheleferracin.it/sitemap-index.xml",
+  "topics": [
+    "DevOps",
+    "CI/CD",
+    "Continuous Delivery",
+    "Team Topologies",
+    "Platform Engineering",
+    "Kubernetes",
+    "Azure",
+    "Microservices",
+    "Kanban",
+    "DORA Metrics",
+    "DevSecOps",
+    "AI-Assisted Development",
+    "Agentic Coding",
+    "Software Factory",
+    "Code Review",
+    "Remote Work",
+    "Agile",
+    "Software Engineering"
+  ],
+  "ai_policy": {
+    "allow_training": true,
+    "allow_indexing": true,
+    "allow_summarization": true,
+    "allow_citation": true
+  }
+}
