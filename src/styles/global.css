@@ -1316,6 +1316,56 @@ p {
 }
 
 /* ============================================================
+   HERO / PAGE-HEADER BACKGROUND IMAGES
+   ============================================================ */
+.hero__bg,
+.page-header__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+/* ============================================================
+   SECTION IMAGE BREAK
+   ============================================================ */
+.section-image-break {
+  width: 100%;
+  height: clamp(200px, 22vw, 320px);
+  overflow: hidden;
+  position: relative;
+}
+
+.section-image-break img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.section-image-break--overlay {
+  position: relative;
+}
+
+.section-image-break--overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    var(--color-white) 0%,
+    transparent 18%,
+    transparent 82%,
+    var(--color-white) 100%
+  );
+  pointer-events: none;
+}
+
+/* ============================================================
    PAGINATION
    ============================================================ */
 .pagination {

@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title="Contattami — Michele Ferracin">
   <div class="page-header">
+    <img src={base + "images/hero-contact.jpg"} alt="" class="page-header__bg" loading="eager" />
     <div class="container">
       <div class="page-header__text">
         <h1>Contattami</h1>
