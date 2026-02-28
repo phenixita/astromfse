@@ -1,0 +1,35 @@
+L'avevo detto che avrei parlato di cose terra-terra.
+
+Ecco, quindi... Pronti... via!
+
+Giusto per divertimento usciamo dal mondo software e dedichiamoci ai… piedi!
+
+Tutti noi vogliamo camminare fuori casa senza farci male e quindi indossiamo calzature. Pensa a quando entri in un negozio di calzature: decine di modelli diversi occupano svariate categorie di prodotto: ciabatte, stivali, scarpe da ginnastica, da corsa, sneaker, scarpe eleganti… Stanno tutte nello spazio problema “proteggersi i piedi” ma ognuna lo interpreta con delle differenze e delle specificità. Ogni singolo modello di calzature vive nello spazio soluzione.
+ 
+Un ulteriore esercizio consiste nello sperimentare con diverse varianti dello spazio problema per constatare quanto ognuna ci indirizzi verso o ci allontani da specifiche soluzioni. Ad esempio, camminare proteggendo i piedi:
+
+- in climi freddi 
+- e poter fare acrobazie
+- e poter correre veloce
+- ed essere alla moda
+- in climi caldi...
+
+Ora... sono pronto a scommettere che, mentre leggevi questi spazi-problema più specifici, hai cominciato a identificare una serie di prodotti diversi. Vero? Lo so perché a me è successo mentre scrivevo! Una chiara definizione e comprensione dello spazio problema in cui ti vuoi collocare è uno strumento potentissimo per capire in quale mercato il tuo prodotto compete davvero.
+ 
+
+## Sharing is caring
+
+Se conosci qualcuno che potrebbe trovare utile ricevere e-mail per migliorare l'organizzazione dei team di sviluppo software, DevOps e software engineering in generale inoltragli questo post! [Qui può iscriversi](https://go.micheleferracin.it/newsletter) e cominciare a ricevere subito!
+
+ 
+
+<!-- 
+{
+    "categories": [
+         38,44
+    ],
+    "plannedDate": "20250617T05:00:00Z",
+    "slug": "esempio-reale-di-spazio-soluzione-e-spazio-problema",
+    "title": "Esempio reale di spazio soluzione e spazio problema"
+}
+-->
