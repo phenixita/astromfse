@@ -52,8 +52,8 @@ Checklist rapida:
 Workflow unico: `.github/workflows/deploy-swa.yml`
 
 Comportamento:
-- `push` su `main`: sempre build/deploy app; infra prima del deploy app
-- Infra deploy solo se cambia qualcosa in `infra/` (oppure su `workflow_dispatch`)
+- `push` su `main`: infra sempre, poi build/deploy app
+- `pull_request` su `main`: infra sempre prima dei job SWA
 - `pull_request` su `main`:
 	- `opened/synchronize/reopened`: deploy ambiente di staging SWA
 	- `closed`: chiusura ambiente staging
@@ -64,10 +64,13 @@ Ordine logico su `main`:
 3. Job deploy SWA
 
 Segreti richiesti:
-- `AZURE_STATIC_WEB_APPS_API_TOKEN`
 - `AZURE_CLIENT_ID`
 - `AZURE_TENANT_ID`
 - `AZURE_SUBSCRIPTION_ID`
+
+Nota token SWA:
+- Fonte unica: output `deploymentToken` di `infra/main.bicep`
+- Nessun fallback e nessuno skip su secret mancanti
 
 Repository variables richieste:
 - `AZURE_RESOURCE_GROUP`
