@@ -2,7 +2,7 @@
 title: "Ci saranno sempre le persone"
 date: "2025-11-03"
 permalink: "ci-saranno-sempre-le-persone"
-categories: [27, 38]
+categories: ['predictions', 'daily']
 ---
 
 Tra dieci anni lo sviluppo software sarà molto diverso da come lo conosciamo oggi con l'evoluzione non prevedibile degli strumenti basati sull'AI.

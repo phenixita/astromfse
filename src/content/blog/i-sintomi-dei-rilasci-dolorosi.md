@@ -2,7 +2,7 @@
 title: "I sintomi dei rilasci dolorosi"
 date: "2025-07-10"
 permalink: "i-sintomi-dei-rilasci-dolorosi"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 I principali sintomi dei rilasci dolorosi sono facili da individuare.

@@ -2,7 +2,7 @@
 title: "Esempio reale di spazio soluzione e spazio problema"
 date: "2025-06-17"
 permalink: "esempio-reale-di-spazio-soluzione-e-spazio-problema"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 L'avevo detto che avrei parlato di cose terra-terra.

@@ -2,7 +2,7 @@
 title: "Prototipazione"
 date: "2025-06-29"
 permalink: "prototipazione"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 La prototipazione... che parola! Ci fa sentire all'avventura, alla scoperta! Come software engineer adoro i prototitpi!

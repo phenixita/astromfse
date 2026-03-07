@@ -2,7 +2,7 @@
 title: "Sufficiente buono ottimo vari setup per remote worker"
 date: "2026-01-12"
 permalink: "sufficiente-buono-ottimo-vari-setup-per-remote-worker"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Faccio remote work dal 2020 e sono uno YouTuber occasionale da 3 anni. Ogni tanto metto in discussione il mio setup perché meglio i miei clienti e spettatori riescono a vedermi e sentirmi meglio è!

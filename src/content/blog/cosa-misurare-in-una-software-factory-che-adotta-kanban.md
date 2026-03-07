@@ -2,7 +2,7 @@
 title: "Cosa misurare in una software factory che adotta Kanban"
 date: "2025-11-10"
 permalink: "cosa-misurare-in-una-software-factory-che-adotta-kanban"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nei progetti adozione della metodologia Kanban si cerca di minimizzare i cambiamenti dei singoli ruoli che intervengono lungo il value stream. I titoli assegnati rimangono gli stessi e pure le responsabilità quotidiane.

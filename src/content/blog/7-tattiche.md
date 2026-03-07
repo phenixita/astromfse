@@ -2,7 +2,7 @@
 title: "7 tattiche"
 date: "2025-04-27"
 permalink: "7-tattiche"
-categories: [37, 38, 41]
+categories: ['devops', 'daily', 'cultura']
 ---
 
 Nell'ultimo messaggio ci siamo lasciati con una lista di domande per iniziare a indagare quanto il contesto culturale il cui ti trovi faciliti la produttività delle persone.

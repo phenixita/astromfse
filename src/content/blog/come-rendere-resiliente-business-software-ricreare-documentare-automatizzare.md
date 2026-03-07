@@ -2,7 +2,7 @@
 title: "Come rendere resiliente il tuo software business ricreare  documentare  automatizzare"
 date: "2025-04-06"
 permalink: "come-rendere-resiliente-business-software-ricreare-documentare-automatizzare"
-categories: [37, 38, 35]
+categories: ['devops', 'daily', 'software-factory']
 ---
 
 [Nell'episodio precedente](https://micheleferracin.it/?p=894) abbiamo introdotto a livello generale la strategia Ricrea, Documenta, Automatizza per rendere resiliente un business basato sul software.

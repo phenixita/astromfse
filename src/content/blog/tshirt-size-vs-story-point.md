@@ -2,7 +2,7 @@
 title: "T-shirt size vs Story point: quando usarli?"
 date: "2026-01-13"
 permalink: "tshirt-size-vs-story-point"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 T-shirt size o story point?

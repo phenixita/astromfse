@@ -2,7 +2,7 @@
 title: "Saga Pattern e Copilot"
 date: "2025-12-15"
 permalink: "saga-pattern-e-copilot"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Oggi combo tattica di Plan + Agent con Copilot insieme a [Luigi Borile](https://www.linkedin.com/in/luigi-borile-a4a71a11a/). Contesto: Saga Pattern.

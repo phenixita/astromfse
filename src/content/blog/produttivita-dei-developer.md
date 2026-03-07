@@ -2,7 +2,7 @@
 title: "Produttività dei developer"
 date: "2025-04-25"
 permalink: "produttivita-dei-developer"
-categories: [37, 38, 41, 35]
+categories: ['devops', 'daily', 'cultura', 'software-factory']
 ---
 
 Di sicuro ci sono stati dei giorni dove, a fine giornata, ti sei sentito produttivo. Sì, quel giorno sei riuscito a esprimere il tuo vero potenziale. Altri giorni, invece, ti trascini scarico di energie ed entusiasmo e il tuo potenziale non si esprime.

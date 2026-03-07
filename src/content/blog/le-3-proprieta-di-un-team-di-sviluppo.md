@@ -2,7 +2,7 @@
 title: "Le 3 proprietà di un team di sviluppo"
 date: "2025-05-18"
 permalink: "le-3-proprieta-di-un-team-di-sviluppo"
-categories: [37, 38, 41]
+categories: ['devops', 'daily', 'cultura']
 ---
 
 Nella concezione moderna dello sviluppo software il team viene inteso come l’unità elementare di produzione e consegna del software e presenta queste caratteristiche:

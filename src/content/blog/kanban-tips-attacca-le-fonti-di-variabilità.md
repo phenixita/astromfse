@@ -2,7 +2,7 @@
 title: "Kanban tips Attacca le fonti di variabilità"
 date: "2025-05-15"
 permalink: "kanban-tips-attacca-le-fonti-di-variabilità"
-categories: [37, 42]
+categories: ['devops', 'kanban']
 ---
 
 Siamo all'ultimo passo della ricetta del successo per Kanban intrapresa qualche messaggio fa.

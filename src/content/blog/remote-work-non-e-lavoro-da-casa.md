@@ -2,7 +2,7 @@
 title: "Remote work non è lavoro da casa"
 date: "2025-06-06"
 permalink: "remote-work-non-e-lavoro-da-casa"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Negli ultimi messaggi abbiamo parlato di pro e contro del remote-work.

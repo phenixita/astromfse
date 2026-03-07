@@ -2,7 +2,7 @@
 title: "Assistenti specializzati con Awesome Copilot"
 date: "2025-09-23"
 permalink: "assistenti-specializzati-con-awesome-copilot"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 In questi giorni sto lavorando su uno stack tecnologico molto completo: da front-end React (poco, ammetto) fino a infrastruttura su k8s (con il solito rapporto amore-odio!).

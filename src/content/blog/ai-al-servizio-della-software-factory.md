@@ -2,7 +2,7 @@
 title: "AI al servizio della software factory"
 date: "2025-09-19"
 permalink: "ai-al-servizio-della-software-factory"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 Dal coding assistito al triage del backlog, l’AI si sta diffondendo in ogni ruolo e dipartimento della software factory, spingendoci a ripensare il modo in cui affrontiamo le nostre attività. Meglio adottare un approccio AI-first, partendo da ciò che suggerisce il modello per poi rifinire, oppure lavorare in modo tradizionale e usare l’AI solo come revisore? Quali attività traggono vantaggio dal primo approccio e quali dal secondo? E ce ne sono altre che resteranno, almeno per ora, estranee all’uso dell’AI?

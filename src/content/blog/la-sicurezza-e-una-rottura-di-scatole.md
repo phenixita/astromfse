@@ -2,7 +2,7 @@
 title: "La sicurezza è una rottura di scatole?"
 date: "2025-07-31"
 permalink: "la-sicurezza-e-una-rottura-di-scatole"
-categories: [37, 38, 45]
+categories: ['devops', 'daily', 'sicurezza']
 ---
 
 "Ma chi vuole attaccare proprio noi?"

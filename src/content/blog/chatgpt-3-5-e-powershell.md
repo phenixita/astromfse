@@ -2,7 +2,7 @@
 title: "ChatGPT 3.5 e PowerShell"
 date: "2025-09-11"
 permalink: "chatgpt-3-5-e-powershell"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Me lo ricordo benissimo il giorno in cui ChatGPT 3.5 venne aperto al grande pubblico. In ufficio, nel giro di pochi giorni, stavamo tutti giocando con questa nuova entità. Io vivevo il classico entusiasmo nerd di quando posso mettere le mani su una tecnologia nuova… e che tecnologia!

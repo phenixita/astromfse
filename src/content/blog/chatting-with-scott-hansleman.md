@@ -2,7 +2,7 @@
 title: "VIDEO: chatting with Scott Hansleman"
 date: "2026-02-03"
 permalink: "chatting-with-scott-hansleman"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 # VIDEO: Chatting with... Scott Hansleman

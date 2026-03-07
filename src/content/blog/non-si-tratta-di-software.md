@@ -2,7 +2,7 @@
 title: "Non si tratta di software"
 date: "2025-06-11"
 permalink: "non-si-tratta-di-software"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Ma di valore.

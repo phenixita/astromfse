@@ -2,7 +2,7 @@
 title: "Video consigliato - Agile project management with kanban"
 date: "2025-06-10"
 permalink: "video-consigliato---agile-project-management-with-kanban"
-categories: [37, 38, 28]
+categories: ['devops', 'daily', 'video']
 ---
 
 Questo video lo referenzio nelle mie attività di consulenza Kanban per i team di sviluppo.

@@ -2,7 +2,7 @@
 title: "Le buone maniere nelle pull-request"
 date: "2026-01-21"
 permalink: "le-buone-maniere-nelle-pull-request"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Le code review (o pull-request, ormai sono sinonimi) sono più una questione di comunicazione ed empatia che tecnica. O, come minimo, sono a pari livello.

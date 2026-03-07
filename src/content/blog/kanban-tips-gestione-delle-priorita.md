@@ -2,7 +2,7 @@
 title: "Kanban Tips gestione delle priorità"
 date: "2025-05-12"
 permalink: "kanban-tips-gestione-delle-priorita"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Continuiamo con la ricetta del successo per kanban intrapresa qualche messaggio fa.

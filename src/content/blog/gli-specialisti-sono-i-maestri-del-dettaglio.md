@@ -2,7 +2,7 @@
 title: "Gli specialisti sono i maestri del dettaglio"
 date: "2025-10-09"
 permalink: "gli-specialisti-sono-i-maestri-del-dettaglio"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 Gli specialisti: i maestri del dettaglio nelle software factory

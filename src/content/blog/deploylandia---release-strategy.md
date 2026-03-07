@@ -2,7 +2,7 @@
 title: "Deploylandia - Release strategy"
 date: "2025-04-17"
 permalink: "deploylandia---release-strategy"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

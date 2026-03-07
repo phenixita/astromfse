@@ -2,7 +2,7 @@
 title: "INVESTire nelle user story"
 date: "2025-12-11"
 permalink: "investire-nelle-user-story"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ormai saranno stati una decina di anni fa quando per la prima volta incontrai l'acronimo INVEST in termini di linee guida per organizzare e specificare unità di lavoro in un backlog di sviluppo software.

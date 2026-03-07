@@ -2,7 +2,7 @@
 title: "Story point VS t-shirt size"
 date: "2026-01-09"
 permalink: "story-point-vs-t-shirt-size"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Gli story point... ah! Gioie e dolori!

@@ -2,7 +2,7 @@
 title: "Valuable usable feasible"
 date: "2025-06-24"
 permalink: "valuable-usable-feasible"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Secondo il lavoro di Marty Cagan (https://www.svpg.com/four-big-risks/), i prodotti che possiamo progettare possono essere valutate in tre dimensioni: valuable, usable e feasible.

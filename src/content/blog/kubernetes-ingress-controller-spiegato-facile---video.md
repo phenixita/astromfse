@@ -2,7 +2,7 @@
 title: "Kubernetes Ingress Controller spiegato facile - VIDEO"
 date: "2025-08-11"
 permalink: "kubernetes-ingress-controller-spiegato-facile---video"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Oggi poche scritte ma tante parole, disegni e comandi kubectl.

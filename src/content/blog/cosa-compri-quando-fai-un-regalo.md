@@ -2,7 +2,7 @@
 title: "Cosa compri quando fai un regalo?"
 date: "2025-12-22"
 permalink: "cosa-compri-quando-fai-un-regalo"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Quando compri un regalo per qualcuno, cosa stai davvero acquistando?

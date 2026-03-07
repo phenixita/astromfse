@@ -2,7 +2,7 @@
 title: "Togliere il mouse"
 date: "2025-09-24"
 permalink: "togliere-il-mouse"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 Su [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7376118171302395904/) qualche giorno fa ho scatenato un piccolo flame senza volerlo.

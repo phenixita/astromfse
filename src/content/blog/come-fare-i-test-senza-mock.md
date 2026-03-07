@@ -2,7 +2,7 @@
 title: "Come fare i test senza mock"
 date: "2025-05-06"
 permalink: "come-fare-i-test-senza-mock"
-categories: [23, 38]
+categories: ['testing', 'daily']
 ---
 
 Nel messaggio precedente ho detto la mia nella classica diatriba classic VS mock nell'ambito dello unit test.

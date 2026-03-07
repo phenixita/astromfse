@@ -2,7 +2,7 @@
 title: "Telemetria in scala XBox con Application Insights"
 date: "2025-04-02"
 permalink: "telemetria-in-scala-xbox-con-application-insights"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In ambito .NET + Azure quando si parla di telemetria viene subito in mente il servizio Application Insights.

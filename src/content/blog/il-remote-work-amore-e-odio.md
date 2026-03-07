@@ -2,7 +2,7 @@
 title: "Il remote work amore e odio"
 date: "2025-06-04"
 permalink: "il-remote-work-amore-e-odio"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Avrai notato anche tu come il remote-work sia uno degli argomenti più polarizzanti nel mondo del lavoro e nei social: è sufficiente guardare la numerosità e l’animosità dei commenti su LinkedIn ai post su questo tema per rendersene conto!

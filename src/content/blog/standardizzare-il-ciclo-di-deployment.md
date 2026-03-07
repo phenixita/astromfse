@@ -2,7 +2,7 @@
 title: "Standardizzare il ciclo di deployment"
 date: "2025-03-27"
 permalink: "standardizzare-il-ciclo-di-deployment"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Standardizzare il ciclo di deployment di un software

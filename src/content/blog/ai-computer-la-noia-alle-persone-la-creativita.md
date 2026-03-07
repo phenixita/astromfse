@@ -2,7 +2,7 @@
 title: "Ai computer la noia alle persone la creatività"
 date: "2025-10-14"
 permalink: "ai-computer-la-noia-alle-persone-la-creativita"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ecco una strategia in due passi per ridurre i costi del rilascio di nuove versioni:

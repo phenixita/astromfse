@@ -2,7 +2,7 @@
 title: "STORIA - Ai magazzinieri non interessa"
 date: "2025-06-12"
 permalink: "storia---ai-magazzinieri-non-interessa"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Quando lavoravo nel software per la logistica visitavo i clienti sul campo per installare aggiornamenti, spiegare novità o addestrare il personale. Capii presto che del software, ai magazzinieri, non fregava nulla. Grafica accattivante, soluzioni eleganti… irrilevanti. Contava solo completare il lavoro (prelevare e spedire) nel modo più rapido possibile. Cioè usare il meno possibile quella dannata pistola con lettore di barcode che diceva dove andare e cosa fare. E quando dovevano usarla, doveva essere veloce. Non si può attendere: fuori c’è sempre un camion che aspetta.

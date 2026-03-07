@@ -2,7 +2,7 @@
 title: "Continuous Integration"
 date: "2025-03-12"
 permalink: "continuous-integration"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Continuous Integraion è una pratica di ingegneria del software che prevede di integrare le modifiche software almeno una volta al giorno.

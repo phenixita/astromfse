@@ -2,7 +2,7 @@
 title: "Il team deve avere tra le 5 e le 9 persone"
 date: "2025-05-21"
 permalink: "il-team-deve-avere-tra-le-5-e-le-9-persone"
-categories: [37, 38, 43]
+categories: ['devops', 'daily', 'team']
 ---
 
 Nei messaggi precedenti ho introdotto le 3 caratteristiche di un team di sviluppo secondo la concezione moderna.

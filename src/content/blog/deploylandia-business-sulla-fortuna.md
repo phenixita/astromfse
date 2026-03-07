@@ -2,7 +2,7 @@
 title: "Deploylandia - Business sulla fortuna"
 date: "2025-04-10"
 permalink: "deploylandia-business-sulla-fortuna"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

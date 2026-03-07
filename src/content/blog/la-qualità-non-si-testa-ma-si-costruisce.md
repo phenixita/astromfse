@@ -2,7 +2,7 @@
 title: "La qualità non si testa ma si costruisce"
 date: "2025-10-10"
 permalink: "la-qualità-non-si-testa-ma-si-costruisce"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ah sì abbiamo il controllo qualità o il quality assurance o tale ispeizione finale che...

@@ -2,7 +2,7 @@
 title: "Il vibe coding"
 date: "2025-05-03"
 permalink: "il-vibe-coding"
-categories: [40, 38, 28]
+categories: ['ai', 'daily', 'video']
 ---
 
 Per "vibe coding" si intende scrivere codice senza scriverlo davvero. Cioè si interagisce con un'AI che genera il codice.

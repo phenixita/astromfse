@@ -2,7 +2,7 @@
 title: "Il cestino è l'output minimizer"
 date: "2025-07-06"
 permalink: "il-cestino-e-l'output-minimizer"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nelle scorse settimane credo di essere andato molto vicino alle prime fasi di un burnout.

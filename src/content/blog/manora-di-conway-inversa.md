@@ -2,7 +2,7 @@
 title: "Manora di Conway inversa"
 date: "2025-05-28"
 permalink: "manora-di-conway-inversa"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 No, non è un titolo per un post per scuola guida! 😝

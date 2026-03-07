@@ -2,7 +2,7 @@
 title: "SRE spiegato da Google"
 date: "2025-03-17"
 permalink: "sre-spiegato-da-google"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Il ruolo di SRE l'ha praticamente inventato Google (Site Reliability Engineer).

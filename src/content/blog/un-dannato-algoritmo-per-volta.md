@@ -2,7 +2,7 @@
 title: "Un dannato algoritmo per volta"
 date: "2026-02-12"
 permalink: "un-dannato-algoritmo-per-volta"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Oggi sono tornato alle basi. Ma alle basi proprio. Ho avuto l'opportunità di aiutare un ragazzo che sta muovendo i suoi primi passi nella programmazione (con Java, ma poco importa, arriverà nel lato giusto della forza con C# a tempo debito!!!). Notepad++, javac e niente debugger.

@@ -2,7 +2,7 @@
 title: "I clienti non sanno il loro problema"
 date: "2025-06-18"
 permalink: "i-clienti-non-sanno-il-loro-problema"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 Fino a qui abbiamo fatto ragionamenti dalla soluzione verso il problema.

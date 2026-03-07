@@ -2,7 +2,7 @@
 title: "Il team abilitatore - Tipo 2 di 4"
 date: "2025-06-01"
 permalink: "il-team-abilitatore---tipo-2-di-4"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nell'episodio precedente sulle tipologie di team abbiamo parlato del team stream-aligned che è il cuore pulsante di produzione delle software factory.

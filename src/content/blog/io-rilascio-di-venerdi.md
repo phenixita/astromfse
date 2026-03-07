@@ -2,7 +2,7 @@
 title: "Io rilascio di venerdì"
 date: "2025-05-24"
 permalink: "io-rilascio-di-venerdi"
-categories: [37, 38, 32]
+categories: ['devops', 'daily', 'my-take-on']
 ---
 
 Il friday freeze è quella tecnica ninja per cui si evita di rilasciare aggiornamenti il venerdì: perché di sabato e domenica non c'è nessuno a sistemare i problemi che puntualmente salteranno fuori!

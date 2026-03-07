@@ -2,7 +2,7 @@
 title: "Gestire il bucato per capire il lavoro"
 date: "2025-11-24"
 permalink: "gestire-il-bucato-per-capire-il-lavoro"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Questo weekend in casa ci siamo ritrovati con molto più bucato da lavare del solito.

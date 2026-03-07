@@ -2,7 +2,7 @@
 title: "VIDEO: Scrivere libri tech nell'era degli LLM"
 date: "2026-02-17"
 permalink: "video-scrivere-libri-tech-nell-era-degli-llm"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 # VIDEO: Scrivere libri tech nell'era degli LLM

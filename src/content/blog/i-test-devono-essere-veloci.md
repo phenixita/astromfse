@@ -2,7 +2,7 @@
 title: "I test devono essere veloci"
 date: "2025-04-29"
 permalink: "i-test-devono-essere-veloci"
-categories: [37, 38, 23, 32]
+categories: ['devops', 'daily', 'testing', 'my-take-on']
 ---
 
 È un imperativo progettuale.

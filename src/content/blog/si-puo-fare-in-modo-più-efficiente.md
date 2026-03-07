@@ -2,7 +2,7 @@
 title: "Si puà fare in modo piu efficiente"
 date: "2025-09-15"
 permalink: "si-puo-fare-in-modo-più-efficiente"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 “Guarda che c’è un modo più efficiente di farlo.”

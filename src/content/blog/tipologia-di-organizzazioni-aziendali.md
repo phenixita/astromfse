@@ -2,7 +2,7 @@
 title: "Tipologia di organizzazioni aziendali"
 date: "2025-03-18"
 permalink: "tipologia-di-organizzazioni-aziendali"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Per misurare la cultura aziendale di solito si utilizza una tipologia sviluppata da Ron Westrum: sociologista che ha studiato come la cultura aziendale sia indicatore di sicurezza in ambito medicale.

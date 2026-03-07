@@ -2,7 +2,7 @@
 title: "Il team conta di più del singolo"
 date: "2025-05-17"
 permalink: "il-team-conta-di-piu-del-singolo"
-categories: [37, 32]
+categories: ['devops', 'my-take-on']
 ---
 
 Ho scoperto di recente una [ricerca di Google](https://www.michigan.gov/-/media/Project/Websites/mdhhs/Folder4/Folder10/Folder3/Folder110/Folder2/Folder210/Folder1/Folder310/Google-and-Psychological-Safety.pdf?rev=7786b2b9ade041e78828f839eccc8b75) che afferma: quando si tratta di misurare le performance il team conta di più dell’individuo. 

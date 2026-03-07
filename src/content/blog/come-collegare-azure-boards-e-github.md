@@ -2,7 +2,7 @@
 title: "Come collegare Azure Boards e GitHub"
 date: "2025-10-28"
 permalink: "come-collegare-azure-boards-e-github"
-categories: [37, 38, 28]
+categories: ['devops', 'daily', 'video']
 ---
 
 ## Come collegare Azure DevOps Board con GitHub (senza perdere le feature migliori)

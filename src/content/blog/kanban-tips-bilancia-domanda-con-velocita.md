@@ -2,7 +2,7 @@
 title: "Kanban Tips Bilancia Domanda con Velocità"
 date: "2025-05-11"
 permalink: "kanban-tips-bilancia-domanda-con-velocita"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Continuiamo con la ricetta del successo per kanban intrapresa qualche messaggio fa.

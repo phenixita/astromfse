@@ -2,7 +2,7 @@
 title: "Kanban tips focus sulla qualita"
 date: "2025-05-07"
 permalink: "kanban-tips-focus-sulla-qualita"
-categories: [35, 38]
+categories: ['software-factory', 'daily']
 ---
 
 Se leggi questa newsletter da qualche tempo sai che mi piace fornire azioni, passi concreti per implementare un concetto o un piccolo miglioramento.

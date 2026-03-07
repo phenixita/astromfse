@@ -2,7 +2,7 @@
 title: "Output, outcome, impatto"
 date: "2025-06-21"
 permalink: "output,-outcome,-impatto"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Per cercare di rendere il più felici possibili gli utenti con il minor sforzo possibile dobbiamo comprendere bene la differenza tra output e outcome che, a una rapida occhiata, potrebbero risultare quasi sinonimi. Spoiler, il fatto che ci stia dedicando una sezione di questo capitolo è già un indizio che così non è… Infine definiremo anche l’impatto. Andiamo con ordine.

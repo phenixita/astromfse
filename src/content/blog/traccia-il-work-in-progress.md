@@ -2,7 +2,7 @@
 title: "Traccia il work-in-progress"
 date: "2025-11-11"
 permalink: "traccia-il-work-in-progress"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Nel messaggio precedente ho introdotto cosa misurare in una software factory che si concentra sul voler creare un sistema affidabile, prevedibile e adattivo.

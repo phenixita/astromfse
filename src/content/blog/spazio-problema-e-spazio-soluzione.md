@@ -2,7 +2,7 @@
 title: "Spazio problema e spazio soluzione"
 date: "2025-06-16"
 permalink: "spazio-problema-e-spazio-soluzione"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 Stiamo parlando del multiverso Marvel? Magari! Adorerei un universo dove non ci sono problemi!

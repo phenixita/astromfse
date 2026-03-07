@@ -2,7 +2,7 @@
 title: "Come mettere in sicurezza un cluster Azure Kubernetes Service."
 date: "2025-07-03"
 permalink: "come-mettere-in-sicurezza-un-cluster-azure-kubernetes-service."
-categories: [38, 28]
+categories: ['daily', 'video']
 ---
 
 Scopri le tecniche fondamentali per mettere in sicurezza un cluster AKS in ambienti cloud pubblici. 

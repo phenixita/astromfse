@@ -2,7 +2,7 @@
 title: "Cos'è la cultura aziendale"
 date: "2025-04-11"
 permalink: "cos'e-la-cultura-aziendale"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Se segui gli argomenti DevOps da qualche tempo non è di certo una sorpresa sentirti dire che la cultura è ritenuta parte centrale per il successo di un'iniziativa di adozione principi e pratiche DevOps.

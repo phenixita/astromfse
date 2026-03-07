@@ -2,7 +2,7 @@
 title: "Patologica, burocratica, generativa"
 date: "2025-04-16"
 permalink: "patologica,-burocratica,-generativa"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nel 2003 il Dr. Ron Westrum ha pubblicato un paper intitolato [“The Typologies of Organisational Cultures”](https://qualitysafety.bmj.com/content/13/suppl_2/ii22.short) che indica come le informazioni si muovono all’interno di un’organizzazione.

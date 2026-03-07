@@ -2,7 +2,7 @@
 title: "La sconosciuta definition of ready"
 date: "2025-11-25"
 permalink: "la-sconosciuta-definition-of-ready"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Un passo importante nella chiarezza e nell'organizzazione di un team avviene quando le persone si mettono d'accordo sulla definition of done. La definizione di completo o di fatto.

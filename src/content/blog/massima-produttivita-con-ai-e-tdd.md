@@ -2,7 +2,7 @@
 title: "Massima produttività con AI e Test-Driven Development TDD"
 date: "2025-04-04"
 permalink: "massima-produttivita-con-ai-e-tdd"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ieri ho detto che il coding assistito [con l'AI è come avere al proprio fianco uno stagista](https://micheleferracin.it/lai-ha-cosparso-il-mondo-di-stagisti/).

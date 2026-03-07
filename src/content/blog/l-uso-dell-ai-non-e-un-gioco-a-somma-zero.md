@@ -2,7 +2,7 @@
 title: "L'uso dell'AI non è un gioco a somma zero"
 date: "2025-09-22"
 permalink: "l-uso-dell-ai-non-e-un-gioco-a-somma-zero"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 Adottare l'AI nella produzione di software non è un gioco a somma zero.

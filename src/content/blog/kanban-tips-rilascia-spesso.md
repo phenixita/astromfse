@@ -2,7 +2,7 @@
 title: "Kanban Tips Rilascia spesso"
 date: "2025-05-10"
 permalink: "kanban-tips-rilascia-spesso"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Continuiamo con la ricetta del successo per kanban intrapresa qualche messaggio fa.

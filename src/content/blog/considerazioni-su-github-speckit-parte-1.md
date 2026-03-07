@@ -2,7 +2,7 @@
 title: "Considerazioni su GitHub SpecKit (parte 1)"
 date: "2025-10-27"
 permalink: "considerazioni-su-github-speckit-parte-1"
-categories: [32, 40, 38]
+categories: ['my-take-on', 'ai', 'daily']
 ---
 
 Quando mia mamma tornava dal supermercato era sempre entusiasta delle cose che comprava che sulla confezione riportavano la scritta "novità": "Ehi guarda ho comprato una novità!" diceva. A volte (più di qualcuna) era un qualche prodotto che aveva variato il 2% degli ingredienti e allora sfoggiava la scritta "nuova ricetta" ma lei era felice lo stesso nonostante fosse stata intrappolata dal marketing!

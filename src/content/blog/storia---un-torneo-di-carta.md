@@ -2,7 +2,7 @@
 title: "STORIA - Un torneo di carta"
 date: "2025-06-15"
 permalink: "storia---un-torneo-di-carta"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Durante gli studi universitari mi appassionai parecchio all’esame di basi di dati 1. Alle scuole superiori ne avevo avuto una buona infarinatura di base, per cui non ebbi difficoltà poi a costruirci sopra ulteriori nozioni (è stato l’unico esame da 30 e lode).

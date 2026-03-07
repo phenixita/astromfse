@@ -2,7 +2,7 @@
 title: "Come riconoscere un generalista"
 date: "2025-10-08"
 permalink: "come-riconoscere-un-generalista"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 E perché i generalisti servono come il pane nelle software factory.

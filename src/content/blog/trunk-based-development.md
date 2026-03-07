@@ -2,7 +2,7 @@
 title: "Trunk based development"
 date: "2025-03-25"
 permalink: "trunk-based-development"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 La gestione del repository dei sorgenti e in particolare dei branch giocano un ruolo importante nelle dinamiche di qualità del codice e delle pratiche di continuous integration / deployment che possiamo implementare.

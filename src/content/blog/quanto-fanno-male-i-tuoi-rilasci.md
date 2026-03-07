@@ -2,7 +2,7 @@
 title: "Quanto fanno male i tuoi rilasci"
 date: "2025-07-09"
 permalink: "quanto-fanno-male-i-tuoi-rilasci"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Dove i rilasci sono più dolorosi, ci sono anche le più scadenti prestazioni organizzative, culturali e di gestione del software in generale.

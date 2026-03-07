@@ -2,7 +2,7 @@
 title: "Come avviare un'iniziativa DevOps"
 date: "2025-03-10"
 permalink: "come-avviare-un'iniziativa-devops"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In episodio parliamo di come avviare una iniziativa DevOps.

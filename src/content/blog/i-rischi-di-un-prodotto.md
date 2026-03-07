@@ -2,7 +2,7 @@
 title: "I rischi di un prodotto"
 date: "2025-06-25"
 permalink: "i-rischi-di-un-prodotto"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Nel messaggio precedente abbiamo parlato di valuable, usable e feasible.

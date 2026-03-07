@@ -2,7 +2,7 @@
 title: "CI-CD con Docker e GitHub Actions"
 date: "2025-07-07"
 permalink: "ci-cd-con-docker-e-github-actions"
-categories: [37, 38, 28]
+categories: ['devops', 'daily', 'video']
 ---
 
 In questi giorni sto incontrando dei giovani team che affrontano per le prime volte l'approccio completo al ciclo di vita applicativo strutturato e con l'automazione nei posti giusti.

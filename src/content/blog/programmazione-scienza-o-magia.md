@@ -2,7 +2,7 @@
 title: "Programmazione, scienza o magia"
 date: "2025-05-16"
 permalink: "programmazione-scienza-o-magia"
-categories: [37, 3832]
+categories: ['devops']
 ---
 
 Quando racconto della mia professione di consulente informatico ai non addetti ai lavori incontro spesso una prima reazione che suona più o meno così: “Ah! Il misterioso mondo dell’informatica! Per me è pura magia”.

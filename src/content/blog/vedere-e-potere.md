@@ -2,7 +2,7 @@
 title: "Vedere è potere"
 date: "2026-01-14"
 permalink: "vedere-è-potere"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Cosa succede quando vediamo le cose con chiarezza? Smettiamo di temerle e cominciamo a farci un'idea di come poterle controllare.

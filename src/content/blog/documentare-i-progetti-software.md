@@ -2,7 +2,7 @@
 title: "Documentare i progetti software"
 date: "2025-03-16"
 permalink: "documentare-i-progetti-software"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Quanto è importante la documentazione in ambito progettazione software?

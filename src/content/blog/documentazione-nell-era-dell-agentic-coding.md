@@ -2,7 +2,7 @@
 title: "Documentazione nell'era dell'agentic coding"
 date: "2026-02-23"
 permalink: "documentazione-nell'era-dell'agentic-coding"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ti faccio annoiare con una singola parola. Documentazione. Ce l'ho fatta? :D

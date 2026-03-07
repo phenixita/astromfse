@@ -2,7 +2,7 @@
 title: "Deploylandia - Me l'ha detto Conway"
 date: "2025-05-31"
 permalink: "deploylandia---me-l'ha-detto-conway"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

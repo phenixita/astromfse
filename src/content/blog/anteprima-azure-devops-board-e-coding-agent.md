@@ -2,7 +2,7 @@
 title: "Anteprima: Azure DevOps Board e Coding Agent"
 date: "2026-01-19"
 permalink: "anteprima-azure-devops-board-e-coding-agent"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Con molta sorpresa qualche giorno fa mi sono ritrovato attivo una funzionalità di Azure DevOps che non compare come rilasciata in general availability.

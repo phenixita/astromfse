@@ -2,7 +2,7 @@
 title: "Cultura generativa"
 date: "2025-04-20"
 permalink: "cultura-generativa"
-categories: [37, 38, 41]
+categories: ['devops', 'daily', 'cultura']
 ---
 
 Una cultura generativa è orientata ai risultati e l’obiettivo principale è quello di raggiungere gli obiettivi.

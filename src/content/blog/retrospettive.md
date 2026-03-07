@@ -2,7 +2,7 @@
 title: "Retrospettive"
 date: "2025-04-01"
 permalink: "retrospettive"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 La retrospettiva è un evento fondamentale nel framework Scrum ma è in generale una best practice in tutti i processi di miglioramento continuo.

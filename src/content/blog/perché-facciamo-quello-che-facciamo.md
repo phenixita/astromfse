@@ -2,7 +2,7 @@
 title: "Perché facciamo quello che facciamo"
 date: "2025-06-28"
 permalink: "perché-facciamo-quello-che-facciamo"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 Nel messaggio precedente ci siamo lasciati dicendoci che "guadagnare" non è una risposta abbastanza profonda alla domanda:

@@ -2,7 +2,7 @@
 title: "Il team deve essere stabile"
 date: "2025-05-23"
 permalink: "il-team-deve-essere-stabile"
-categories: [43, 38]
+categories: ['team', 'daily']
 ---
 
 Nei messaggi precedenti ho affrontato i primi due punti delle caratteristiche di un team di sviluppo moderno.

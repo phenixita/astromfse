@@ -2,7 +2,7 @@
 title: "Spaccare tutto con i test di carico"
 date: "2025-08-08"
 permalink: "spaccare-tutto-con-i-test-di-carico"
-categories: [37, 38, 23]
+categories: ['devops', 'daily', 'testing']
 ---
 
 Oggi ho messo a dura prova delle API fresche di sviluppo con [k6](https://k6.io/).

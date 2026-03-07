@@ -2,7 +2,7 @@
 title: "La comunicazione asincrona nel remote work"
 date: "2025-06-09"
 permalink: "la-comunicazione-asincrona-nel-remote-work"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Un altro pilastro è imparare a sfruttare al meglio la comunicazione asincrona (es. messaggistica non in tempo reale, e-mail, commenti su issue tracker) e riservare la comunicazione sincrona (riunioni live, call) solo ai casi di reale necessità. Gartner (https://www.gartner.com/en/articles/think-hybrid-work-doesnt-work-the-data-disagrees) rileva che “aggiungere collaborazione asincrona migliora nettamente i risultati, specialmente se l’organizzazione incorpora intenzionalmente entrambi i modi di lavorare”. 

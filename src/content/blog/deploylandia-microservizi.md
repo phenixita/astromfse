@@ -2,7 +2,7 @@
 title: "Deploylandia - microservizi"
 date: "2025-05-22"
 permalink: "deploylandia-microservizi"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

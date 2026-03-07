@@ -2,7 +2,7 @@
 title: "Le 4 metriche d'oro di Google per la telemetria"
 date: "2025-08-20"
 permalink: "le-4-metriche-d'oro-di-google-per-la-telemetria"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 ## La Telemetria e i Quattro Segnali d'Oro: Dove Iniziare nel Monitoraggio

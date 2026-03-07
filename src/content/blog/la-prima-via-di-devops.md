@@ -2,7 +2,7 @@
 title: "La prima via di DevOps"
 date: "2025-03-04"
 permalink: "la-prima-via-di-devops"
-categories: [37]
+categories: ['devops']
 ---
 
 La prima via di DevOps racchiude i principi e le pratiche per velocizzare il flusso del valore da sinistra verso destra.

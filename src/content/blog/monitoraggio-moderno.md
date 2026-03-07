@@ -2,7 +2,7 @@
 title: "Monitoraggio moderno"
 date: "2025-03-24"
 permalink: "monitoraggio-moderno"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 No, non sto parlando di un setup doppio o triplo schermo per la tua workstation! 😝

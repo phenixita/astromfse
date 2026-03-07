@@ -2,7 +2,7 @@
 title: "Sei sicuro di poter dire la verità nel tuo lavoro"
 date: "2025-04-18"
 permalink: "sei-sicuro-di-poter-dire-la-verità-nel-tuo-lavoro"
-categories: [37, 38, 41]
+categories: ['devops', 'daily', 'cultura']
 ---
 
 Nei contenuti precedenti abbiamo introdotto le 3 tipologie di culture definite dal modello Westrum.

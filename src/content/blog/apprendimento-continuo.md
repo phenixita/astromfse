@@ -2,7 +2,7 @@
 title: "Apprendimento continuo"
 date: "2025-03-19"
 permalink: "apprendimento-continuo"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Quali sono alcune idee per contribuire a creare una cultura dell'apprendimento continuo?

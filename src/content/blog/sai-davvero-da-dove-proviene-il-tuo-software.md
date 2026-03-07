@@ -2,7 +2,7 @@
 title: "Sai davvero da dove proviene il tuo software?"
 date: "2025-08-06"
 permalink: "sai-davvero-da-dove-proviene-il-tuo-software"
-categories: [37, 38, 45]
+categories: ['devops', 'daily', 'sicurezza']
 ---
 
 Sto facendo ricerca per la parte di sicurezza del libro "Il metodo software factory" e mi sono imbatutto nel progetto SLSA.dev (si legge "salsa").

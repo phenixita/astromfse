@@ -2,7 +2,7 @@
 title: "Tutti sono responsabili"
 date: "2025-10-16"
 permalink: "tutti-sono-responsabili"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nelle aziende [burocratiche](https://micheleferracin.it/anche-nel-piccolo-puo-esserci-burocrazia/) i team si focalizzano su obiettivi locali, invece che globali.

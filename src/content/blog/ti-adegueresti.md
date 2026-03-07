@@ -2,7 +2,7 @@
 title: "Ti adegueresti"
 date: "2025-04-14"
 permalink: "ti-adegueresti"
-categories: [41, 37, 35, 38]
+categories: ['cultura', 'devops', 'software-factory', 'daily']
 ---
 
 Gli esseri umani sono animali sociali.

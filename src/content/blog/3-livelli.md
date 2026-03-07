@@ -2,7 +2,7 @@
 title: "3 livelli"
 date: "2025-04-13"
 permalink: "3-livelli"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nei messaggi precedenti dedicati alla cultura ci siamo concentrati più sull'aspetto individuale.

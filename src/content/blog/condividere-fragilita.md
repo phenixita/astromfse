@@ -2,7 +2,7 @@
 title: "Condividere fragilità"
 date: "2025-07-01"
 permalink: "condividere-fragilita"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 Oggi ti racconto di quella volta in cui ho ammesso la mia vulnerabilità con un cliente, in diretta, in call, senza filtri.

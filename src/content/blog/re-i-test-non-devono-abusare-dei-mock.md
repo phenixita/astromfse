@@ -2,7 +2,7 @@
 title: "RE: i test non devono abusare dei mock"
 date: "2025-05-13"
 permalink: "re-i-test-non-devono-abusare-dei-mock"
-categories: [38, 23]
+categories: ['daily', 'testing']
 ---
 
 Il nostro collega di newsletter Alessio ha risposto al messaggio di evitare l'uso dei mock nei test.

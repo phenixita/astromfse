@@ -2,7 +2,7 @@
 title: "Qualita iniziale"
 date: "2025-11-21"
 permalink: "qualita-iniziale"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Arriviamo in fondo al reporting e monitoraggio con questo messaggio dedicato ai difetti.

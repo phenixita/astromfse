@@ -2,7 +2,7 @@
 title: "Come fare deployment di microservizi con Kubernetes"
 date: "2025-07-05"
 permalink: "come-fare-deployment-di-microservizi-con-kubernetes"
-categories: [37, 38, 27]
+categories: ['devops', 'daily', 'predictions']
 ---
 
 Impara a distribuire i tuoi microservizi in un cluster kubernetes in pochi passi!

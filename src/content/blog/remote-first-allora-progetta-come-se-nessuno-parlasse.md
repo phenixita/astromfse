@@ -2,7 +2,7 @@
 title: "Remote first Allora progetta come se nessuno parlasse"
 date: "2025-05-26"
 permalink: "remote-first-allora-progetta-come-se-nessuno-parlasse"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Nel messaggio precedente abbiamo introdotto la Legge di Conway e come i suoi effetti siano inevitabili.

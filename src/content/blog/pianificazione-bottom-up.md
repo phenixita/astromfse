@@ -2,7 +2,7 @@
 title: "Pianificazione bottom-up"
 date: "2025-07-11"
 permalink: "pianificazione-bottom-up"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Per una consulenza con un cliente stavo ripassando alcuni concetti di Kanban dal libro Agile Project Management with Kanban di Brechner e ti voglio proporre questo estratto.

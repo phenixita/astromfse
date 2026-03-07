@@ -2,7 +2,7 @@
 title: "Di chi è la proprietà intellettuale"
 date: "2025-09-25"
 permalink: "di-chi-e-la-proprieta-intellettuale"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 Hai Copilot attivo e ti suggerisce un bel blocco di codice, che ti piace, accetti e usi rimaneggiandolo marginalmente.

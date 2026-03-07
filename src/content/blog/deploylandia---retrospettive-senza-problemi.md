@@ -2,7 +2,7 @@
 title: "Deploylandia - Retrospettive senza problemi"
 date: "2025-05-01"
 permalink: "deploylandia---retrospettive-senza-problemi"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

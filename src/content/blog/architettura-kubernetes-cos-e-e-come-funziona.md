@@ -2,7 +2,7 @@
 title: "Architettura di un cluster Kubernetes e come funziona"
 date: "2025-03-15"
 permalink: "architettura-kubernetes-cos-e-e-come-funziona"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Kubernetes è un orchestratore di workload containeraizzati.

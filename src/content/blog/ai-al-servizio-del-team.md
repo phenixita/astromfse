@@ -2,7 +2,7 @@
 title: "AI al servizio del team"
 date: "2025-09-18"
 permalink: "ai-al-servizio-del-team"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Quando si parla di AI nello sviluppo software, spesso pensiamo a un developer davanti al suo IDE che riceve un suggerimento intelligente. Ma la vera rivoluzione, secondo me, è quando l’AI diventa una risorsa al servizio **del team**. È come avere un collega in più che non dorme mai, non si stanca e si fa trovare pronto su backlog, code review, test, documentazione e pianificazione.

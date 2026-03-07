@@ -2,7 +2,7 @@
 title: "I test servono per le persone"
 date: "2025-10-20"
 permalink: "i-test-servono-per-le-persone"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 I test *automatici* non servono per la code coverage, per la qualità o per qualche altro motivo tecnico.

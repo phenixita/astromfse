@@ -2,7 +2,7 @@
 title: "Be the luck for other (software engineers)"
 date: "2025-09-10"
 permalink: "be-the-luck-for-other-software-engineers"
-categories: [37]
+categories: ['devops']
 ---
 
 Qualche girono fa mi è tornata in mente un'espressione che arriva da [Scott Hanselman](https://www.hanselman.com/): "Be the luck".

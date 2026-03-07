@@ -2,7 +2,7 @@
 title: "Compliance, librerie e codice generato"
 date: "2025-10-31"
 permalink: "compliance-librerie-e-codice-generato"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Qualche giorno fa stavo parlando con Luigi di librerie "famose" nel mondo .NET che sono diventate o che stanno diventando a pagamento.

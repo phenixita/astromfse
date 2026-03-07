@@ -2,7 +2,7 @@
 title: "La terza via di DevOps"
 date: "2025-03-06"
 permalink: "la-terza-via-di-devops"
-categories: [37]
+categories: ['devops']
 ---
 
 # La terza via di DevOps

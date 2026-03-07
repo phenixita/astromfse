@@ -2,7 +2,7 @@
 title: "Cosa mi ha insegnato scrivere un libro"
 date: "2025-12-01"
 permalink: "cosa-mi-ha-insegnato-scrivere-un-libro"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Sono nella fase di impaginazione de "Il Metodo Software Factory" e devo dire che l'esperienza di scrittura di un libro mi ha insegnato parecchie cose.

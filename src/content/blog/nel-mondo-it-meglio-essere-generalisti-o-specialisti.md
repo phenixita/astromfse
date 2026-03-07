@@ -2,7 +2,7 @@
 title: "Nel mondo IT meglio essere generalisti o specialisti"
 date: "2025-10-07"
 permalink: "nel-mondo-it-meglio-essere-generalisti-o-specialisti"
-categories: [32, 38]
+categories: ['my-take-on', 'daily']
 ---
 
 Nella mia carriera nel mondo IT ho indossato il cappello di vari ruoli:

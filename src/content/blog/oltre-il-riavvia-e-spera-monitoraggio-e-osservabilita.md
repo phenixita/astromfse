@@ -2,7 +2,7 @@
 title: "Oltre il riavvia e spera - monitoraggio e osservabilità"
 date: "2025-09-03"
 permalink: "oltre-il-riavvia-e-spera-monitoraggio-e-osservabilita"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In produzione, le cose vanno storte. Sempre. Magari rilasci una nuova feature, la metti nelle mani degli utenti e… sorpresa: la usano in un modo del tutto diverso da come l’avevi immaginato. Quello che per te era ovvio, per loro non lo è affatto. E il risultato? Sistemi messi alla prova con intensità e creatività imprevedibili.

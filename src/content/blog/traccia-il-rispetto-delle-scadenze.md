@@ -2,7 +2,7 @@
 title: "Traccia il rispetto delle scadenze"
 date: "2025-11-13"
 permalink: "traccia-il-rispetto-delle-scadenze"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Tra i tanti tipi di attività che attraversano una software factory ci sono quelle "con data di scadenza".

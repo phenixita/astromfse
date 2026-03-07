@@ -2,7 +2,7 @@
 title: "Come specificare i criteri di accettazione"
 date: "2025-12-12"
 permalink: "come-specificare-i-criteri-di-accettazione"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nel [messaggio precedente](https://micheleferracin.it/investire-nelle-user-story/) abbiamo esplorato l'acronimo **INVEST** per valutare la qualità delle nostre User Story. Se hai fatto i compiti a casa, probabilmente ti sei soffermato sull'ultima lettera: **T per Testable** (Testabile).

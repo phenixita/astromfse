@@ -2,7 +2,7 @@
 title: "Il miglior codice è nessun codice"
 date: "2025-04-21"
 permalink: "il-miglior-codice-è-nessun-codice"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Abbiamo tutti le migliori intenzioni quando scriviamo codice ma poi ogni riga di ciò che scriviamo deve essere debuggata, deve essere capita, documentata ecc…

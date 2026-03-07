@@ -2,7 +2,7 @@
 title: "Nostalgia"
 date: "2026-02-06"
 permalink: "nostalgia"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nell'era dove tutto è a portata di dita e LLM che scrivono codice rivedere questi manuali mi fa venire nostalgia.

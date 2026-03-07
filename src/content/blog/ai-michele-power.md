@@ -2,7 +2,7 @@
 title: "AI + Michele = Power"
 date: "2025-10-30"
 permalink: "ai-michele-power"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nel [messaggio precedente](https://micheleferracin.it/ai-0-michele-1/) ho parlato di una cantonata presa dall'AI.

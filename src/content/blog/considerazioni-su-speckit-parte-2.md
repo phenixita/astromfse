@@ -2,7 +2,7 @@
 title: "Considerazioni su SpecKit parte 2"
 date: "2025-11-07"
 permalink: "considerazioni-su-speckit-parte-2"
-categories: [32, 40, 38]
+categories: ['my-take-on', 'ai', 'daily']
 ---
 
 [Nell'episodio precedente dedicato a SpecKit](https://micheleferracin.it/considerazioni-su-github-speckit-parte-1/) mi ero fermato alla parte di analisi / scrittura requisiti offerta dal toolkit stesso.

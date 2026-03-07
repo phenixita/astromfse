@@ -2,7 +2,7 @@
 title: "Il Metodo Software Factory è on-line"
 date: "2025-12-17"
 permalink: "il-metodo-software-factory-è-on-line"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Il Metodo Software Factory è acquistabile su Amazon in formato cartaceo [a questo link](https://www.amazon.it/dp/B0G6MD5J9N)!

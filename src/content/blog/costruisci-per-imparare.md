@@ -2,7 +2,7 @@
 title: "Costruisci per imparare"
 date: "2025-06-30"
 permalink: "costruisci-per-imparare"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 # Costruisci per imparare

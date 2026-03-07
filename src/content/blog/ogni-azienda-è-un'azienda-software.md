@@ -2,7 +2,7 @@
 title: "Ogni azienda è un'azienda software"
 date: "2025-03-29"
 permalink: "ogni-azienda-è-un'azienda-software"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ogni azienda è un'azienda tecnologica, a prescindere dal business in cui operano.

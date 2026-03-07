@@ -2,7 +2,7 @@
 title: "Misura il lead time"
 date: "2025-11-12"
 permalink: "misura-il-lead-time"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nel [messaggio precedente](https://micheleferracin.it/traccia-il-work-in-progress/) relativo alle misurazioni da adottare per una software factory abbiamo parlato di WIP limit.

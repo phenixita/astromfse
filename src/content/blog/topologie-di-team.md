@@ -2,7 +2,7 @@
 title: "Le topolgie di team per produrre software che nessuno ti spiega"
 date: "2025-03-08"
 permalink: "topologie-di-team"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In questo episodio parliamo di come si possono strutturare i team in modo da ottimizzare le comunicazioni, le sinergie e i risultati per il cliente finale.

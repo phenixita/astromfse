@@ -2,7 +2,7 @@
 title: "Mono repo o poly repo"
 date: "2026-01-28"
 permalink: "mono-repo-o-poly-repo"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nella grande tematica della gestione dei repository ci sono due grandi famiglie di approcci.

@@ -2,7 +2,7 @@
 title: "Refactoring by example"
 date: "2025-09-08"
 permalink: "refactoring-by-example"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Refactoring by example è una tecnica di coding con agenti AI che ho battezzato oggi.

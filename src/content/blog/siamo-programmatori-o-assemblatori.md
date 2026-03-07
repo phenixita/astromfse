@@ -2,7 +2,7 @@
 title: "Siamo programmatori o assemblatori?"
 date: "2025-08-19"
 permalink: "siamo-programmatori-o-assemblatori"
-categories: [38]
+categories: ['daily']
 ---
 
 Più di una volta, nella mia carriera, ho pensato che programmare oggi assomigli più all’assemblaggio che alla costruzione da zero. Quasi ogni problema che incontriamo è già stato affrontato da qualcun altro, che magari ha realizzato una libreria e l’ha resa disponibile come open source o a pagamento.

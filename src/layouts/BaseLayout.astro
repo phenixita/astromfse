@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import CookieBanner from '../components/CookieBanner.astro';
+import { categories } from '../data/categories';
 
 interface Props {
   title: string;
@@ -34,6 +35,7 @@ const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
 const currentPathNoBase = basePath && currentPath.startsWith(basePath)
   ? currentPath.slice(basePath.length) || '/'
   : currentPath;
+const isBlogActive = currentPathNoBase.startsWith('/blog') || currentPathNoBase.startsWith('/category');
 
 // JSON-LD: WebSite + Person (sitewide)
 const websiteJsonLd = {
@@ -130,7 +132,25 @@ const websiteJsonLd = {
       </button>
       <ul class="nav__links" id="nav-links">
         <li><a href={base + ""} class:list={[{ active: currentPathNoBase === '/' }]}>Home</a></li>
-        <li><a href={base + "blog"} class:list={[{ active: currentPathNoBase.startsWith('/blog') }]}>Blog</a></li>
+        <li class="nav__item nav__item--has-submenu">
+          <a href={base + "blog"} class:list={[{ active: isBlogActive }]}>Blog <span class="nav__caret" aria-hidden="true">^</span></a>
+          <button
+            class="nav__submenu-toggle"
+            type="button"
+            aria-label="Apri categorie blog"
+            aria-expanded="false"
+          >
+            ▾
+          </button>
+          <ul class="nav__submenu" aria-label="Categorie blog">
+            <li><a href={base + "blog"}>Tutti gli articoli</a></li>
+            {categories.map((category) => (
+              <li>
+                <a href={base + `category/${category.slug}`}>{category.label}</a>
+              </li>
+            ))}
+          </ul>
+        </li>
         <li><a href={base + "servizi"} class:list={[{ active: currentPathNoBase.startsWith('/servizi') }]}>Servizi</a></li>
         <li><a href={base + "il-metodo"} class:list={[{ active: currentPathNoBase === '/il-metodo/' || currentPathNoBase === '/il-metodo' }]}>Il Metodo</a></li>
         <li><a href={base + "about"} class:list={[{ active: currentPathNoBase === '/about/' || currentPathNoBase === '/about' }]}>Chi Sono</a></li>
@@ -191,6 +211,16 @@ const websiteJsonLd = {
   <script>
     document.getElementById('nav-toggle')?.addEventListener('click', () => {
       document.getElementById('nav-links')?.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav__submenu-toggle').forEach((toggle) => {
+      toggle.addEventListener('click', () => {
+        const parent = toggle.closest('.nav__item--has-submenu');
+        if (!parent) return;
+
+        const isOpen = parent.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
     });
   </script>
 </body>

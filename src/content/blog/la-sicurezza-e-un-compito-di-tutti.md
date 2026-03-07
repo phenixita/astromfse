@@ -2,7 +2,7 @@
 title: "La sicurezza è un compito di tutti"
 date: "2025-08-04"
 permalink: "la-sicurezza-e-un-compito-di-tutti"
-categories: [37, 38, 45]
+categories: ['devops', 'daily', 'sicurezza']
 ---
 
 Cosa significa che la sicurezza è un compito di tutti? E se ci dobbiamo pensare tutti, non rischiamo forse che non ci pensi più nessuno, facendo la fine del famoso cane con tanti padroni?

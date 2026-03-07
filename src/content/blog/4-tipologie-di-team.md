@@ -2,7 +2,7 @@
 title: "4 tipologie di team"
 date: "2025-05-29"
 permalink: "4-tipologie-di-team"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Continuo il tema della gestione dei team che si allinea ai miei "core value" di appassionato di dinamiche tra persone che costruiscono software (oltre a come costruire il software stesso).

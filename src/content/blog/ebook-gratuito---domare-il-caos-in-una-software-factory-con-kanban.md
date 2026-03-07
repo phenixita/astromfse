@@ -2,7 +2,7 @@
 title: "Ebook gratuito - Domare il caos in una software factory con Kanban"
 date: "2025-05-02"
 permalink: "ebook-gratuito---domare-il-caos-in-una-software-factory-con-kanban"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Lunedì 28 aprile 2025 

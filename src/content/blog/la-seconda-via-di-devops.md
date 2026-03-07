@@ -2,7 +2,7 @@
 title: "La seconda via di DevOps"
 date: "2025-03-05"
 permalink: "la-seconda-via-di-devops"
-categories: [37]
+categories: ['devops']
 ---
 
 La seconda via di DevOps è basata sul feedback, sul raccogliere informazioni per sapere come stanno andando le cose: amplificando già dove c'è o creando segnali dove non ce ne sono.

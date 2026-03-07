@@ -2,7 +2,7 @@
 title: "La piramide Product-Market fit"
 date: "2025-06-20"
 permalink: "la-piramide-product-market-fit"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 Product-market fit è un termine coniato da Marc Andreessen nel suo blog post intitolato “The only thing that matters” (https://pmarchive.com/guide_to_startups_part4.html). In quel post, scrive (traduco):

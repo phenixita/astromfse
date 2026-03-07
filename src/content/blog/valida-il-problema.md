@@ -2,7 +2,7 @@
 title: "Valida il problema"
 date: "2025-06-27"
 permalink: "valida-il-problema"
-categories: [38, 44]
+categories: ['daily', 'valore']
 ---
 
 Nel viaggio di scoperta del valore per il cliente... nessuno ha certezze. Nessuno ha la sfera di cristallo

@@ -2,7 +2,7 @@
 title: "Le 4 metriche DORA"
 date: "2025-09-28"
 permalink: "le-4-metriche-dora"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Capire il livello di performance di un dipartimento di produzione software è una questione complessa.

@@ -2,7 +2,7 @@
 title: "I benefici aziendali di DevOps"
 date: "2025-04-23"
 permalink: "i-benefici-aziendali-di-devops"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 > Perché dovrei farlo? - _Il tuo capo_

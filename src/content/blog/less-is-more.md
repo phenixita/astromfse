@@ -2,7 +2,7 @@
 title: "Less is more"
 date: "2025-06-23"
 permalink: "less-is-more"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Bazzico nel mondo del software da più tempo di quello che ormai vorrei ammettere e ho sempre notato una situazione ricorrente:

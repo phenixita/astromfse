@@ -2,7 +2,7 @@
 title: "Qui si è sempre fatto così: il virus culturale che ti ruba il potenziale"
 date: "2025-04-15"
 permalink: "qui-si-e-sempre-fatto-cosi-il-virus-culturale-che-ti-ruba-il-potenziale"
-categories: [41, 37, 35, 38]
+categories: ['cultura', 'devops', 'software-factory', 'daily']
 ---
 
 I comportamenti delle persone sono influenzati da tre gruppi di persone particolari (Clear – Atomic Habits):

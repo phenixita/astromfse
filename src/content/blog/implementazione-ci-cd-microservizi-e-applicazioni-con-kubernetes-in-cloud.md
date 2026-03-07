@@ -2,7 +2,7 @@
 title: "Implementazione CI-CD microservizi e applicazioni con Kubernetes in cloud"
 date: "2025-07-04"
 permalink: "implementazione-ci-cd-microservizi-e-applicazioni-con-kubernetes-in-cloud"
-categories: [37, 38, 28]
+categories: ['devops', 'daily', 'video']
 ---
 
 Kubernetes è lo standard di riferimento per i workload a microservizi e l'orchestratore più diffuso sul mercato.

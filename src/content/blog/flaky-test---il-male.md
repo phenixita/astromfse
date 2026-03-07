@@ -2,7 +2,7 @@
 title: "Flaky test - il male"
 date: "2025-04-30"
 permalink: "flaky-test---il-male"
-categories: [37, 38, 23]
+categories: ['devops', 'daily', 'testing']
 ---
 
 I test sono un elemento cruciale per una software factory che punta alla qualità e alla sostenibilità dei progetti nel lungo periodo.

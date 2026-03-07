@@ -2,7 +2,7 @@
 title: "Come rendere resiliente il tuo software business automatizzare"
 date: "2025-04-08"
 permalink: "come-rendere-resiliente-il-tuo-software-business-automatizzare"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nei messaggi precedenti abbiamo parlato di un processo per rendere resiliente un software business.

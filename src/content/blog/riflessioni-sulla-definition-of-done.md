@@ -2,7 +2,7 @@
 title: "Riflessioni sulla definition of done"
 date: "2025-05-27"
 permalink: "riflessioni-sulla-definition-of-done"
-categories: [43, 42, 38]
+categories: ['team', 'kanban', 'daily']
 ---
 
 Stavo lavorando con un direttore IT di un'azienda Fortune 500 a un'iniziativa di adozione di Azure DevOps Services per i team che riportano a lui. Sono 5 team distribuiti in Italia che dovranno adottare linee guida comuni.

@@ -2,7 +2,7 @@
 title: "Ho provato un LLM in locale per sviluppo"
 date: "2025-09-29"
 permalink: "ho-provato-un-llm-in-locale-per-sviluppo"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 E ho mollato dopo 1 ora.

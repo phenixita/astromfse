@@ -2,7 +2,7 @@
 title: "Precisazioni sul cycle time"
 date: "2025-06-22"
 permalink: "precisazioni-sul-cycle-time"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Per la stesura de "Il Metodo Software Factory" sono sempre alla ricerca di fonti, confronti, dettagli e riferimenti.

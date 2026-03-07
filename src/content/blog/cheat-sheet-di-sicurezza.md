@@ -2,7 +2,7 @@
 title: "Cheat sheet di sicurezza"
 date: "2025-08-07"
 permalink: "cheat-sheet-di-sicurezza"
-categories: [37, 38, 45]
+categories: ['devops', 'daily', 'sicurezza']
 ---
 
 Quando si tratta di sicurezza applicativa l'argomento è davvero una materia vastissima e un intero capitolo dell'informatica.

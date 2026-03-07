@@ -2,7 +2,7 @@
 title: "Noi non siamo gli utenti"
 date: "2025-04-22"
 permalink: "noi-non-siamo-gli-utenti"
-categories: [32, 35, 38]
+categories: ['my-take-on', 'software-factory', 'daily']
 ---
 
 > Lì! Clicca lì! No, più a destra… più a destra… Clicca sul pulsante di scelta… Il pallino vuoto… (Pianta il dito sullo schermo) Ecco, qui devi cliccare.

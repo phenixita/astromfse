@@ -2,7 +2,7 @@
 title: "Falla girare sul serio. La tua procedura di Disaster Recovery non è un PDF"
 date: "2025-04-09"
 permalink: "falla-girare-sul-serio.-la-tua-dr-non-un-pdf."
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 C’è una differenza enorme tra avere un piano e sapere che funziona.

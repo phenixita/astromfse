@@ -2,7 +2,7 @@
 title: "Lavorare a piccoli incrementi"
 date: "2025-10-13"
 permalink: "lavorare-a-piccoli-incrementi"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 I team, in generale, tendono a pianificare il lavoro in grandi "lotti" (batch).

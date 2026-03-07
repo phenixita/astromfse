@@ -2,7 +2,7 @@
 title: "Il complicated subsystem team (tipo 3 di 4)"
 date: "2025-06-02"
 permalink: "il-complicated-subsystem-team-(tipo-3-di-4)"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Nell'episodio precedente sulle tipologie di team abbiamo parlato del team abilitatore che potenzia il team stream-aligned intervenendo come consulente specialistico.

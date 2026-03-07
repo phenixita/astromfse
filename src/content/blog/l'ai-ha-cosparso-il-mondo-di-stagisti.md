@@ -2,7 +2,7 @@
 title: "L'AI ha cosparso il mondo di stagisti"
 date: "2025-04-03"
 permalink: "l'ai-ha-cosparso-il-mondo-di-stagisti"
-categories: [37, 38, 32]
+categories: ['devops', 'daily', 'my-take-on']
 ---
 
 L'AI generativa ha cosparso il mondo di software engineer stagisti.

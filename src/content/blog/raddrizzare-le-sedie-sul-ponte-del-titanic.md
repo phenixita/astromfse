@@ -2,7 +2,7 @@
 title: "Raddrizzare le sedie sul ponte del Titanic"
 date: "2025-12-17"
 permalink: "raddrizzare-le-sedie-sul-ponte-del-titanic"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Qualche giorno fa ho letto questa frase "raddrizzare le sedie sul ponte del Titanic" in un pezzo sulla leadership.

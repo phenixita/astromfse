@@ -2,7 +2,7 @@
 title: "La sicurezza in ottica DevOps"
 date: "2025-03-09"
 permalink: "la-sicurezza-in-ottica-devops"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In questo episodio parliamo della sicurezza in ottica DevOps.

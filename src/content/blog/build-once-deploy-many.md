@@ -2,7 +2,7 @@
 title: "Build once deploy many"
 date: "2025-03-21"
 permalink: "build-once-deploy-many"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nelle pratiche devops di CI/CD vige il mantra "Build once, deploy many".

@@ -2,7 +2,7 @@
 title: "Qualità dell'informazione"
 date: "2025-03-14"
 permalink: "qualita-dell'informazione"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In ambito Lean software development è importante ridurre gli sprechi.

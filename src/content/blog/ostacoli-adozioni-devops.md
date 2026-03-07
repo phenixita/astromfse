@@ -2,7 +2,7 @@
 title: "I principali ostacoli alle adozioni DevOps"
 date: "2025-03-07"
 permalink: "ostacoli-adozioni-devops"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 # I principali ostacoli nelle adozioni DevOps

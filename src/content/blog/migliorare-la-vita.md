@@ -2,7 +2,7 @@
 title: "Migliorare la vita"
 date: "2025-06-13"
 permalink: "migliorare-la-vita"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 In questi ultimi messaggi stiamo parlando di Valore.

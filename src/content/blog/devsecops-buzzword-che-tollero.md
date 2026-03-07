@@ -2,7 +2,7 @@
 title: "DevSecOps è una buzzword che tollero"
 date: "2025-03-13"
 permalink: "devsecops-buzzword-che-tollero"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Non sono un grande fan delle buzzword o di rendere tutto un acronimo però faccio una eccezione per DevSecOps.

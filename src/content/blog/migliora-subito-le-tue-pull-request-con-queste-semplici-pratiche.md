@@ -2,7 +2,7 @@
 title: "Migliora subito le tue pull request con queste semplici pratiche"
 date: "2025-07-08"
 permalink: "migliora-subito-le-tue-pull-request-con-queste-semplici-pratiche"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Una pratica che viene trascurata dai team di sviluppo è la revisione del lavoro tramite le pull-request. Ed è anche la più fraintesa.

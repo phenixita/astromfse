@@ -2,7 +2,7 @@
 title: "Le simpatiche e-mail di Microsoft ai dipendenti"
 date: "2025-08-05"
 permalink: "le-simpatiche-e-mail-di-microsoft-ai-dipendenti"
-categories: [37, 38, 45]
+categories: ['devops', 'daily', 'sicurezza']
 ---
 
 Qualche messaggio fa ho scritto di cosa significa "la sicurezza è un compito di tutti".

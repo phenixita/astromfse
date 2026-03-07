@@ -2,7 +2,7 @@
 title: "16 domande da porsi"
 date: "2025-04-26"
 permalink: "16-domande-da-porsi"
-categories: [37, 38, 41, 35]
+categories: ['devops', 'daily', 'cultura', 'software-factory']
 ---
 
 Nell'episodio precedente abbiamo parlato di come, in una software factory, sbloccare la produttività delle persone sia un’attività intenzionale e supportata da azioni concrete.

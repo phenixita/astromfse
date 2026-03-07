@@ -2,7 +2,7 @@
 title: "Shift-right testing"
 date: "2025-03-28"
 permalink: "shift-right-testing"
-categories: [37, 38, 23]
+categories: ['devops', 'daily', 'testing']
 ---
 
 Si sente parlare spesso di shift-left di metodi e pratiche, in particolare sui test e anche nella 

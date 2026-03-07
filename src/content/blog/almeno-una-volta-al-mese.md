@@ -2,7 +2,7 @@
 title: "Almeno una volta al mese"
 date: "2025-06-07"
 permalink: "almeno-una-volta-al-mese"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Me lo ricordo ancora come se fosse ieri, ma era il 2019, il primo incontro da remoto con la mia prima manager, Ana, che collegata dalla Spagna su Teams mi disse: “Michele, tu abiti molto lontano dagli uffici sia di Milano che di Roma, e avrai delle difficoltà ad integrarti coi colleghi se non vai a Milano almeno una volta al mese. Lo so, è impegnativo, ma ti servirà per conoscere meglio i tuoi colleghi.”

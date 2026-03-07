@@ -2,7 +2,7 @@
 title: "Il team stream-aligned (tipo 1 di 4)"
 date: "2025-05-30"
 permalink: "il-team-stream-aligned-(tipo-1-di-4)"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Lo stream aligned team: questa è la topologia di team primaria su cui le altre si basano ed è il principale produttore di valore per la software factory.

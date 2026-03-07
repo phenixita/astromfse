@@ -2,7 +2,7 @@
 title: "Kanban tips - Riduci il work in progress"
 date: "2025-05-09"
 permalink: "kanban-tips---riduci-il-work-in-progress"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Nell'ultimo messaggio dedicato a kanban ti ho introdotto una ricetta per il successo per cominciare a controllare il caos di una software factory.

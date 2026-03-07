@@ -2,7 +2,7 @@
 title: "A chi serve la telemetria?"
 date: "2025-03-23"
 permalink: "a-chi-serve-la-telemetria"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Seguendo le pratiche della 

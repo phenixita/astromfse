@@ -2,7 +2,7 @@
 title: "Database DevOps"
 date: "2025-03-22"
 permalink: "database-devops"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Quando si parla di pratiche DevOps si pensa a tematiche di infrastruttura e di codice e raramente si parla di database.

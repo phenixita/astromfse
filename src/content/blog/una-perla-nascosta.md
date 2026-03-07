@@ -2,7 +2,7 @@
 title: "Una perla nascosta"
 date: "2025-08-01"
 permalink: "una-perla-nascosta"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Hai presente il piacere di quando scopri un piccolo gioiello?

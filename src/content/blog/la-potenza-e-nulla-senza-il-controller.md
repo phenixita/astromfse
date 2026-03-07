@@ -2,7 +2,7 @@
 title: "La potenza è nulla senza il controller"
 date: "2025-09-04"
 permalink: "la-potenza-e-nulla-senza-il-controller"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 La prima volta che ho sentito parlare di telemetria ero ragazzino, davanti a un Gran Premio di Formula 1. Mi colpiva l’idea che dai box potessero sapere tutto della monoposto mentre sfrecciava a 200 km/h: gomme, freni, consumi, motore.

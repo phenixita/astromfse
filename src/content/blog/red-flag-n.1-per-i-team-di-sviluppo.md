@@ -2,7 +2,7 @@
 title: "Red flag n.1 per i team di sviluppo"
 date: "2025-05-20"
 permalink: "red-flag-n.1-per-i-team-di-sviluppo"
-categories: [37, 38, 41, 32]
+categories: ['devops', 'daily', 'cultura', 'my-take-on']
 ---
 
 "Allora questo sviluppo lo facciamo fare Simona che conosce il cliente meglio di tutti."

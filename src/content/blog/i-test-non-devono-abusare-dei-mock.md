@@ -2,7 +2,7 @@
 title: "I test non devono abusare dei mock"
 date: "2025-05-05"
 permalink: "i-test-non-devono-abusare-dei-mock"
-categories: [38, 23]
+categories: ['daily', 'testing']
 ---
 
 Qualche messaggio ho parlato dei test "flaky" e di come siano da gestire con determinazione perché di scarsa utilità e fuorvianti.

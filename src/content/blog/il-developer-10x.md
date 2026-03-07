@@ -2,7 +2,7 @@
 title: "il developer 10x"
 date: "2025-09-09"
 permalink: "il-developer-10x"
-categories: [37]
+categories: ['devops']
 ---
 
 Si parla da sempre della leggenda del *developer 10x*: il genio capace di produrre dieci volte più codice degli altri. Ma ti dico la verità: per me il developer 10x esiste davvero, solo che non è quello che pensi.

@@ -2,7 +2,7 @@
 title: "Anche il remote work ha il suo ambiente"
 date: "2025-06-08"
 permalink: "anche-il-remote-work-ha-il-suo-ambiente"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 L’ambiente virtuale è composto da tutti quegli spazi digitali quali siti aziendali (interni ed esterni), blog, strumenti di chat, piattaforme di gestione del lavoro e affini che devono essere messi al servizio delle persone per gestire la componente più critica del lavoro distribuito: il cambiamento del paradigma comunicativo. Rispetto al lavoro tradizionale si passa da una comunicazione prevalentemente orale e sincrona (riunioni in presenza, scambi alla macchinetta del caffè, discussioni alla lavagna) a una comunicazione più scritta e asincrona.

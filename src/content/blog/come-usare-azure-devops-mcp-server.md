@@ -2,7 +2,7 @@
 title: "Come usare Azure DevOps MCP Server"
 date: "2025-07-12"
 permalink: "come-usare-azure-devops-mcp-server"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Immagina di aprire Visual Studio Code, digitare "mostrami l'ultimo work item che mi è stato assegnato nel project learning" e ottenere immediatamente la risposta. Non fantascienza: è quello che succede quando integri Azure DevOps con l'intelligenza artificiale attraverso il protocollo MCP.

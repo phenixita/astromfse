@@ -2,7 +2,7 @@
 title: "Il platform team (tipo 4 di 4)"
 date: "2025-06-03"
 permalink: "il-platform-team-tipo-4-di-4"
-categories: [38, 43]
+categories: ['daily', 'team']
 ---
 
 Nell'episodio precedente sulle tipologie di team abbiamo parlato del team che gestisce i sistemi altamente specializzati.

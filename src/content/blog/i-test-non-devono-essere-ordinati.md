@@ -2,7 +2,7 @@
 title: "I test non devono essere ordinati"
 date: "2025-05-04"
 permalink: "i-test-non-devono-essere-ordinati"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 # I test NON devono essere ordinati

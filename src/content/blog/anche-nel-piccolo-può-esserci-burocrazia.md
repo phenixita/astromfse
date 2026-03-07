@@ -2,7 +2,7 @@
 title: "Anche nel piccolo può esserci burocrazia"
 date: "2025-04-19"
 permalink: "anche-nel-piccolo-può-esserci-burocrazia"
-categories: [37, 38, 41]
+categories: ['devops', 'daily', 'cultura']
 ---
 
 La cultura patologica è stata l'argomento dell'episodio precedente.

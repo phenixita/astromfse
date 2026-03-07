@@ -2,7 +2,7 @@
 title: "Il Metodo Software Factory è pronto"
 date: "2025-11-26"
 permalink: "il-metodo-software-factory-pronto"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Oggi... giornata importante e un po' off-topic.

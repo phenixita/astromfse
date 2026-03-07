@@ -2,7 +2,7 @@
 title: "Gretto e materialista"
 date: "2025-06-14"
 permalink: "gretto-e-materialista"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Nel messaggio precedente ci siamo lasciati filosofeggiando sul migliorare la vita construendo software.

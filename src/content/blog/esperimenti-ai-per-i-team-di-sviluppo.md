@@ -2,7 +2,7 @@
 title: "Esperimenti con l'AI per i team di sviluppo"
 date: "2025-07-30"
 permalink: "esperimenti-ai-per-i-team-di-sviluppo"
-categories: [37, 38, 40]
+categories: ['devops', 'daily', 'ai']
 ---
 
 In queste settimane sto sperimentando molto con i tool di intelligenza artificiale al servizio dei team di sviluppo in ogni fase del processo di produzione del software.

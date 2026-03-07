@@ -2,7 +2,7 @@
 title: "Deploylandia - Non ho tempo per i test"
 date: "2025-04-02"
 permalink: "deploylandia-non-ho-tempo-per-i-test"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

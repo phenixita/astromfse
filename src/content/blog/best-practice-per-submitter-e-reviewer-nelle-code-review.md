@@ -2,7 +2,7 @@
 title: "Best practice per submitter e reviewer nelle code review"
 date: "2026-01-23"
 permalink: "best-practice-per-submitter-e-reviewer-nelle-code-review"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Per trasformare le code review da pratica di facciata a qualcosa che migliora davvero prodotto e collaborazione, servono due cose: comunicazione più strutturata e più contesto.

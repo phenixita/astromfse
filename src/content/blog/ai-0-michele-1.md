@@ -2,7 +2,7 @@
 title: "AI 0 - Michele 1"
 date: "2025-10-29"
 permalink: "ai-0-michele-1"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 In questi giorni ho usato parecchi token di Copilot per sviluppare un tool one-shot di migrazione work-item da un Team Foundation Server 2015 ad Azure DevOps.

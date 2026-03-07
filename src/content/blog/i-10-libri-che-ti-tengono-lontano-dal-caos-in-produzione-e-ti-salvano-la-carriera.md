@@ -2,7 +2,7 @@
 title: "I 10 libri che ti tengono lontano dal caos in produzione (e ti salvano la carriera)"
 date: "2025-12-23"
 permalink: "i-10-libri-che-ti-tengono-lontano-dal-caos-in-produzione-e-ti-salvano-la-carriera"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Ecco una lista di 8 libri che potresti considerare nel 2026 a tema software engineering che consiglio caldamente. Buona lettura e buone feste.

@@ -2,7 +2,7 @@
 title: "Coding agent skills (con video)"
 date: "2026-02-03"
 permalink: "coding-agent-skills-(con-video)"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Hai mai pensato "se solo il mio coding agent sapesse fare..."?

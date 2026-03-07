@@ -2,7 +2,7 @@
 title: "Webinar - Domare il caos"
 date: "2025-04-12"
 permalink: "webinar-domare-il-caos"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Il giorno del tuo compleanno non aspettarti regali dagli altri ma fai tu un regalo.

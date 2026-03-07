@@ -2,7 +2,7 @@
 title: "VIDEO - Vibecoding un'app React"
 date: "2026-01-07"
 permalink: "vibecoding-un'app-react"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Negli scorsi giorni mi sono divertito a dedicare una giornata e mezza a qualcosa che probabilmente ci avrei messo... 5-6 giorni!

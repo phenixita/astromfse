@@ -2,7 +2,7 @@
 title: "il team di product discovery"
 date: "2025-06-26"
 permalink: "il-team-di-product-discovery"
-categories: [41, 38, 37]
+categories: ['cultura', 'daily', 'devops']
 ---
 
 Il discovery team è di ridotte dimensioni (2-4 persone) che svolge il lavoro di product discovery.

@@ -2,7 +2,7 @@
 title: "Monitora il throughput"
 date: "2025-11-14"
 permalink: "monitora-il-throughput"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Il throughput è una di quelle metriche semplici ma potenti. È il numero di item completati e messi in produzione in un periodo definito, spesso una settimana o un mese. All’inizio basta questo: il numero grezzo. Non è elegante, ma è vero. E soprattutto è misurabile subito.

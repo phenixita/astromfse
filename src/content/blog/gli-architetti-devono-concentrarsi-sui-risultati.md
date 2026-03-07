@@ -2,7 +2,7 @@
 title: "Gli architetti devono concentrarsi sui risultati"
 date: "2025-10-06"
 permalink: "gli-architetti-devono-concentrarsi-sui-risultati"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Non concentrarti sui tecnicismi.

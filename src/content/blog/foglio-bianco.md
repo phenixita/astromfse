@@ -2,7 +2,7 @@
 title: "Foglio bianco"
 date: "2025-09-26"
 permalink: "foglio-bianco"
-categories: [38]
+categories: ['daily']
 ---
 
 Immagina di svegliarti una mattina e scoprire che i sorgenti del tuo progetto principale sono spariti.

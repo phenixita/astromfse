@@ -2,7 +2,7 @@
 title: "Come si manifesta il debito tecnico"
 date: "2025-03-20"
 permalink: "come-si-manifesta-il-debito-tecnico"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Il debito tenico è stato definito nel 1992 da Ward Cunningham per descrivere quello che accade quando si gestisce malamente quello che lui definisce il codice "immaturo":

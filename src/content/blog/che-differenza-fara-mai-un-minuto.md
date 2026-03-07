@@ -2,7 +2,7 @@
 title: "Che differenza farà mai un minuto?"
 date: "2025-11-27"
 permalink: "che-differenza-farà-mai-un-minuto?"
-categories: [37, 38, 23]
+categories: ['devops', 'daily', 'testing']
 ---
 
 Se i test sono lenti, non li userai.

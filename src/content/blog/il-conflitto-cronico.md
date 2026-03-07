@@ -2,7 +2,7 @@
 title: "Il conflitto cronico"
 date: "2025-03-11"
 permalink: "il-conflitto-cronico"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Il conflitto cronico è il nome che è stato dato alla classica dinamica che accade quando l'IT contribuisce al business (cioè ormai praticamente sempre e ovunque).

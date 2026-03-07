@@ -2,7 +2,7 @@
 title: "Sii spietato con il lavoro bloccato"
 date: "2025-11-17"
 permalink: "sii-spietato-con-il-lavoro-bloccato"
-categories: [37, 38, 42]
+categories: ['devops', 'daily', 'kanban']
 ---
 
 Continua la serie di messaggi relativi alla gestione del lavoro secondo il Metodo Software Factory (che ingloba principi Lean e Kanban).

@@ -2,7 +2,7 @@
 title: "Il deployment dovrebbe essere una decisione di business"
 date: "2026-01-08"
 permalink: "il-deployment-dovrebbe-essere-una-decisione-di-business"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 # Il deployment dovrebbe essere una decisione di business

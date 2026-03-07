@@ -2,7 +2,7 @@
 title: "AI al servizio del singolo developer"
 date: "2025-09-16"
 permalink: "ai-al-servizio-del-singolo-developer"
-categories: [40, 38]
+categories: ['ai', 'daily']
 ---
 
 I tool basati su AI al servizio del singolo sono stati il punto di partenza di questa nuova era del mondo dello sviluppo software e, ancora oggi, rappresentano l’ambito più vivace. Tecnologie e metodi in questo settore hanno un obiettivo chiaro: migliorare la qualità del lavoro quotidiano del singolo professionista.

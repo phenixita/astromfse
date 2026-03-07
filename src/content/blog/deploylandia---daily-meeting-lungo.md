@@ -2,7 +2,7 @@
 title: "Deploylandia - Daily meeting lungo"
 date: "2025-05-14"
 permalink: "deploylandia---daily-meeting-lungo"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...

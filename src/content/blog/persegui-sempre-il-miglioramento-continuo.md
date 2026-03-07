@@ -2,7 +2,7 @@
 title: "Persegui sempre il miglioramento continuo"
 date: "2025-10-15"
 permalink: "persegui-sempre-il-miglioramento-continuo"
-categories: [37, 38]
+categories: ['devops', 'daily']
 ---
 
 Una delle caratteristiche più importante dei team efficaci è quello di non ritenersi mai soddisfatti.

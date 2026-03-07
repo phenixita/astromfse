@@ -2,7 +2,7 @@
 title: "Deploylandia - No"
 date: "2025-04-24"
 permalink: "deploylandiapython-no"
-categories: [39]
+categories: ['deploylandia']
 ---
 
 Nel frattempo a Deploylandia...
