@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+---
+
+<BaseLayout
+  title="404 — Pagina non trovata | Michele Ferracin"
+  description="Pagina non trovata. Riparti con MFSE (Michele Ferracin Software Engineering) e trova la risorsa giusta su DevOps, team e delivery."
+  noindex={true}
+>
+  <section class="page-header">
+    <img src={base + "images/hero-home.jpg"} alt="" class="page-header__bg" loading="eager" />
+    <div class="container">
+      <div class="page-header__text">
+        <span class="hero__badge">MFSE — Michele Ferracin</span>
+        <h1>404 — Pagina non trovata</h1>
+        <p>
+          Questa rotta non esiste, ma il tuo percorso verso software che funziona puo ripartire da qui.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="text-center" style="margin-bottom: var(--space-xl);">
+        <h2>Ripartiamo da un punto sicuro</h2>
+        <p style="color: var(--color-text-light);">
+          Scopri le risorse MFSE su DevOps, organizzazione dei team e delivery moderna.
+        </p>
+        <div class="hero__actions" style="justify-content: center;">
+          <a href={base + ""} class="btn btn--primary">Torna alla Home</a>
+          <a href={base + "contact"} class="btn btn--outline">Contattami</a>
+        </div>
+      </div>
+
+      <div class="features-grid" style="margin-top: var(--space-lg);">
+        <article class="feature-card">
+          <div class="feature-card__icon">01</div>
+          <h3>Servizi MFSE</h3>
+          <p>Scopri come posso aiutare la tua software factory a sbloccare i rilasci.</p>
+          <a href={base + "servizi"} class="btn btn--outline" style="margin-top: var(--space-md);">Vai ai servizi</a>
+        </article>
+        <article class="feature-card">
+          <div class="feature-card__icon">02</div>
+          <h3>Blog e risorse</h3>
+          <p>Approfondimenti pratici su DevOps, AI nel workflow e organizzazione dei team.</p>
+          <a href={base + "blog"} class="btn btn--outline" style="margin-top: var(--space-md);">Leggi il blog</a>
+        </article>
+        <article class="feature-card">
+          <div class="feature-card__icon">03</div>
+          <h3>Chi sono</h3>
+          <p>MFSE e il metodo con cui trasformo il caos in processi software affidabili.</p>
+          <a href={base + "about"} class="btn btn--outline" style="margin-top: var(--space-md);">Conosci Michele</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
