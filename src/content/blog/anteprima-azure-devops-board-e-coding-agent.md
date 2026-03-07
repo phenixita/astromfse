@@ -1,7 +1,7 @@
 ---
 title: "Anteprima: Azure DevOps Board e Coding Agent"
 date: "2026-01-19"
-permalink: "anteprima:-azure-devops-board-e-coding-agent"
+permalink: "anteprima-azure-devops-board-e-coding-agent"
 categories: [37, 38]
 ---
 
