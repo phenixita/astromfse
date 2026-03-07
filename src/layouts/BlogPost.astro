@@ -1,16 +1,21 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { categoriesBySlug } from '../data/categories';
 
 interface Props {
   title: string;
   date: string;
   slug: string;
+  categories?: string[];
 }
 
-const { title, date, slug } = Astro.props;
+const { title, date, slug, categories = [] } = Astro.props;
 
 const siteUrl = 'https://micheleferracin.it';
 const postUrl = `${siteUrl}/${slug}/`;
+const categoryItems = categories
+  .map((categorySlug) => categoriesBySlug.get(categorySlug))
+  .filter(Boolean);
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -72,6 +77,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   canonicalUrl={postUrl}
   publishedDate={toISO(date)}
   modifiedDate={toISO(date)}
+  articleTags={categoryItems.map((category) => category.label)}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
@@ -90,6 +96,18 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
       <p class="post-header__date">
         <time datetime={toISO(date)}>{formatDate(date)}</time>
       </p>
+      {categoryItems.length > 0 && (
+        <div class="category-chips" aria-label="Categorie">
+          {categoryItems.map((category) => (
+            <a
+              href={base + `category/${category.slug}`}
+              class="category-chip category-chip--inverse"
+            >
+              {category.label}
+            </a>
+          ))}
+        </div>
+      )}
       <h1>{title}</h1>
     </div>
   </div>

@@ -1,17 +1,23 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { categoriesBySlug } from '../../data/categories';
+import { categories, categoriesBySlug } from '../../data/categories';
 
-export async function getStaticPaths({ paginate }) {
-  const allPosts = (await getCollection('blog'))
-    .filter(p => !p.data.draft)
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog'))
+    .filter((post) => !post.data.draft)
     .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
-  return paginate(allPosts, { pageSize: 12 });
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      posts: posts.filter((post) => post.data.categories?.includes(category.slug)),
+    },
+  }));
 }
 
-const { page } = Astro.props;
+const { category, posts } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}` : `${base}${path}`;
 
@@ -32,29 +38,32 @@ function getCategories(slugs: string[] = []) {
 }
 ---
 
-<BaseLayout title={`Blog${page.currentPage > 1 ? ` — Pagina ${page.currentPage}` : ''} — Michele Ferracin`} description="Articoli su DevOps, CI/CD, organizzazione dei team, Kubernetes, Kanban, metriche DORA, AI coding e pratiche moderne di software engineering. Di Michele Ferracin.">
+<BaseLayout
+  title={`${category.label} — Categoria Blog | Michele Ferracin`}
+  description={`Articoli di Michele Ferracin nella categoria ${category.label}. DevOps, team e software engineering.`}
+>
   <div class="page-header">
     <div class="container">
-      <h1>Blog</h1>
-      <p>Riflessioni su DevOps, software engineering, team di sviluppo e intelligenza artificiale.</p>
+      <span class="hero__badge">Categoria</span>
+      <h1>{category.label}</h1>
+      <p>{posts.length} articoli su {category.label}.</p>
     </div>
   </div>
 
   <section class="section">
     <div class="container">
-      <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">{page.total} articoli pubblicati</p>
       <div class="blog-grid">
-        {page.data.map((post) => {
-          const categories = getCategories(post.data.categories);
+        {posts.map((post) => {
+          const postCategories = getCategories(post.data.categories);
 
           return (
             <article class="blog-card">
               <div class="blog-card__body">
-                {categories.length > 0 && (
+                {postCategories.length > 0 && (
                   <div class="category-chips" aria-label="Categorie">
-                    {categories.map((category) => (
-                      <a href={toBase(`/category/${category.slug}`)} class="category-chip">
-                        {category.label}
+                    {postCategories.map((cat) => (
+                      <a href={toBase(`/category/${cat.slug}`)} class="category-chip">
+                        {cat.label}
                       </a>
                     ))}
                   </div>
@@ -71,15 +80,10 @@ function getCategories(slugs: string[] = []) {
         })}
       </div>
 
-      {page.lastPage > 1 && (
-        <div class="pagination">
-          {page.url.prev && <a href={toBase(page.url.prev)}>← Prec</a>}
-          {Array.from({ length: page.lastPage }, (_, i) => i + 1).map(num => (
-            num === page.currentPage
-              ? <span class="active">{num}</span>
-              : <a href={toBase(num === 1 ? '/blog' : `/blog/${num}`)}>{num}</a>
-          ))}
-          {page.url.next && <a href={toBase(page.url.next)}>Succ →</a>}
+      {posts.length === 0 && (
+        <div class="text-center" style="margin-top: var(--space-xl);">
+          <p style="color: var(--color-text-light);">Nessun articolo in questa categoria, per ora.</p>
+          <a href={base + "blog"} class="btn btn--outline" style="margin-top: var(--space-md);">Torna al Blog</a>
         </div>
       )}
     </div>

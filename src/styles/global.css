@@ -554,6 +554,49 @@ p {
 }
 
 /* ============================================================
+   CATEGORY CHIPS
+   ============================================================ */
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: var(--space-md);
+}
+
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-dark);
+  background: rgba(var(--color-accent-rgb), 0.12);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.35);
+  transition: all var(--transition);
+}
+
+.category-chip:hover {
+  color: var(--color-primary);
+  background: rgba(var(--color-accent-rgb), 0.22);
+  border-color: rgba(var(--color-accent-rgb), 0.6);
+}
+
+.category-chip--inverse {
+  color: var(--color-highlight);
+  background: rgba(var(--color-light-rgb), 0.08);
+  border-color: rgba(var(--color-highlight-rgb), 0.5);
+}
+
+.category-chip--inverse:hover {
+  color: var(--color-primary);
+  background: var(--color-highlight);
+  border-color: var(--color-highlight);
+}
+
+/* ============================================================
    BLOG CARDS
    ============================================================ */
 .blog-grid {

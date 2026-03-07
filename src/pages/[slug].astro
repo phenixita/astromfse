@@ -24,6 +24,11 @@ const slug = post.data.permalink || post.id.replace(/\.mdx?$/, '');
 const { Content } = await render(post);
 ---
 
-<BlogPost title={post.data.title} date={post.data.date} slug={slug}>
+<BlogPost
+  title={post.data.title}
+  date={post.data.date}
+  slug={slug}
+  categories={post.data.categories}
+>
   <Content />
 </BlogPost>
