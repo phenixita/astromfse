@@ -1,7 +1,7 @@
 ---
 title: "I test devono essere veloci"
 date: "2025-04-29"
-slug: "i-test-devono-essere-veloci"
+permalink: "i-test-devono-essere-veloci"
 categories: [37, 38, 23, 32]
 ---
 

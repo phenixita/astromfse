@@ -1,7 +1,7 @@
 ---
 title: "L'AI ha cosparso il mondo di stagisti"
 date: "2025-04-03"
-slug: "l'ai-ha-cosparso-il-mondo-di-stagisti"
+permalink: "l'ai-ha-cosparso-il-mondo-di-stagisti"
 categories: [37, 38, 32]
 ---
 

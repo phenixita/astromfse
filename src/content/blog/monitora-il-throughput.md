@@ -1,7 +1,7 @@
 ---
 title: "Monitora il throughput"
 date: "2025-11-14"
-slug: "monitora-il-throughput"
+permalink: "monitora-il-throughput"
 categories: [37, 38, 42]
 ---
 

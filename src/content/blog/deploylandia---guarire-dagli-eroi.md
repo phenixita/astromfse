@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Guarire dagli eroi"
 date: "2025-05-08"
-slug: "deploylandia---guarire-dagli-eroi"
+permalink: "deploylandia---guarire-dagli-eroi"
 categories: [39]
 ---
 

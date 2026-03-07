@@ -1,7 +1,7 @@
 ---
 title: "Kanban tips focus sulla qualita"
 date: "2025-05-07"
-slug: "kanban-tips-focus-sulla-qualita"
+permalink: "kanban-tips-focus-sulla-qualita"
 categories: [35, 38]
 ---
 

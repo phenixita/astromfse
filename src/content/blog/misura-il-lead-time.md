@@ -1,7 +1,7 @@
 ---
 title: "Misura il lead time"
 date: "2025-11-12"
-slug: "misura-il-lead-time"
+permalink: "misura-il-lead-time"
 categories: [37, 38]
 ---
 

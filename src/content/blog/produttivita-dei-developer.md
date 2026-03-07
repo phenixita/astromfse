@@ -1,7 +1,7 @@
 ---
 title: "Produttività dei developer"
 date: "2025-04-25"
-slug: "produttivita-dei-developer"
+permalink: "produttivita-dei-developer"
 categories: [37, 38, 41, 35]
 ---
 

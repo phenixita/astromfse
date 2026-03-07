@@ -18,7 +18,7 @@ export async function GET(context) {
         title: post.data.title,
         pubDate: new Date(post.data.date),
         description: excerpt.slice(0, 200),
-        link: `${base}blog/${post.id}/`,
+        link: `${base}${post.data.permalink || post.id.replace(/\.mdx?$/, '')}/`,
       };
     }),
     customData: `<language>it-IT</language>

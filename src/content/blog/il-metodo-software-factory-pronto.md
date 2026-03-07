@@ -1,7 +1,7 @@
 ---
 title: "Il Metodo Software Factory è pronto"
 date: "2025-11-26"
-slug: "il-metodo-software-factory-pronto"
+permalink: "il-metodo-software-factory-pronto"
 categories: [37, 38]
 ---
 

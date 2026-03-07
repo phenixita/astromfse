@@ -1,7 +1,7 @@
 ---
 title: "Kanban Tips Rilascia spesso"
 date: "2025-05-10"
-slug: "kanban-tips-rilascia-spesso"
+permalink: "kanban-tips-rilascia-spesso"
 categories: [37, 38, 42]
 ---
 

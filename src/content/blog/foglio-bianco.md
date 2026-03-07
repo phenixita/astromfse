@@ -1,7 +1,7 @@
 ---
 title: "Foglio bianco"
 date: "2025-09-26"
-slug: "foglio-bianco"
+permalink: "foglio-bianco"
 categories: [38]
 ---
 

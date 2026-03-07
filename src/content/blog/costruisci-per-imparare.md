@@ -1,7 +1,7 @@
 ---
 title: "Costruisci per imparare"
 date: "2025-06-30"
-slug: "costruisci-per-imparare"
+permalink: "costruisci-per-imparare"
 categories: [38, 44]
 ---
 

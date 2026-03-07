@@ -1,7 +1,7 @@
 ---
 title: "Almeno una volta al mese"
 date: "2025-06-07"
-slug: "almeno-una-volta-al-mese"
+permalink: "almeno-una-volta-al-mese"
 categories: [38, 43]
 ---
 

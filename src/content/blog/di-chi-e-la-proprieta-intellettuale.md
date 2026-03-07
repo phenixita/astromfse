@@ -1,7 +1,7 @@
 ---
 title: "Di chi è la proprietà intellettuale"
 date: "2025-09-25"
-slug: "di-chi-e-la-proprieta-intellettuale"
+permalink: "di-chi-e-la-proprieta-intellettuale"
 categories: [40, 38]
 ---
 

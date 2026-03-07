@@ -1,7 +1,7 @@
 ---
 title: "La convergenza DevOps"
 date: "2025-03-31"
-slug: "la-convergenza-devops"
+permalink: "la-convergenza-devops"
 categories: [37, 38]
 ---
 

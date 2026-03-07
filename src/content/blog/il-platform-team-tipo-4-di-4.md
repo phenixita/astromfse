@@ -1,7 +1,7 @@
 ---
 title: "Il platform team (tipo 4 di 4)"
 date: "2025-06-03"
-slug: "il-platform-team-tipo-4-di-4"
+permalink: "il-platform-team-tipo-4-di-4"
 categories: [38, 43]
 ---
 

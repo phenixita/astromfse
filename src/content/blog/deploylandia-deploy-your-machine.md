@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Deploy your machine"
 date: "2025-03-20"
-slug: "deploylandia-deploy-your-machine"
+permalink: "deploylandia-deploy-your-machine"
 categories: [37, 39]
 ---
 

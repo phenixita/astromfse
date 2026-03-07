@@ -1,7 +1,7 @@
 ---
 title: "Vedere è potere"
 date: "2026-01-14"
-slug: "vedere-è-potere"
+permalink: "vedere-è-potere"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Standardizzare il ciclo di deployment"
 date: "2025-03-27"
-slug: "standardizzare-il-ciclo-di-deployment"
+permalink: "standardizzare-il-ciclo-di-deployment"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Un dannato algoritmo per volta"
 date: "2026-02-12"
-slug: "un-dannato-algoritmo-per-volta"
+permalink: "un-dannato-algoritmo-per-volta"
 categories: [37, 38]
 ---
 

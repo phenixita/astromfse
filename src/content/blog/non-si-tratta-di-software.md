@@ -1,7 +1,7 @@
 ---
 title: "Non si tratta di software"
 date: "2025-06-11"
-slug: "non-si-tratta-di-software"
+permalink: "non-si-tratta-di-software"
 categories: [41, 38, 37]
 ---
 

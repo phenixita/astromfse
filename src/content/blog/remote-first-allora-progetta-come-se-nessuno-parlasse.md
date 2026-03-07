@@ -1,7 +1,7 @@
 ---
 title: "Remote first Allora progetta come se nessuno parlasse"
 date: "2025-05-26"
-slug: "remote-first-allora-progetta-come-se-nessuno-parlasse"
+permalink: "remote-first-allora-progetta-come-se-nessuno-parlasse"
 categories: [37, 38, 42]
 ---
 

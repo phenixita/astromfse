@@ -1,7 +1,7 @@
 ---
 title: "Kanban tips Attacca le fonti di variabilità"
 date: "2025-05-15"
-slug: "kanban-tips-attacca-le-fonti-di-variabilità"
+permalink: "kanban-tips-attacca-le-fonti-di-variabilità"
 categories: [37, 42]
 ---
 

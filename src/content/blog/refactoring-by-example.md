@@ -1,7 +1,7 @@
 ---
 title: "Refactoring by example"
 date: "2025-09-08"
-slug: "refactoring-by-example"
+permalink: "refactoring-by-example"
 categories: [37, 38]
 ---
 

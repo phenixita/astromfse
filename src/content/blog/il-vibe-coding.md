@@ -1,7 +1,7 @@
 ---
 title: "Il vibe coding"
 date: "2025-05-03"
-slug: "il-vibe-coding"
+permalink: "il-vibe-coding"
 categories: [40, 38, 28]
 ---
 

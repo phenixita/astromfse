@@ -1,7 +1,7 @@
 ---
 title: "Sai davvero da dove proviene il tuo software?"
 date: "2025-08-06"
-slug: "sai-davvero-da-dove-proviene-il-tuo-software"
+permalink: "sai-davvero-da-dove-proviene-il-tuo-software"
 categories: [37, 38, 45]
 ---
 

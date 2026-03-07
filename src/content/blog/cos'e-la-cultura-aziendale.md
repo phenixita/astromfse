@@ -1,7 +1,7 @@
 ---
 title: "Cos'è la cultura aziendale"
 date: "2025-04-11"
-slug: "cos'e-la-cultura-aziendale"
+permalink: "cos'e-la-cultura-aziendale"
 categories: [37, 38]
 ---
 

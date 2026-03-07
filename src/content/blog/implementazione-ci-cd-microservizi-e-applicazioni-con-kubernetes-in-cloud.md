@@ -1,7 +1,7 @@
 ---
 title: "Implementazione CI-CD microservizi e applicazioni con Kubernetes in cloud"
 date: "2025-07-04"
-slug: "implementazione-ci-cd-microservizi-e-applicazioni-con-kubernetes-in-cloud"
+permalink: "implementazione-ci-cd-microservizi-e-applicazioni-con-kubernetes-in-cloud"
 categories: [37, 38, 28]
 ---
 

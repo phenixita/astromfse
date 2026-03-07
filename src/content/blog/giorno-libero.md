@@ -1,7 +1,7 @@
 ---
 title: "Giorno libero"
 date: "2025-12-03"
-slug: "giorno-libero"
+permalink: "giorno-libero"
 categories: [38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Fermarsi per vedere meglio"
 date: "2025-09-30"
-slug: "fermarsi-per-vedere-meglio"
+permalink: "fermarsi-per-vedere-meglio"
 categories: [32, 38]
 ---
 

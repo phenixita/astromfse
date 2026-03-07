@@ -1,7 +1,7 @@
 ---
 title: "L'uso dell'AI non è un gioco a somma zero"
 date: "2025-09-22"
-slug: "l-uso-dell-ai-non-e-un-gioco-a-somma-zero"
+permalink: "l-uso-dell-ai-non-e-un-gioco-a-somma-zero"
 categories: [40, 38]
 ---
 

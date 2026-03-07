@@ -1,7 +1,7 @@
 ---
 title: "Be the luck for other (software engineers)"
 date: "2025-09-10"
-slug: "be-the-luck-for-other-software-engineers"
+permalink: "be-the-luck-for-other-software-engineers"
 categories: [37]
 ---
 

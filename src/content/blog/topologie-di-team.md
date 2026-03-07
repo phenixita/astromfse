@@ -1,7 +1,7 @@
 ---
 title: "Le topolgie di team per produrre software che nessuno ti spiega"
 date: "2025-03-08"
-slug: "topologie-di-team"
+permalink: "topologie-di-team"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Oltre il riavvia e spera - monitoraggio e osservabilità"
 date: "2025-09-03"
-slug: "oltre-il-riavvia-e-spera-monitoraggio-e-osservabilita"
+permalink: "oltre-il-riavvia-e-spera-monitoraggio-e-osservabilita"
 categories: [37, 38]
 ---
 

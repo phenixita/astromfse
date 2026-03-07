@@ -1,7 +1,7 @@
 ---
 title: "Come rendere resiliente il tuo software business ricreare  documentare  automatizzare"
 date: "2025-04-06"
-slug: "come-rendere-resiliente-business-software-ricreare-documentare-automatizzare"
+permalink: "come-rendere-resiliente-business-software-ricreare-documentare-automatizzare"
 categories: [37, 38, 35]
 ---
 

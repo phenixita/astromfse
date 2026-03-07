@@ -1,7 +1,7 @@
 ---
 title: "Io rilascio di venerdì"
 date: "2025-05-24"
-slug: "io-rilascio-di-venerdi"
+permalink: "io-rilascio-di-venerdi"
 categories: [37, 38, 32]
 ---
 

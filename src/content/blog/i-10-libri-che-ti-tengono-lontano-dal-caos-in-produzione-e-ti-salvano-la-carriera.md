@@ -1,7 +1,7 @@
 ---
 title: "I 10 libri che ti tengono lontano dal caos in produzione (e ti salvano la carriera)"
 date: "2025-12-23"
-slug: "i-10-libri-che-ti-tengono-lontano-dal-caos-in-produzione-e-ti-salvano-la-carriera"
+permalink: "i-10-libri-che-ti-tengono-lontano-dal-caos-in-produzione-e-ti-salvano-la-carriera"
 categories: [37, 38]
 ---
 

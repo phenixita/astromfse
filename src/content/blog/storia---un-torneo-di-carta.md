@@ -1,7 +1,7 @@
 ---
 title: "STORIA - Un torneo di carta"
 date: "2025-06-15"
-slug: "storia---un-torneo-di-carta"
+permalink: "storia---un-torneo-di-carta"
 categories: [41, 38, 37]
 ---
 

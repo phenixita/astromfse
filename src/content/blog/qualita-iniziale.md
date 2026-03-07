@@ -1,7 +1,7 @@
 ---
 title: "Qualita iniziale"
 date: "2025-11-21"
-slug: "qualita-iniziale"
+permalink: "qualita-iniziale"
 categories: [37, 38]
 ---
 

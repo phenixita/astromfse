@@ -1,7 +1,7 @@
 ---
 title: "Il team stream-aligned (tipo 1 di 4)"
 date: "2025-05-30"
-slug: "il-team-stream-aligned-(tipo-1-di-4)"
+permalink: "il-team-stream-aligned-(tipo-1-di-4)"
 categories: [38, 43]
 ---
 

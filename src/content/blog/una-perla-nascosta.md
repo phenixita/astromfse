@@ -1,7 +1,7 @@
 ---
 title: "Una perla nascosta"
 date: "2025-08-01"
-slug: "una-perla-nascosta"
+permalink: "una-perla-nascosta"
 categories: [37, 38]
 ---
 

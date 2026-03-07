@@ -1,7 +1,7 @@
 ---
 title: "Considerazioni su SpecKit parte 2"
 date: "2025-11-07"
-slug: "considerazioni-su-speckit-parte-2"
+permalink: "considerazioni-su-speckit-parte-2"
 categories: [32, 40, 38]
 ---
 

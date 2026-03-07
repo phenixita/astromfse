@@ -1,7 +1,7 @@
 ---
 title: "VIDEO - Code review"
 date: "2025-06-19"
-slug: "video---code-review"
+permalink: "video---code-review"
 categories: [28, 38]
 ---
 

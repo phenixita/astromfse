@@ -1,7 +1,7 @@
 ---
 title: "3 livelli"
 date: "2025-04-13"
-slug: "3-livelli"
+permalink: "3-livelli"
 categories: [37, 38]
 ---
 

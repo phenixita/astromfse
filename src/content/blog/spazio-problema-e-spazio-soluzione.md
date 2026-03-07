@@ -1,7 +1,7 @@
 ---
 title: "Spazio problema e spazio soluzione"
 date: "2025-06-16"
-slug: "spazio-problema-e-spazio-soluzione"
+permalink: "spazio-problema-e-spazio-soluzione"
 categories: [38, 44]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "AI al servizio della software factory"
 date: "2025-09-19"
-slug: "ai-al-servizio-della-software-factory"
+permalink: "ai-al-servizio-della-software-factory"
 categories: [40, 38]
 ---
 

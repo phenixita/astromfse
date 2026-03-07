@@ -1,7 +1,7 @@
 ---
 title: "Valida il problema"
 date: "2025-06-27"
-slug: "valida-il-problema"
+permalink: "valida-il-problema"
 categories: [38, 44]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "T-shirt size vs Story point: quando usarli?"
 date: "2026-01-13"
-slug: "tshirt-size-vs-story-point"
+permalink: "tshirt-size-vs-story-point"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Il remote work amore e odio"
 date: "2025-06-04"
-slug: "il-remote-work-amore-e-odio"
+permalink: "il-remote-work-amore-e-odio"
 categories: [38, 43]
 ---
 

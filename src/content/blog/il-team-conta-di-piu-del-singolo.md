@@ -1,7 +1,7 @@
 ---
 title: "Il team conta di più del singolo"
 date: "2025-05-17"
-slug: "il-team-conta-di-piu-del-singolo"
+permalink: "il-team-conta-di-piu-del-singolo"
 categories: [37, 32]
 ---
 

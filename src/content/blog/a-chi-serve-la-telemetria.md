@@ -1,7 +1,7 @@
 ---
 title: "A chi serve la telemetria?"
 date: "2025-03-23"
-slug: "a-chi-serve-la-telemetria"
+permalink: "a-chi-serve-la-telemetria"
 categories: [37, 38]
 ---
 

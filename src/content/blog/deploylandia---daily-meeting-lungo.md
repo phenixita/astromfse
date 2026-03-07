@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Daily meeting lungo"
 date: "2025-05-14"
-slug: "deploylandia---daily-meeting-lungo"
+permalink: "deploylandia---daily-meeting-lungo"
 categories: [39]
 ---
 

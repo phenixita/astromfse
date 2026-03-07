@@ -1,7 +1,7 @@
 ---
 title: "VIDEO - 3 modi per orchestrare il tuo team di agenti con GitHub Copilot"
 date: "2026-02-16"
-slug: "video---3-modi-per-orchestrare-il-tuo-team-di-agenti-con-github-copilot"
+permalink: "video---3-modi-per-orchestrare-il-tuo-team-di-agenti-con-github-copilot"
 categories: [37, 38]
 ---
 

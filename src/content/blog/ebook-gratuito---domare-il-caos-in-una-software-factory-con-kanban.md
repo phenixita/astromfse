@@ -1,7 +1,7 @@
 ---
 title: "Ebook gratuito - Domare il caos in una software factory con Kanban"
 date: "2025-05-02"
-slug: "ebook-gratuito---domare-il-caos-in-una-software-factory-con-kanban"
+permalink: "ebook-gratuito---domare-il-caos-in-una-software-factory-con-kanban"
 categories: [37, 38]
 ---
 

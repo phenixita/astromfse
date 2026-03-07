@@ -1,7 +1,7 @@
 ---
 title: "Come specificare i criteri di accettazione"
 date: "2025-12-12"
-slug: "come-specificare-i-criteri-di-accettazione"
+permalink: "come-specificare-i-criteri-di-accettazione"
 categories: [37, 38]
 ---
 

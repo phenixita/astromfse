@@ -1,7 +1,7 @@
 ---
 title: "Trunk based development"
 date: "2025-03-25"
-slug: "trunk-based-development"
+permalink: "trunk-based-development"
 categories: [37, 38]
 ---
 

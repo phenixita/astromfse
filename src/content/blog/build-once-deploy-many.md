@@ -1,7 +1,7 @@
 ---
 title: "Build once deploy many"
 date: "2025-03-21"
-slug: "build-once-deploy-many"
+permalink: "build-once-deploy-many"
 categories: [37, 38]
 ---
 

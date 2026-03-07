@@ -1,7 +1,7 @@
 ---
 title: "Ogni azienda è un'azienda software"
 date: "2025-03-29"
-slug: "ogni-azienda-è-un'azienda-software"
+permalink: "ogni-azienda-è-un'azienda-software"
 categories: [37, 38]
 ---
 

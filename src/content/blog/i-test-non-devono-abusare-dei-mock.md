@@ -1,7 +1,7 @@
 ---
 title: "I test non devono abusare dei mock"
 date: "2025-05-05"
-slug: "i-test-non-devono-abusare-dei-mock"
+permalink: "i-test-non-devono-abusare-dei-mock"
 categories: [38, 23]
 ---
 

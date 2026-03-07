@@ -1,7 +1,7 @@
 ---
 title: "Pianificazione bottom-up"
 date: "2025-07-11"
-slug: "pianificazione-bottom-up"
+permalink: "pianificazione-bottom-up"
 categories: [37, 38]
 ---
 

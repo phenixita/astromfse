@@ -1,7 +1,7 @@
 ---
 title: "Output, outcome, impatto"
 date: "2025-06-21"
-slug: "output,-outcome,-impatto"
+permalink: "output,-outcome,-impatto"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "I test servono per le persone"
 date: "2025-10-20"
-slug: "i-test-servono-per-le-persone"
+permalink: "i-test-servono-per-le-persone"
 categories: [32, 38]
 ---
 

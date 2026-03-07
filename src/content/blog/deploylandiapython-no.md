@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - No"
 date: "2025-04-24"
-slug: "deploylandiapython-no"
+permalink: "deploylandiapython-no"
 categories: [39]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Come fare i test senza mock"
 date: "2025-05-06"
-slug: "come-fare-i-test-senza-mock"
+permalink: "come-fare-i-test-senza-mock"
 categories: [23, 38]
 ---
 

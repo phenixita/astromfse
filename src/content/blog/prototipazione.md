@@ -1,7 +1,7 @@
 ---
 title: "Prototipazione"
 date: "2025-06-29"
-slug: "prototipazione"
+permalink: "prototipazione"
 categories: [41, 38, 37]
 ---
 

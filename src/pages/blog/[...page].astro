@@ -44,10 +44,10 @@ function getExcerpt(body: string, maxLen = 140): string {
             <div class="blog-card__body">
               <span class="blog-card__date">{formatDate(post.data.date)}</span>
               <h3 class="blog-card__title">
-                <a href={toBase(`/blog/${post.id}`)}>{post.data.title}</a>
+                <a href={toBase(`/${post.data.permalink || post.id.replace(/\.mdx?$/, '')}`)}>{post.data.title}</a>
               </h3>
               <p class="blog-card__excerpt">{getExcerpt(post.body ?? '')}</p>
-              <a href={toBase(`/blog/${post.id}`)} class="blog-card__read-more">Leggi →</a>
+              <a href={toBase(`/${post.data.permalink || post.id.replace(/\.mdx?$/, '')}`)} class="blog-card__read-more">Leggi →</a>
             </div>
           </article>
         ))}

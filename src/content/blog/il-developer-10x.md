@@ -1,7 +1,7 @@
 ---
 title: "il developer 10x"
 date: "2025-09-09"
-slug: "il-developer-10x"
+permalink: "il-developer-10x"
 categories: [37]
 ---
 

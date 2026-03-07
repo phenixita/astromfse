@@ -1,7 +1,7 @@
 ---
 title: "Manora di Conway inversa"
 date: "2025-05-28"
-slug: "manora-di-conway-inversa"
+permalink: "manora-di-conway-inversa"
 categories: [37, 38, 42]
 ---
 

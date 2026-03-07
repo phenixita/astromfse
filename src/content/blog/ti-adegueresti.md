@@ -1,7 +1,7 @@
 ---
 title: "Ti adegueresti"
 date: "2025-04-14"
-slug: "ti-adegueresti"
+permalink: "ti-adegueresti"
 categories: [41, 37, 35, 38]
 ---
 

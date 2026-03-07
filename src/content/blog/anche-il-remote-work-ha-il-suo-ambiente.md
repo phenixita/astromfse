@@ -1,7 +1,7 @@
 ---
 title: "Anche il remote work ha il suo ambiente"
 date: "2025-06-08"
-slug: "anche-il-remote-work-ha-il-suo-ambiente"
+permalink: "anche-il-remote-work-ha-il-suo-ambiente"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "STORIA - Ai magazzinieri non interessa"
 date: "2025-06-12"
-slug: "storia---ai-magazzinieri-non-interessa"
+permalink: "storia---ai-magazzinieri-non-interessa"
 categories: [41, 38, 37]
 ---
 

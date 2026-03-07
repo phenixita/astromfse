@@ -1,7 +1,7 @@
 ---
 title: "Massima produttività con AI e Test-Driven Development TDD"
 date: "2025-04-04"
-slug: "massima-produttivita-con-ai-e-tdd"
+permalink: "massima-produttivita-con-ai-e-tdd"
 categories: [37, 38]
 ---
 

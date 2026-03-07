@@ -1,7 +1,7 @@
 ---
 title: "Story point VS t-shirt size"
 date: "2026-01-09"
-slug: "story-point-vs-t-shirt-size"
+permalink: "story-point-vs-t-shirt-size"
 categories: [37, 38]
 ---
 

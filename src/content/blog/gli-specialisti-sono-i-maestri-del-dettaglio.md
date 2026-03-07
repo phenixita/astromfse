@@ -1,7 +1,7 @@
 ---
 title: "Gli specialisti sono i maestri del dettaglio"
 date: "2025-10-09"
-slug: "gli-specialisti-sono-i-maestri-del-dettaglio"
+permalink: "gli-specialisti-sono-i-maestri-del-dettaglio"
 categories: [32, 38]
 ---
 

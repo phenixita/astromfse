@@ -1,7 +1,7 @@
 ---
 title: "I benefici aziendali di DevOps"
 date: "2025-04-23"
-slug: "i-benefici-aziendali-di-devops"
+permalink: "i-benefici-aziendali-di-devops"
 categories: [37, 38]
 ---
 

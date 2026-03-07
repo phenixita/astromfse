@@ -1,7 +1,7 @@
 ---
 title: "Sei sicuro di poter dire la verità nel tuo lavoro"
 date: "2025-04-18"
-slug: "sei-sicuro-di-poter-dire-la-verità-nel-tuo-lavoro"
+permalink: "sei-sicuro-di-poter-dire-la-verità-nel-tuo-lavoro"
 categories: [37, 38, 41]
 ---
 

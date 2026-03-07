@@ -1,7 +1,7 @@
 ---
 title: "La comunicazione asincrona nel remote work"
 date: "2025-06-09"
-slug: "la-comunicazione-asincrona-nel-remote-work"
+permalink: "la-comunicazione-asincrona-nel-remote-work"
 categories: [38, 43]
 ---
 

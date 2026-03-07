@@ -1,7 +1,7 @@
 ---
 title: "La forma del tuo software è già decisa. E non la decidi tu."
 date: "2025-05-25"
-slug: "la-forma-del-tuo-software-è-già-decisa.-e-non-la-decidi-tu."
+permalink: "la-forma-del-tuo-software-è-già-decisa.-e-non-la-decidi-tu."
 categories: [37, 38, 42]
 ---
 

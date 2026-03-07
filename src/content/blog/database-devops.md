@@ -1,7 +1,7 @@
 ---
 title: "Database DevOps"
 date: "2025-03-22"
-slug: "database-devops"
+permalink: "database-devops"
 categories: [37, 38]
 ---
 

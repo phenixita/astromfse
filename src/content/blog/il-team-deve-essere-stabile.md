@@ -1,7 +1,7 @@
 ---
 title: "Il team deve essere stabile"
 date: "2025-05-23"
-slug: "il-team-deve-essere-stabile"
+permalink: "il-team-deve-essere-stabile"
 categories: [43, 38]
 ---
 

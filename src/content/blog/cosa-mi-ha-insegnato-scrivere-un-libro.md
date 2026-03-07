@@ -1,7 +1,7 @@
 ---
 title: "Cosa mi ha insegnato scrivere un libro"
 date: "2025-12-01"
-slug: "cosa-mi-ha-insegnato-scrivere-un-libro"
+permalink: "cosa-mi-ha-insegnato-scrivere-un-libro"
 categories: [37, 38]
 ---
 

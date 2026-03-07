@@ -1,7 +1,7 @@
 ---
 title: "Cheat sheet di sicurezza"
 date: "2025-08-07"
-slug: "cheat-sheet-di-sicurezza"
+permalink: "cheat-sheet-di-sicurezza"
 categories: [37, 38, 45]
 ---
 

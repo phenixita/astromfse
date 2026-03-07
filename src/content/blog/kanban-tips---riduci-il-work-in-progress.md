@@ -1,7 +1,7 @@
 ---
 title: "Kanban tips - Riduci il work in progress"
 date: "2025-05-09"
-slug: "kanban-tips---riduci-il-work-in-progress"
+permalink: "kanban-tips---riduci-il-work-in-progress"
 categories: [37, 38, 42]
 ---
 

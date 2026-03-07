@@ -1,7 +1,7 @@
 ---
 title: "Apprendimento continuo"
 date: "2025-03-19"
-slug: "apprendimento-continuo"
+permalink: "apprendimento-continuo"
 categories: [37, 38]
 ---
 

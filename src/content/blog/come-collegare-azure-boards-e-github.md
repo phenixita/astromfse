@@ -1,7 +1,7 @@
 ---
 title: "Come collegare Azure Boards e GitHub"
 date: "2025-10-28"
-slug: "come-collegare-azure-boards-e-github"
+permalink: "come-collegare-azure-boards-e-github"
 categories: [37, 38, 28]
 ---
 

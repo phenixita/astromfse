@@ -1,7 +1,7 @@
 ---
 title: "La piramide Product-Market fit"
 date: "2025-06-20"
-slug: "la-piramide-product-market-fit"
+permalink: "la-piramide-product-market-fit"
 categories: [38, 44]
 ---
 

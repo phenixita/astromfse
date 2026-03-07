@@ -1,7 +1,7 @@
 ---
 title: "Ai computer la noia alle persone la creatività"
 date: "2025-10-14"
-slug: "ai-computer-la-noia-alle-persone-la-creativita"
+permalink: "ai-computer-la-noia-alle-persone-la-creativita"
 categories: [37, 38]
 ---
 

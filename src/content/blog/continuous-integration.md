@@ -1,7 +1,7 @@
 ---
 title: "Continuous Integration"
 date: "2025-03-12"
-slug: "continuous-integration"
+permalink: "continuous-integration"
 categories: [37, 38]
 ---
 

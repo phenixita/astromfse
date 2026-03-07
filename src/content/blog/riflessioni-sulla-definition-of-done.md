@@ -1,7 +1,7 @@
 ---
 title: "Riflessioni sulla definition of done"
 date: "2025-05-27"
-slug: "riflessioni-sulla-definition-of-done"
+permalink: "riflessioni-sulla-definition-of-done"
 categories: [43, 42, 38]
 ---
 

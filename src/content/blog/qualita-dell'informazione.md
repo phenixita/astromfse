@@ -1,7 +1,7 @@
 ---
 title: "Qualità dell'informazione"
 date: "2025-03-14"
-slug: "qualita-dell'informazione"
+permalink: "qualita-dell'informazione"
 categories: [37, 38]
 ---
 

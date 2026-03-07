@@ -1,7 +1,7 @@
 ---
 title: "il team di product discovery"
 date: "2025-06-26"
-slug: "il-team-di-product-discovery"
+permalink: "il-team-di-product-discovery"
 categories: [41, 38, 37]
 ---
 

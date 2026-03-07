@@ -1,7 +1,7 @@
 ---
 title: "Ci saranno sempre le persone"
 date: "2025-11-03"
-slug: "ci-saranno-sempre-le-persone"
+permalink: "ci-saranno-sempre-le-persone"
 categories: [27, 38]
 ---
 

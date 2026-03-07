@@ -10,7 +10,7 @@ interface Props {
 const { title, date, slug } = Astro.props;
 
 const siteUrl = 'https://micheleferracin.it';
-const postUrl = `${siteUrl}/blog/${slug}/`;
+const postUrl = `${siteUrl}/${slug}/`;
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);

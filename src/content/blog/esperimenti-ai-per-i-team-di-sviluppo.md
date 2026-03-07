@@ -1,7 +1,7 @@
 ---
 title: "Esperimenti con l'AI per i team di sviluppo"
 date: "2025-07-30"
-slug: "esperimenti-ai-per-i-team-di-sviluppo"
+permalink: "esperimenti-ai-per-i-team-di-sviluppo"
 categories: [37, 38, 40]
 ---
 

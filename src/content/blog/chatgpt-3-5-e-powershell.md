@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT 3.5 e PowerShell"
 date: "2025-09-11"
-slug: "chatgpt-3-5-e-powershell"
+permalink: "chatgpt-3-5-e-powershell"
 categories: [37, 38]
 ---
 

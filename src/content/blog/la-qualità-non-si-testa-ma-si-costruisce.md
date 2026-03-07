@@ -1,7 +1,7 @@
 ---
 title: "La qualità non si testa ma si costruisce"
 date: "2025-10-10"
-slug: "la-qualità-non-si-testa-ma-si-costruisce"
+permalink: "la-qualità-non-si-testa-ma-si-costruisce"
 categories: [37, 38]
 ---
 

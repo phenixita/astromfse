@@ -1,7 +1,7 @@
 ---
 title: "VIDEO: chatting with Scott Hansleman"
 date: "2026-02-03"
-slug: "chatting-with-scott-hansleman"
+permalink: "chatting-with-scott-hansleman"
 categories: [37, 38]
 ---
 

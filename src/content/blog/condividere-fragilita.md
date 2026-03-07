@@ -1,7 +1,7 @@
 ---
 title: "Condividere fragilità"
 date: "2025-07-01"
-slug: "condividere-fragilita"
+permalink: "condividere-fragilita"
 categories: [32, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia sfuggito qualcosa"
 date: "2025-03-26"
-slug: "deploylandia-sfuggito-qualcosa"
+permalink: "deploylandia-sfuggito-qualcosa"
 categories: [37, 38]
 ---
 

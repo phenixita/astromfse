@@ -1,7 +1,7 @@
 ---
 title: "CI-CD con Docker e GitHub Actions"
 date: "2025-07-07"
-slug: "ci-cd-con-docker-e-github-actions"
+permalink: "ci-cd-con-docker-e-github-actions"
 categories: [37, 38, 28]
 ---
 

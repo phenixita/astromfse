@@ -1,7 +1,7 @@
 ---
 title: "Siamo programmatori o assemblatori?"
 date: "2025-08-19"
-slug: "siamo-programmatori-o-assemblatori"
+permalink: "siamo-programmatori-o-assemblatori"
 categories: [38]
 ---
 

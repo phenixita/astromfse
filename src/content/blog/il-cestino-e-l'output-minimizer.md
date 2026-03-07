@@ -1,7 +1,7 @@
 ---
 title: "Il cestino è l'output minimizer"
 date: "2025-07-06"
-slug: "il-cestino-e-l'output-minimizer"
+permalink: "il-cestino-e-l'output-minimizer"
 categories: [37, 38]
 ---
 

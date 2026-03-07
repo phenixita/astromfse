@@ -1,7 +1,7 @@
 ---
 title: "Programmazione, scienza o magia"
 date: "2025-05-16"
-slug: "programmazione-scienza-o-magia"
+permalink: "programmazione-scienza-o-magia"
 categories: [37, 3832]
 ---
 

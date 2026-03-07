@@ -1,7 +1,7 @@
 ---
 title: "Telemetria in scala XBox con Application Insights"
 date: "2025-04-02"
-slug: "telemetria-in-scala-xbox-con-application-insights"
+permalink: "telemetria-in-scala-xbox-con-application-insights"
 categories: [37, 38]
 ---
 

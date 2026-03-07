@@ -1,7 +1,7 @@
 ---
 title: "Le 4 metriche d'oro di Google per la telemetria"
 date: "2025-08-20"
-slug: "le-4-metriche-d'oro-di-google-per-la-telemetria"
+permalink: "le-4-metriche-d'oro-di-google-per-la-telemetria"
 categories: [37, 38]
 ---
 

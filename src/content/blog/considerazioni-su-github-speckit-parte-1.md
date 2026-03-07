@@ -1,7 +1,7 @@
 ---
 title: "Considerazioni su GitHub SpecKit (parte 1)"
 date: "2025-10-27"
-slug: "considerazioni-su-github-speckit-parte-1"
+permalink: "considerazioni-su-github-speckit-parte-1"
 categories: [32, 40, 38]
 ---
 

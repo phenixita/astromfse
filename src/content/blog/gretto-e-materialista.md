@@ -1,7 +1,7 @@
 ---
 title: "Gretto e materialista"
 date: "2025-06-14"
-slug: "gretto-e-materialista"
+permalink: "gretto-e-materialista"
 categories: [37, 38]
 ---
 

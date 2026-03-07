@@ -1,7 +1,7 @@
 ---
 title: "Come si manifesta il debito tecnico"
 date: "2025-03-20"
-slug: "come-si-manifesta-il-debito-tecnico"
+permalink: "come-si-manifesta-il-debito-tecnico"
 categories: [37, 38]
 ---
 

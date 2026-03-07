@@ -1,7 +1,7 @@
 ---
 title: "La sconosciuta definition of ready"
 date: "2025-11-25"
-slug: "la-sconosciuta-definition-of-ready"
+permalink: "la-sconosciuta-definition-of-ready"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Che differenza farà mai un minuto?"
 date: "2025-11-27"
-slug: "che-differenza-farà-mai-un-minuto?"
+permalink: "che-differenza-farà-mai-un-minuto?"
 categories: [37, 38, 23]
 ---
 

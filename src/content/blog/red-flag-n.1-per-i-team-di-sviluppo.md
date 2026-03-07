@@ -1,7 +1,7 @@
 ---
 title: "Red flag n.1 per i team di sviluppo"
 date: "2025-05-20"
-slug: "red-flag-n.1-per-i-team-di-sviluppo"
+permalink: "red-flag-n.1-per-i-team-di-sviluppo"
 categories: [37, 38, 41, 32]
 ---
 

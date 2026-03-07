@@ -1,7 +1,7 @@
 ---
 title: "Patologica, burocratica, generativa"
 date: "2025-04-16"
-slug: "patologica,-burocratica,-generativa"
+permalink: "patologica,-burocratica,-generativa"
 categories: [37, 38]
 ---
 

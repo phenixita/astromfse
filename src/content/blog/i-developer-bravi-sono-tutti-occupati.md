@@ -1,7 +1,7 @@
 ---
 title: "I developer bravi sono tutti occupati"
 date: "2025-07-02"
-slug: "i-developer-bravi-sono-tutti-occupati"
+permalink: "i-developer-bravi-sono-tutti-occupati"
 categories: [37, 38]
 ---
 

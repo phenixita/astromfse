@@ -1,7 +1,7 @@
 ---
 title: "Video consigliato - Agile project management with kanban"
 date: "2025-06-10"
-slug: "video-consigliato---agile-project-management-with-kanban"
+permalink: "video-consigliato---agile-project-management-with-kanban"
 categories: [37, 38, 28]
 ---
 

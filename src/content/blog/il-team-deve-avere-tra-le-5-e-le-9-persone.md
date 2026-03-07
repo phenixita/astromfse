@@ -1,7 +1,7 @@
 ---
 title: "Il team deve avere tra le 5 e le 9 persone"
 date: "2025-05-21"
-slug: "il-team-deve-avere-tra-le-5-e-le-9-persone"
+permalink: "il-team-deve-avere-tra-le-5-e-le-9-persone"
 categories: [37, 38, 43]
 ---
 

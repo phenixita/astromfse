@@ -1,7 +1,7 @@
 ---
 title: "Precisazioni sul cycle time"
 date: "2025-06-22"
-slug: "precisazioni-sul-cycle-time"
+permalink: "precisazioni-sul-cycle-time"
 categories: [37, 38]
 ---
 

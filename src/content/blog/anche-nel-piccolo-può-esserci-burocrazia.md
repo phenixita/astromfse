@@ -1,7 +1,7 @@
 ---
 title: "Anche nel piccolo può esserci burocrazia"
 date: "2025-04-19"
-slug: "anche-nel-piccolo-può-esserci-burocrazia"
+permalink: "anche-nel-piccolo-può-esserci-burocrazia"
 categories: [37, 38, 41]
 ---
 

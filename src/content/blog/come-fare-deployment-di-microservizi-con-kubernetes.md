@@ -1,7 +1,7 @@
 ---
 title: "Come fare deployment di microservizi con Kubernetes"
 date: "2025-07-05"
-slug: "come-fare-deployment-di-microservizi-con-kubernetes"
+permalink: "come-fare-deployment-di-microservizi-con-kubernetes"
 categories: [37, 38, 27]
 ---
 

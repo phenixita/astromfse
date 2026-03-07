@@ -1,7 +1,7 @@
 ---
 title: "Documentare i progetti software"
 date: "2025-03-16"
-slug: "documentare-i-progetti-software"
+permalink: "documentare-i-progetti-software"
 categories: [37, 38]
 ---
 

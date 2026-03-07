@@ -1,7 +1,7 @@
 ---
 title: "Le simpatiche e-mail di Microsoft ai dipendenti"
 date: "2025-08-05"
-slug: "le-simpatiche-e-mail-di-microsoft-ai-dipendenti"
+permalink: "le-simpatiche-e-mail-di-microsoft-ai-dipendenti"
 categories: [37, 38, 45]
 ---
 

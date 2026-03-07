@@ -1,7 +1,7 @@
 ---
 title: "I rischi di un prodotto"
 date: "2025-06-25"
-slug: "i-rischi-di-un-prodotto"
+permalink: "i-rischi-di-un-prodotto"
 categories: [41, 38, 37]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Architettura di un cluster Kubernetes e come funziona"
 date: "2025-03-15"
-slug: "architettura-kubernetes-cos-e-e-come-funziona"
+permalink: "architettura-kubernetes-cos-e-e-come-funziona"
 categories: [37, 38]
 ---
 

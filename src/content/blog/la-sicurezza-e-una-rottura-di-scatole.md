@@ -1,7 +1,7 @@
 ---
 title: "La sicurezza è una rottura di scatole?"
 date: "2025-07-31"
-slug: "la-sicurezza-e-una-rottura-di-scatole"
+permalink: "la-sicurezza-e-una-rottura-di-scatole"
 categories: [37, 38, 45]
 ---
 

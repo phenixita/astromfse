@@ -1,7 +1,7 @@
 ---
 title: "4 tipologie di team"
 date: "2025-05-29"
-slug: "4-tipologie-di-team"
+permalink: "4-tipologie-di-team"
 categories: [38, 43]
 ---
 

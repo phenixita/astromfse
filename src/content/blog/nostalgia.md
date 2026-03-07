@@ -1,7 +1,7 @@
 ---
 title: "Nostalgia"
 date: "2026-02-06"
-slug: "nostalgia"
+permalink: "nostalgia"
 categories: [37, 38]
 ---
 

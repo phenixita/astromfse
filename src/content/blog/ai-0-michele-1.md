@@ -1,7 +1,7 @@
 ---
 title: "AI 0 - Michele 1"
 date: "2025-10-29"
-slug: "ai-0-michele-1"
+permalink: "ai-0-michele-1"
 categories: [37, 38]
 ---
 

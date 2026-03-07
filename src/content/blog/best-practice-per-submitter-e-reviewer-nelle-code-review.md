@@ -1,7 +1,7 @@
 ---
 title: "Best practice per submitter e reviewer nelle code review"
 date: "2026-01-23"
-slug: "best-practice-per-submitter-e-reviewer-nelle-code-review"
+permalink: "best-practice-per-submitter-e-reviewer-nelle-code-review"
 categories: [37, 38]
 ---
 

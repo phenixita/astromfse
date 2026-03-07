@@ -1,7 +1,7 @@
 ---
 title: "I test non devono essere ordinati"
 date: "2025-05-04"
-slug: "i-test-non-devono-essere-ordinati"
+permalink: "i-test-non-devono-essere-ordinati"
 categories: [37, 38]
 ---
 

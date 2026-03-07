@@ -1,7 +1,7 @@
 ---
 title: "Si fa presto a dire produttività"
 date: "2025-09-17"
-slug: "si-fa-presto-a-dire-produttivita"
+permalink: "si-fa-presto-a-dire-produttivita"
 categories: [38]
 ---
 

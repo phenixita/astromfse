@@ -1,7 +1,7 @@
 ---
 title: "Monitoraggio moderno"
 date: "2025-03-24"
-slug: "monitoraggio-moderno"
+permalink: "monitoraggio-moderno"
 categories: [37, 38]
 ---
 

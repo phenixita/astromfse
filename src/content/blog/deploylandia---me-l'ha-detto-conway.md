@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Me l'ha detto Conway"
 date: "2025-05-31"
-slug: "deploylandia---me-l'ha-detto-conway"
+permalink: "deploylandia---me-l'ha-detto-conway"
 categories: [39]
 ---
 

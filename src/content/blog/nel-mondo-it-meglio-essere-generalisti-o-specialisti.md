@@ -1,7 +1,7 @@
 ---
 title: "Nel mondo IT meglio essere generalisti o specialisti"
 date: "2025-10-07"
-slug: "nel-mondo-it-meglio-essere-generalisti-o-specialisti"
+permalink: "nel-mondo-it-meglio-essere-generalisti-o-specialisti"
 categories: [32, 38]
 ---
 

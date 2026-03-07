@@ -1,7 +1,7 @@
 ---
 title: "Documentazione nell'era dell'agentic coding"
 date: "2026-02-23"
-slug: "documentazione-nell'era-dell'agentic-coding"
+permalink: "documentazione-nell'era-dell'agentic-coding"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Webinar - Domare il caos"
 date: "2025-04-12"
-slug: "webinar-domare-il-caos"
+permalink: "webinar-domare-il-caos"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Lavorare a piccoli incrementi"
 date: "2025-10-13"
-slug: "lavorare-a-piccoli-incrementi"
+permalink: "lavorare-a-piccoli-incrementi"
 categories: [37, 38]
 ---
 

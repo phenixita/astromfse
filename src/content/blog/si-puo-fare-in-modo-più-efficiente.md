@@ -1,7 +1,7 @@
 ---
 title: "Si puà fare in modo piu efficiente"
 date: "2025-09-15"
-slug: "si-puo-fare-in-modo-più-efficiente"
+permalink: "si-puo-fare-in-modo-più-efficiente"
 categories: [40, 38]
 ---
 

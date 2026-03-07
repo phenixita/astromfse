@@ -1,7 +1,7 @@
 ---
 title: "DevSecOps è una buzzword che tollero"
 date: "2025-03-13"
-slug: "devsecops-buzzword-che-tollero"
+permalink: "devsecops-buzzword-che-tollero"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Perché facciamo quello che facciamo"
 date: "2025-06-28"
-slug: "perché-facciamo-quello-che-facciamo"
+permalink: "perché-facciamo-quello-che-facciamo"
 categories: [38, 44]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Come riconoscere un generalista"
 date: "2025-10-08"
-slug: "come-riconoscere-un-generalista"
+permalink: "come-riconoscere-un-generalista"
 categories: [32, 38]
 ---
 

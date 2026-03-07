@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Business sulla fortuna"
 date: "2025-04-10"
-slug: "deploylandia-business-sulla-fortuna"
+permalink: "deploylandia-business-sulla-fortuna"
 categories: [39]
 ---
 

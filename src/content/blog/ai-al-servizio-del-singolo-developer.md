@@ -1,7 +1,7 @@
 ---
 title: "AI al servizio del singolo developer"
 date: "2025-09-16"
-slug: "ai-al-servizio-del-singolo-developer"
+permalink: "ai-al-servizio-del-singolo-developer"
 categories: [40, 38]
 ---
 

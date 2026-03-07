@@ -1,7 +1,7 @@
 ---
 title: "VIDEO - Vibecoding un'app React"
 date: "2026-01-07"
-slug: "vibecoding-un'app-react"
+permalink: "vibecoding-un'app-react"
 categories: [37, 38]
 ---
 

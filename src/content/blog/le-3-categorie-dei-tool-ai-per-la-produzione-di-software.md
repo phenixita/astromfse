@@ -1,7 +1,7 @@
 ---
 title: "Le 3 categorie dei tool AI per la produzione di software"
 date: "2025-09-12"
-slug: "le-3-categorie-dei-tool-ai-per-la-produzione-di-software"
+permalink: "le-3-categorie-dei-tool-ai-per-la-produzione-di-software"
 categories: [37, 38]
 ---
 

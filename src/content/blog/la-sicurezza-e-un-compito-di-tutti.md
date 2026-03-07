@@ -1,7 +1,7 @@
 ---
 title: "La sicurezza è un compito di tutti"
 date: "2025-08-04"
-slug: "la-sicurezza-e-un-compito-di-tutti"
+permalink: "la-sicurezza-e-un-compito-di-tutti"
 categories: [37, 38, 45]
 ---
 

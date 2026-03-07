@@ -1,7 +1,7 @@
 ---
 title: "Valuable usable feasible"
 date: "2025-06-24"
-slug: "valuable-usable-feasible"
+permalink: "valuable-usable-feasible"
 categories: [41, 38, 37]
 ---
 

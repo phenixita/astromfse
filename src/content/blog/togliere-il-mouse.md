@@ -1,7 +1,7 @@
 ---
 title: "Togliere il mouse"
 date: "2025-09-24"
-slug: "togliere-il-mouse"
+permalink: "togliere-il-mouse"
 categories: [32, 38]
 ---
 

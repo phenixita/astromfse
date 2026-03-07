@@ -1,7 +1,7 @@
 ---
 title: "Ho provato un LLM in locale per sviluppo"
 date: "2025-09-29"
-slug: "ho-provato-un-llm-in-locale-per-sviluppo"
+permalink: "ho-provato-un-llm-in-locale-per-sviluppo"
 categories: [40, 38]
 ---
 

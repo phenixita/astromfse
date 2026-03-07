@@ -1,7 +1,7 @@
 ---
 title: "Shift-right testing"
 date: "2025-03-28"
-slug: "shift-right-testing"
+permalink: "shift-right-testing"
 categories: [37, 38, 23]
 ---
 

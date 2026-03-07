@@ -1,7 +1,7 @@
 ---
 title: "Migliora subito le tue pull request con queste semplici pratiche"
 date: "2025-07-08"
-slug: "migliora-subito-le-tue-pull-request-con-queste-semplici-pratiche"
+permalink: "migliora-subito-le-tue-pull-request-con-queste-semplici-pratiche"
 categories: [37, 38]
 ---
 

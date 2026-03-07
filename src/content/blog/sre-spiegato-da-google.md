@@ -1,7 +1,7 @@
 ---
 title: "SRE spiegato da Google"
 date: "2025-03-17"
-slug: "sre-spiegato-da-google"
+permalink: "sre-spiegato-da-google"
 categories: [37, 38]
 ---
 

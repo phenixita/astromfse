@@ -1,7 +1,7 @@
 ---
 title: "Flaky test - il male"
 date: "2025-04-30"
-slug: "flaky-test---il-male"
+permalink: "flaky-test---il-male"
 categories: [37, 38, 23]
 ---
 

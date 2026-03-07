@@ -1,7 +1,7 @@
 ---
 title: "AI al servizio del team"
 date: "2025-09-18"
-slug: "ai-al-servizio-del-team"
+permalink: "ai-al-servizio-del-team"
 categories: [37, 38]
 ---
 

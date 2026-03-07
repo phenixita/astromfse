@@ -1,7 +1,7 @@
 ---
 title: "7 tattiche"
 date: "2025-04-27"
-slug: "7-tattiche"
+permalink: "7-tattiche"
 categories: [37, 38, 41]
 ---
 

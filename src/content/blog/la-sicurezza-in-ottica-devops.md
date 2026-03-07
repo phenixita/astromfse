@@ -1,7 +1,7 @@
 ---
 title: "La sicurezza in ottica DevOps"
 date: "2025-03-09"
-slug: "la-sicurezza-in-ottica-devops"
+permalink: "la-sicurezza-in-ottica-devops"
 categories: [37, 38]
 ---
 

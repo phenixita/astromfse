@@ -1,7 +1,7 @@
 ---
 title: "I sintomi dei rilasci dolorosi"
 date: "2025-07-10"
-slug: "i-sintomi-dei-rilasci-dolorosi"
+permalink: "i-sintomi-dei-rilasci-dolorosi"
 categories: [37, 38]
 ---
 

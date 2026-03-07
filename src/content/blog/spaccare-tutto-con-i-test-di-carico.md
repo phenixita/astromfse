@@ -1,7 +1,7 @@
 ---
 title: "Spaccare tutto con i test di carico"
 date: "2025-08-08"
-slug: "spaccare-tutto-con-i-test-di-carico"
+permalink: "spaccare-tutto-con-i-test-di-carico"
 categories: [37, 38, 23]
 ---
 

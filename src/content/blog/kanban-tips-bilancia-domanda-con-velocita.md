@@ -1,7 +1,7 @@
 ---
 title: "Kanban Tips Bilancia Domanda con Velocità"
 date: "2025-05-11"
-slug: "kanban-tips-bilancia-domanda-con-velocita"
+permalink: "kanban-tips-bilancia-domanda-con-velocita"
 categories: [37, 38, 42]
 ---
 

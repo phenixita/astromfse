@@ -1,7 +1,7 @@
 ---
 title: "Traccia il work-in-progress"
 date: "2025-11-11"
-slug: "traccia-il-work-in-progress"
+permalink: "traccia-il-work-in-progress"
 categories: [37, 38, 42]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Retrospettive senza problemi"
 date: "2025-05-01"
-slug: "deploylandia---retrospettive-senza-problemi"
+permalink: "deploylandia---retrospettive-senza-problemi"
 categories: [39]
 ---
 

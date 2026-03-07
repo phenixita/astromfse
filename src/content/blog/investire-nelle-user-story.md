@@ -1,7 +1,7 @@
 ---
 title: "INVESTire nelle user story"
 date: "2025-12-11"
-slug: "investire-nelle-user-story"
+permalink: "investire-nelle-user-story"
 categories: [37, 38]
 ---
 

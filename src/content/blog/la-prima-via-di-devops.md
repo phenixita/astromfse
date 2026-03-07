@@ -1,7 +1,7 @@
 ---
 title: "La prima via di DevOps"
 date: "2025-03-04"
-slug: "la-prima-via-di-devops"
+permalink: "la-prima-via-di-devops"
 categories: [37]
 ---
 

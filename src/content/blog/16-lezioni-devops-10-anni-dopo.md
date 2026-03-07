@@ -1,7 +1,7 @@
 ---
 title: "16 lezioni DevOps 10 anni dopo"
 date: "2025-04-28"
-slug: "16-lezioni-devops-10-anni-dopo"
+permalink: "16-lezioni-devops-10-anni-dopo"
 categories: [37, 38, 28]
 ---
 

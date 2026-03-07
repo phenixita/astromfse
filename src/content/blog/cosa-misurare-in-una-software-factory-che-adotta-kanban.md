@@ -1,7 +1,7 @@
 ---
 title: "Cosa misurare in una software factory che adotta Kanban"
 date: "2025-11-10"
-slug: "cosa-misurare-in-una-software-factory-che-adotta-kanban"
+permalink: "cosa-misurare-in-una-software-factory-che-adotta-kanban"
 categories: [37, 38]
 ---
 

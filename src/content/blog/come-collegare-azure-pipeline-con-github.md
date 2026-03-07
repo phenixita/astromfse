@@ -1,7 +1,7 @@
 ---
 title: "Come collegare Azure Pipeline con GitHub"
 date: "2025-11-04"
-slug: "come-collegare-azure-pipeline-con-github"
+permalink: "come-collegare-azure-pipeline-con-github"
 categories: [37, 38]
 ---
 

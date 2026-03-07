@@ -1,7 +1,7 @@
 ---
 title: "Retrospettive"
 date: "2025-04-01"
-slug: "retrospettive"
+permalink: "retrospettive"
 categories: [37, 38]
 ---
 

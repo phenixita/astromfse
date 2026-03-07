@@ -1,7 +1,7 @@
 ---
 title: "Le buone maniere nelle pull-request"
 date: "2026-01-21"
-slug: "le-buone-maniere-nelle-pull-request"
+permalink: "le-buone-maniere-nelle-pull-request"
 categories: [37, 38]
 ---
 

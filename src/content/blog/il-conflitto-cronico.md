@@ -1,7 +1,7 @@
 ---
 title: "Il conflitto cronico"
 date: "2025-03-11"
-slug: "il-conflitto-cronico"
+permalink: "il-conflitto-cronico"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Gli architetti devono concentrarsi sui risultati"
 date: "2025-10-06"
-slug: "gli-architetti-devono-concentrarsi-sui-risultati"
+permalink: "gli-architetti-devono-concentrarsi-sui-risultati"
 categories: [37, 38]
 ---
 

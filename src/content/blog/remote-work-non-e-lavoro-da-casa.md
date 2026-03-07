@@ -1,7 +1,7 @@
 ---
 title: "Remote work non è lavoro da casa"
 date: "2025-06-06"
-slug: "remote-work-non-e-lavoro-da-casa"
+permalink: "remote-work-non-e-lavoro-da-casa"
 categories: [38, 43]
 ---
 

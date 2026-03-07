@@ -1,7 +1,7 @@
 ---
 title: "Less is more"
 date: "2025-06-23"
-slug: "less-is-more"
+permalink: "less-is-more"
 categories: [41, 38, 37]
 ---
 

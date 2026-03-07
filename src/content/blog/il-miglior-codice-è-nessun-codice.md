@@ -1,7 +1,7 @@
 ---
 title: "Il miglior codice è nessun codice"
 date: "2025-04-21"
-slug: "il-miglior-codice-è-nessun-codice"
+permalink: "il-miglior-codice-è-nessun-codice"
 categories: [37, 38]
 ---
 

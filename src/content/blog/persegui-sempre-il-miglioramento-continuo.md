@@ -1,7 +1,7 @@
 ---
 title: "Persegui sempre il miglioramento continuo"
 date: "2025-10-15"
-slug: "persegui-sempre-il-miglioramento-continuo"
+permalink: "persegui-sempre-il-miglioramento-continuo"
 categories: [37, 38]
 ---
 

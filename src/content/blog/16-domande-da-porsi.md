@@ -1,7 +1,7 @@
 ---
 title: "16 domande da porsi"
 date: "2025-04-26"
-slug: "16-domande-da-porsi"
+permalink: "16-domande-da-porsi"
 categories: [37, 38, 41, 35]
 ---
 

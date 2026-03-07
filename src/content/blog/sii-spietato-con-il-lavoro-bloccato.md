@@ -1,7 +1,7 @@
 ---
 title: "Sii spietato con il lavoro bloccato"
 date: "2025-11-17"
-slug: "sii-spietato-con-il-lavoro-bloccato"
+permalink: "sii-spietato-con-il-lavoro-bloccato"
 categories: [37, 38, 42]
 ---
 

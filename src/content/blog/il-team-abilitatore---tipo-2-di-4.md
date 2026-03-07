@@ -1,7 +1,7 @@
 ---
 title: "Il team abilitatore - Tipo 2 di 4"
 date: "2025-06-01"
-slug: "il-team-abilitatore---tipo-2-di-4"
+permalink: "il-team-abilitatore---tipo-2-di-4"
 categories: [37, 38]
 ---
 

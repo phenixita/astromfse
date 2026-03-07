@@ -1,7 +1,7 @@
 ---
 title: "Come avviare un'iniziativa DevOps"
 date: "2025-03-10"
-slug: "come-avviare-un'iniziativa-devops"
+permalink: "come-avviare-un'iniziativa-devops"
 categories: [37, 38]
 ---
 

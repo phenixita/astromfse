@@ -1,7 +1,7 @@
 ---
 title: "AI + Michele = Power"
 date: "2025-10-30"
-slug: "ai-michele-power"
+permalink: "ai-michele-power"
 categories: [37, 38]
 ---
 

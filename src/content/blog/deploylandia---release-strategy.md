@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - Release strategy"
 date: "2025-04-17"
-slug: "deploylandia---release-strategy"
+permalink: "deploylandia---release-strategy"
 categories: [39]
 ---
 

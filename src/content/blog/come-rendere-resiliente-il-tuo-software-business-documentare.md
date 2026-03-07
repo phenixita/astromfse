@@ -1,7 +1,7 @@
 ---
 title: "Come rendere resiliente il tuo software business documentare"
 date: "2025-04-07"
-slug: "come-rendere-resiliente-il-tuo-software-business-documentare"
+permalink: "come-rendere-resiliente-il-tuo-software-business-documentare"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Come usare Azure DevOps MCP Server"
 date: "2025-07-12"
-slug: "come-usare-azure-devops-mcp-server"
+permalink: "come-usare-azure-devops-mcp-server"
 categories: [37, 38]
 ---
 

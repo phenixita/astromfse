@@ -1,7 +1,7 @@
 ---
 title: "Kanban Tips gestione delle priorità"
 date: "2025-05-12"
-slug: "kanban-tips-gestione-delle-priorita"
+permalink: "kanban-tips-gestione-delle-priorita"
 categories: [37, 38, 42]
 ---
 

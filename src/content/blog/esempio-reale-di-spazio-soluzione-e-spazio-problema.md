@@ -1,7 +1,7 @@
 ---
 title: "Esempio reale di spazio soluzione e spazio problema"
 date: "2025-06-17"
-slug: "esempio-reale-di-spazio-soluzione-e-spazio-problema"
+permalink: "esempio-reale-di-spazio-soluzione-e-spazio-problema"
 categories: [38, 44]
 ---
 

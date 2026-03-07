@@ -1,7 +1,7 @@
 ---
 title: "Le 4 metriche DORA"
 date: "2025-09-28"
-slug: "le-4-metriche-dora"
+permalink: "le-4-metriche-dora"
 categories: [37, 38]
 ---
 

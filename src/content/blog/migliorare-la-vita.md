@@ -1,7 +1,7 @@
 ---
 title: "Migliorare la vita"
 date: "2025-06-13"
-slug: "migliorare-la-vita"
+permalink: "migliorare-la-vita"
 categories: [41, 38, 37]
 ---
 

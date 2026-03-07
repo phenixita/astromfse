@@ -1,7 +1,7 @@
 ---
 title: "Compliance, librerie e codice generato"
 date: "2025-10-31"
-slug: "compliance-librerie-e-codice-generato"
+permalink: "compliance-librerie-e-codice-generato"
 categories: [37, 38]
 ---
 

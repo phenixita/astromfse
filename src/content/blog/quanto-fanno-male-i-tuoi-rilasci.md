@@ -1,7 +1,7 @@
 ---
 title: "Quanto fanno male i tuoi rilasci"
 date: "2025-07-09"
-slug: "quanto-fanno-male-i-tuoi-rilasci"
+permalink: "quanto-fanno-male-i-tuoi-rilasci"
 categories: [37, 38]
 ---
 

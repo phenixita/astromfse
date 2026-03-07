@@ -1,7 +1,7 @@
 ---
 title: "Saga Pattern e Copilot"
 date: "2025-12-15"
-slug: "saga-pattern-e-copilot"
+permalink: "saga-pattern-e-copilot"
 categories: [37, 38]
 ---
 

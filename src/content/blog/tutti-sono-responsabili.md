@@ -1,7 +1,7 @@
 ---
 title: "Tutti sono responsabili"
 date: "2025-10-16"
-slug: "tutti-sono-responsabili"
+permalink: "tutti-sono-responsabili"
 categories: [37, 38]
 ---
 

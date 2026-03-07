@@ -1,7 +1,7 @@
 ---
 title: "La potenza è nulla senza il controller"
 date: "2025-09-04"
-slug: "la-potenza-e-nulla-senza-il-controller"
+permalink: "la-potenza-e-nulla-senza-il-controller"
 categories: [37, 38]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Sufficiente buono ottimo vari setup per remote worker"
 date: "2026-01-12"
-slug: "sufficiente-buono-ottimo-vari-setup-per-remote-worker"
+permalink: "sufficiente-buono-ottimo-vari-setup-per-remote-worker"
 categories: [37, 38]
 ---
 

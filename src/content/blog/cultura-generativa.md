@@ -1,7 +1,7 @@
 ---
 title: "Cultura generativa"
 date: "2025-04-20"
-slug: "cultura-generativa"
+permalink: "cultura-generativa"
 categories: [37, 38, 41]
 ---
 

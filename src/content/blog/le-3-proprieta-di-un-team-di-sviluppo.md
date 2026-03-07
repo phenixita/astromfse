@@ -1,7 +1,7 @@
 ---
 title: "Le 3 proprietà di un team di sviluppo"
 date: "2025-05-18"
-slug: "le-3-proprieta-di-un-team-di-sviluppo"
+permalink: "le-3-proprieta-di-un-team-di-sviluppo"
 categories: [37, 38, 41]
 ---
 

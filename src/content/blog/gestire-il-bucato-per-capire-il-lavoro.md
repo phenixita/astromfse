@@ -1,7 +1,7 @@
 ---
 title: "Gestire il bucato per capire il lavoro"
 date: "2025-11-24"
-slug: "gestire-il-bucato-per-capire-il-lavoro"
+permalink: "gestire-il-bucato-per-capire-il-lavoro"
 categories: [37, 38]
 ---
 

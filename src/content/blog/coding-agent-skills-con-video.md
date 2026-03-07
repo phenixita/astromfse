@@ -1,7 +1,7 @@
 ---
 title: "Coding agent skills (con video)"
 date: "2026-02-03"
-slug: "coding-agent-skills-(con-video)"
+permalink: "coding-agent-skills-(con-video)"
 categories: [37, 38]
 ---
 

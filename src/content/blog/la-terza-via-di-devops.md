@@ -1,7 +1,7 @@
 ---
 title: "La terza via di DevOps"
 date: "2025-03-06"
-slug: "la-terza-via-di-devops"
+permalink: "la-terza-via-di-devops"
 categories: [37]
 ---
 

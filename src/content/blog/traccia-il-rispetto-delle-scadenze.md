@@ -1,7 +1,7 @@
 ---
 title: "Traccia il rispetto delle scadenze"
 date: "2025-11-13"
-slug: "traccia-il-rispetto-delle-scadenze"
+permalink: "traccia-il-rispetto-delle-scadenze"
 categories: [37, 38, 42]
 ---
 

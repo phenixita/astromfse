@@ -1,7 +1,7 @@
 ---
 title: "I clienti non sanno il loro problema"
 date: "2025-06-18"
-slug: "i-clienti-non-sanno-il-loro-problema"
+permalink: "i-clienti-non-sanno-il-loro-problema"
 categories: [38, 44]
 ---
 

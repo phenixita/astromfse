@@ -1,7 +1,7 @@
 ---
 title: "Assistenti specializzati con Awesome Copilot"
 date: "2025-09-23"
-slug: "assistenti-specializzati-con-awesome-copilot"
+permalink: "assistenti-specializzati-con-awesome-copilot"
 categories: [40, 38]
 ---
 

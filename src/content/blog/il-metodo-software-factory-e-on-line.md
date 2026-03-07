@@ -1,7 +1,7 @@
 ---
 title: "Il Metodo Software Factory è on-line"
 date: "2025-12-17"
-slug: "il-metodo-software-factory-è-on-line"
+permalink: "il-metodo-software-factory-è-on-line"
 categories: [37, 38]
 ---
 

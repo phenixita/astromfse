@@ -1,7 +1,7 @@
 ---
 title: "Il complicated subsystem team (tipo 3 di 4)"
 date: "2025-06-02"
-slug: "il-complicated-subsystem-team-(tipo-3-di-4)"
+permalink: "il-complicated-subsystem-team-(tipo-3-di-4)"
 categories: [38, 43]
 ---
 

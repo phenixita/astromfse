@@ -1,7 +1,7 @@
 ---
 title: "Deploylandia - microservizi"
 date: "2025-05-22"
-slug: "deploylandia-microservizi"
+permalink: "deploylandia-microservizi"
 categories: [39]
 ---
 

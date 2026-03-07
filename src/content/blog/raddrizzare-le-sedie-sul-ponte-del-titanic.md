@@ -1,7 +1,7 @@
 ---
 title: "Raddrizzare le sedie sul ponte del Titanic"
 date: "2025-12-17"
-slug: "raddrizzare-le-sedie-sul-ponte-del-titanic"
+permalink: "raddrizzare-le-sedie-sul-ponte-del-titanic"
 categories: [37, 38]
 ---
 

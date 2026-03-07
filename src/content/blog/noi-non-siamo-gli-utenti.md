@@ -1,7 +1,7 @@
 ---
 title: "Noi non siamo gli utenti"
 date: "2025-04-22"
-slug: "noi-non-siamo-gli-utenti"
+permalink: "noi-non-siamo-gli-utenti"
 categories: [32, 35, 38]
 ---
 

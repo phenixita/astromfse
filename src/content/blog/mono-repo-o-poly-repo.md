@@ -1,7 +1,7 @@
 ---
 title: "Mono repo o poly repo"
 date: "2026-01-28"
-slug: "mono-repo-o-poly-repo"
+permalink: "mono-repo-o-poly-repo"
 categories: [37, 38]
 ---
 

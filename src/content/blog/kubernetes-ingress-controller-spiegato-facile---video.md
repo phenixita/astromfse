@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Ingress Controller spiegato facile - VIDEO"
 date: "2025-08-11"
-slug: "kubernetes-ingress-controller-spiegato-facile---video"
+permalink: "kubernetes-ingress-controller-spiegato-facile---video"
 categories: [37, 38]
 ---
 

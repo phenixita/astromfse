@@ -1,7 +1,7 @@
 ---
 title: "Tipologia di organizzazioni aziendali"
 date: "2025-03-18"
-slug: "tipologia-di-organizzazioni-aziendali"
+permalink: "tipologia-di-organizzazioni-aziendali"
 categories: [37, 38]
 ---
 

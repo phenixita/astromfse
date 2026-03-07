@@ -1,7 +1,7 @@
 ---
 title: "Cosa compri quando fai un regalo?"
 date: "2025-12-22"
-slug: "cosa-compri-quando-fai-un-regalo"
+permalink: "cosa-compri-quando-fai-un-regalo"
 categories: [37, 38]
 ---
 
