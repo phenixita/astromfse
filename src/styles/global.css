@@ -7,34 +7,39 @@
 
   Current palette: MFSE Androgino
     --color-primary:     Near Black               (#0D0D0D)
-    --color-secondary:   Dark Brown               (#734F43)
-    --color-light:       White                    (#FFFFFF)
+    --color-secondary:   Smoky Taupe              (#736F70)
     --color-accent:      Terracotta Copper        (#BF846F)
-    --color-cta:         Dark Brown               (#734F43)
+    --color-accent-dark: Walnut Brown             (#734F43)
+    --color-highlight:   Powder Blush             (#F2C1AE)
   ============================================================
 */
 :root {
   /* 🎨 PRIMARY PALETTE — Edit these 5 values to retheme the entire site */
   --color-primary: #0D0D0D;
-  --color-secondary: #734F43;
+  --color-secondary: #736F70;
   --color-accent: #BF846F;
-  --color-accent-dark: #9A6550;
-  --color-light: #FFFFFF;
+  --color-accent-dark: #734F43;
+  --color-light: #FFF9F6;
   --color-cta: #734F43;
+  --color-highlight: #F2C1AE;
 
   /* Derived colors (auto-calculated, no need to touch) */
   --color-primary-rgb: 13, 13, 13;
+  --color-secondary-rgb: 115, 111, 112;
   --color-accent-rgb: 191, 132, 111;
-  --color-light-rgb: 255, 255, 255;
+  --color-highlight-rgb: 242, 193, 174;
+  --color-light-rgb: 255, 249, 246;
   --color-text: #0D0D0D;
-  --color-text-light: #736F70;
+  --color-text-light: #5F5857;
   --color-white: #ffffff;
-  --color-border: #E0D5CF;
-  --color-bg-subtle: #FAF3EE;
+  --color-border: #E8D8D1;
+  --color-bg-subtle: #F7ECE7;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #FFFCFA;
 
   /* Typography */
-  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Newsreader', Georgia, serif;
+  --font-body: 'Manrope', 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
   /* Spacing */
@@ -75,7 +80,7 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   color: var(--color-text);
-  background: var(--color-light);
+  background: linear-gradient(180deg, var(--color-light) 0%, var(--color-bg-subtle) 100%);
 }
 
 img {
@@ -99,10 +104,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
   line-height: 1.2;
   margin-bottom: var(--space-md);
+  letter-spacing: -0.02em;
 }
 
-h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; }
-h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 700; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 600; }
 h3 { font-size: clamp(1.2rem, 2.5vw, 1.5rem); font-weight: 600; }
 
 p {
@@ -129,7 +135,7 @@ p {
 
 .section--dark {
   background: var(--color-primary);
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .section--dark h2,
@@ -138,7 +144,7 @@ p {
 }
 
 .section--light {
-  background: var(--color-bg-subtle);
+  background: linear-gradient(180deg, var(--color-light) 0%, var(--color-bg-subtle) 100%);
 }
 
 .text-accent {
@@ -157,7 +163,7 @@ p {
   align-items: center;
   gap: var(--space-sm);
   padding: 0.75rem 2rem;
-  border-radius: 14px;
+  border-radius: 999px;
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
@@ -167,26 +173,52 @@ p {
 }
 
 .btn--primary {
-  background: var(--color-cta);
+  background: linear-gradient(135deg, var(--color-cta) 0%, var(--color-accent) 100%);
   color: var(--color-white);
   border-color: var(--color-cta);
+  box-shadow: 0 14px 34px rgba(var(--color-accent-rgb), 0.18);
 }
 
 .btn--primary:hover {
   background: var(--color-primary);
   border-color: var(--color-cta);
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .btn--outline {
-  background: transparent;
+  background: rgba(var(--color-highlight-rgb), 0.08);
   color: var(--color-accent-dark);
-  border-color: var(--color-accent);
+  border-color: rgba(var(--color-accent-rgb), 0.72);
 }
 
 .btn--outline:hover {
   background: var(--color-accent);
   color: var(--color-white);
+}
+
+.section--dark .btn--outline,
+.hero .btn--outline,
+.cta .btn--outline,
+.post-header .btn--outline,
+.page-header .btn--outline,
+.quote-band .btn--outline,
+.testimonial-card--featured .btn--outline {
+  background: rgba(var(--color-light-rgb), 0.06);
+  color: var(--color-white);
+  border-color: rgba(var(--color-highlight-rgb), 0.72);
+  box-shadow: inset 0 0 0 1px rgba(var(--color-highlight-rgb), 0.08);
+}
+
+.section--dark .btn--outline:hover,
+.hero .btn--outline:hover,
+.cta .btn--outline:hover,
+.post-header .btn--outline:hover,
+.page-header .btn--outline:hover,
+.quote-band .btn--outline:hover,
+.testimonial-card--featured .btn--outline:hover {
+  background: var(--color-highlight);
+  color: var(--color-primary);
+  border-color: var(--color-highlight);
 }
 
 /* ============================================================
@@ -230,7 +262,7 @@ p {
 }
 
 .nav__links a {
-  color: var(--color-light);
+  color: var(--color-white);
   font-weight: 500;
   font-size: 0.95rem;
   position: relative;
@@ -302,8 +334,8 @@ p {
    HERO
    ============================================================ */
 .hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  color: var(--color-light);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 58%, var(--color-secondary) 100%);
+  color: var(--color-white);
   padding: clamp(2.75rem, 6vw, 4.75rem) 0;
   min-height: auto;
   display: flex;
@@ -319,7 +351,7 @@ p {
   right: -20%;
   width: 60%;
   height: 200%;
-  background: radial-gradient(ellipse, rgba(var(--color-accent-rgb), 0.14) 0%, transparent 60%);
+  background: radial-gradient(ellipse, rgba(var(--color-highlight-rgb), 0.18) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -354,8 +386,8 @@ p {
 
 .hero__badge {
   display: inline-block;
-  background: rgba(var(--color-accent-rgb), 0.2);
-  color: var(--color-accent);
+  background: rgba(var(--color-highlight-rgb), 0.14);
+  color: var(--color-light);
   padding: 0.4rem 1.2rem;
   border-radius: 50px;
   font-size: 0.85rem;
@@ -363,7 +395,7 @@ p {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: var(--space-lg);
-  border: 1px solid rgba(var(--color-accent-rgb), 0.35);
+  border: 1px solid rgba(var(--color-highlight-rgb), 0.35);
 }
 
 .hero h1 {
@@ -402,7 +434,7 @@ p {
 }
 
 .feature-card {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface) 0%, rgba(var(--color-highlight-rgb), 0.12) 100%);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: var(--space-xl) var(--space-lg);
@@ -481,7 +513,7 @@ p {
 }
 
 .stat__label {
-  color: var(--color-light);
+  color: var(--color-white);
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -514,7 +546,7 @@ p {
   padding: 1rem 1.2rem;
   border-radius: 12px;
   border: 1px solid rgba(var(--color-accent-rgb), 0.35);
-  background: rgba(var(--color-light-rgb), 0.04);
+  background: linear-gradient(180deg, rgba(var(--color-highlight-rgb), 0.1) 0%, rgba(var(--color-light-rgb), 0.04) 100%);
 }
 
 .stats-story__metric--offset {
@@ -608,7 +640,7 @@ p {
 }
 
 .service-row {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface) 0%, rgba(var(--color-highlight-rgb), 0.12) 100%);
   border: 1px solid var(--color-border);
   border-radius: 20px;
   padding: var(--space-lg) clamp(1.2rem, 3vw, 2.2rem);
@@ -667,7 +699,7 @@ p {
 }
 
 .blog-featured {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface) 0%, rgba(var(--color-highlight-rgb), 0.1) 100%);
   border: 1px solid var(--color-border);
   border-radius: 20px;
   padding: var(--space-xl);
@@ -728,10 +760,10 @@ p {
 }
 
 .quote-band {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 60%, var(--color-secondary) 100%);
   border-radius: 24px;
   padding: clamp(1.4rem, 3vw, 2.2rem);
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .quote-band__quote {
@@ -758,7 +790,7 @@ p {
 }
 
 .proof-item {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface-elevated) 0%, rgba(var(--color-highlight-rgb), 0.12) 100%);
   border: 1px solid var(--color-border);
   border-radius: 16px;
   padding: 1.25rem;
@@ -791,8 +823,8 @@ p {
    BLOG POST CONTENT
    ============================================================ */
 .post-header {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  color: var(--color-light);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 60%, var(--color-secondary) 100%);
+  color: var(--color-white);
   padding: var(--space-2xl) 0 var(--space-xl);
 }
 
@@ -970,7 +1002,7 @@ p {
 }
 
 .client-card {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface) 0%, rgba(var(--color-highlight-rgb), 0.1) 100%);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: var(--space-xl) var(--space-lg);
@@ -1028,7 +1060,7 @@ p {
 }
 
 .testimonial-card {
-  background: var(--color-white);
+  background: linear-gradient(180deg, var(--color-surface) 0%, rgba(var(--color-highlight-rgb), 0.1) 100%);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: var(--space-lg);
@@ -1040,9 +1072,9 @@ p {
 
 .testimonial-card--featured {
   grid-column: 1 / -1;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 60%, var(--color-secondary) 100%);
   border: none;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .testimonial-card--featured .testimonial-card__quote {
@@ -1186,8 +1218,8 @@ p {
    CTA SECTION
    ============================================================ */
 .cta {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  color: var(--color-light);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 60%, var(--color-secondary) 100%);
+  color: var(--color-white);
   text-align: center;
   padding: var(--space-2xl) 0;
 }
@@ -1209,7 +1241,7 @@ p {
    ============================================================ */
 .site-footer {
   background: var(--color-primary);
-  color: var(--color-light);
+  color: var(--color-white);
   padding: var(--space-xl) 0 var(--space-lg);
   border-top: 2px solid var(--color-accent);
 }
@@ -1271,8 +1303,8 @@ p {
    PAGE HEADER (for subpages)
    ============================================================ */
 .page-header {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  color: var(--color-light);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent-dark) 60%, var(--color-secondary) 100%);
+  color: var(--color-white);
   padding: clamp(2.5rem, 5vw, 4rem) 0;
   position: relative;
   overflow: hidden;
