@@ -5,32 +5,32 @@
   To change the entire site's color scheme, simply update
   the CSS custom properties below. That's it!
 
-  Current palette: Rigore Analitico & Identita
-    --color-primary:     Midnight Plum            (#2A1B38)
-    --color-secondary:   Deep Royal Violet        (#3B1F59)
-    --color-light:       Crisp Ghost White        (#F8F9FA)
-    --color-accent:      Tech Lavender            (#8C72CB)
-    --color-cta:         Saturated Digital Magenta(#E62A76)
+  Current palette: MFSE Androgino
+    --color-primary:     Near Black               (#0D0D0D)
+    --color-secondary:   Dark Brown               (#734F43)
+    --color-light:       White                    (#FFFFFF)
+    --color-accent:      Terracotta Copper        (#BF846F)
+    --color-cta:         Dark Brown               (#734F43)
   ============================================================
 */
 :root {
   /* 🎨 PRIMARY PALETTE — Edit these 5 values to retheme the entire site */
-  --color-primary: #2A1B38;
-  --color-secondary: #3B1F59;
-  --color-accent: #8C72CB;
-  --color-accent-dark: #6E57A7;
-  --color-light: #F8F9FA;
-  --color-cta: #E62A76;
+  --color-primary: #0D0D0D;
+  --color-secondary: #734F43;
+  --color-accent: #BF846F;
+  --color-accent-dark: #9A6550;
+  --color-light: #FFFFFF;
+  --color-cta: #734F43;
 
   /* Derived colors (auto-calculated, no need to touch) */
-  --color-primary-rgb: 42, 27, 56;
-  --color-accent-rgb: 140, 114, 203;
-  --color-light-rgb: 248, 249, 250;
-  --color-text: #221A30;
-  --color-text-light: #5A4E74;
+  --color-primary-rgb: 13, 13, 13;
+  --color-accent-rgb: 191, 132, 111;
+  --color-light-rgb: 255, 255, 255;
+  --color-text: #0D0D0D;
+  --color-text-light: #736F70;
   --color-white: #ffffff;
-  --color-border: #D9D4E8;
-  --color-bg-subtle: #F3F0FA;
+  --color-border: #E0D5CF;
+  --color-bg-subtle: #FAF3EE;
 
   /* Typography */
   --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
