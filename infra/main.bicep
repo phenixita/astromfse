@@ -35,6 +35,7 @@ resource staticWebApp 'Microsoft.Web/staticSites@2023-12-01' = {
 }
 
 @description('Deployment token for GitHub Actions')
+#disable-next-line outputs-should-not-contain-secrets
 output deploymentToken string = staticWebApp.listSecrets().properties.apiKey
 
 @description('Default hostname of the Static Web App')
