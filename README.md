@@ -48,6 +48,33 @@ Checklist rapida:
 - Output statico in `dist/`
 - Hosting variabile: aggiorna qui se cambia pipeline
 
+## CI/CD (GitHub Actions)
+Workflow unico: `.github/workflows/deploy-swa.yml`
+
+Comportamento:
+- `push` su `main`: sempre build/deploy app; infra prima del deploy app
+- Infra deploy solo se cambia qualcosa in `infra/` (oppure su `workflow_dispatch`)
+- `pull_request` su `main`:
+	- `opened/synchronize/reopened`: deploy ambiente di staging SWA
+	- `closed`: chiusura ambiente staging
+
+Ordine logico su `main`:
+1. Job infra (deploy condizionale)
+2. Job build app
+3. Job deploy SWA
+
+Segreti richiesti:
+- `AZURE_STATIC_WEB_APPS_API_TOKEN`
+- `AZURE_CLIENT_ID`
+- `AZURE_TENANT_ID`
+- `AZURE_SUBSCRIPTION_ID`
+
+Repository variables richieste:
+- `AZURE_RESOURCE_GROUP`
+- `SWA_NAME` (default fallback: `swa-mfse`)
+- `AZURE_LOCATION` (default fallback: `westeurope`)
+- `SWA_SKU` (default fallback: `Free`)
+
 ## TODO ricorrenti
 - Verifica che `public/robots.txt` e `public/llms.txt` siano coerenti
 - Controllo link rotti su pagine nuove
