@@ -63,8 +63,8 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
           skip_app_build: true
-          app_location: /
-          output_location: dist
+          app_location: dist
+          output_location: .
 
   close-pr:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -99,4 +99,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ steps.deploy.outputs.deploymentToken }}
           action: close
-          app_location: /
+          app_location: dist
