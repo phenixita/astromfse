@@ -3,8 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://phenixita.github.io',
-  base: '/astromfse',
+  site: 'https://micheleferracin.it',
   integrations: [
     mdx(),
     sitemap({
