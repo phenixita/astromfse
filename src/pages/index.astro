@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { clients } from '../data/clients';
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const heroVideoUrl = 'https://mfitcontent.blob.core.windows.net/static/intro-mfse.mp4';
 const toBase = (path: string) => path.startsWith('/') ? `${base}${path.slice(1)}` : `${base}${path}`;
 const testimonials = [
   {
@@ -79,8 +80,10 @@ const testimonials = [
 
 <BaseLayout title="Michele Ferracin — #1 Software Engineering Consultant in Italia | DevOps, CI/CD, Organizzazione dei team" description="Michele Ferracin: consulente software engineering in Italia. Specializzato in DevOps, CI/CD, organizzazione dei team, Platform Engineering, Kubernetes, Kanban e AI per lo sviluppo software. Trasformo le software factory.">
 
+  <link slot="head" rel="preload" href={heroVideoUrl} as="video" type="video/mp4" />
+
   <!-- HERO -->
-  <section class="hero">
+  <section class="hero hero--with-video">
     <img src={base + "images/hero-home.jpg"} alt="Michele Ferracin - Software Engineering Consultant" class="hero__bg" loading="eager" />
     <div class="container">
       <div class="hero__content">
@@ -93,6 +96,20 @@ const testimonials = [
           <a href={base + "contact"} class="btn btn--primary">Parliamo del tuo progetto →</a>
           <a href={base + "blog"} class="btn btn--outline">Leggi il Blog</a>
         </div>
+      </div>
+      <div class="hero__video">
+        <video
+          src={heroVideoUrl}
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+          preload="metadata"
+          aria-label="Video di presentazione di Michele Ferracin"
+        >
+          Il tuo browser non supporta il tag video.
+        </video>
       </div>
     </div>
   </section>
@@ -261,6 +278,27 @@ const testimonials = [
   </section>
 
   <style>
+    /* Hero video split layout */
+    .hero--with-video .container {
+      grid-template-columns: 1fr minmax(0, 420px);
+    }
+
+    .hero__video {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero__video video {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 12px 30px rgba(var(--color-primary-rgb), 0.18);
+    }
+
     .home-services {
       position: relative;
       overflow: hidden;
@@ -521,6 +559,10 @@ const testimonials = [
     }
 
     @media (max-width: 960px) {
+      .hero--with-video .container {
+        grid-template-columns: 1fr minmax(0, 320px);
+      }
+
       .service-row--split,
       .service-row--split:nth-child(2),
       .service-row--split:nth-child(3) {
@@ -533,6 +575,17 @@ const testimonials = [
     }
 
     @media (max-width: 768px) {
+      .hero--with-video .container {
+        grid-template-columns: 1fr;
+      }
+      .hero__video {
+        justify-content: center;
+        margin-top: var(--space-lg);
+      }
+      .hero__video video {
+        max-width: 480px;
+      }
+
       .home-services {
         padding-top: var(--space-2xl);
       }
